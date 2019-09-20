@@ -5,6 +5,11 @@
  *
 */
 
+struct foo {
+    name string
+    number int
+}
+
 fn main() {
 
     print('Hello V\n')
@@ -13,6 +18,7 @@ fn main() {
     println('Hello V by Example')
 
     /*println('I am Bob and I am $age old') */  // This won't print because `age` isn't defined.
+   /* println(foo) */ // Also wouldn't work because custom str func not defined .
 
     panic('Exiting from the program')
     
