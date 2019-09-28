@@ -1,5 +1,6 @@
 v0.1.0
 + Hello V: Using print, println and panic. Comments. Exercises.
++ Add README, CONTRIBUTING, CHANGELOG and LICENSE
 
 v0.2.0
 - Migrate examples to Gitbook.
