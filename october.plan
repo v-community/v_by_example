@@ -1,14 +1,14 @@
 v0.1.0
-+ Hello V: Using print, println and panic. Comments. Exercises
++ Hello V: Using print, println and panic. Comments. Exercises.
 
 v0.2.0
-- Migrate examples to Gitbook
-- Primitives, variables, operators mostly
+- Migrate examples to Gitbook.
+- Primitives, variables, operators mostly.
 
 v0.3.0
-- Conditional statements like if, else, else if, for and while
-- Do research on front-end templates
+- Conditional statements like if, else, else if, for and while.
+- Do research on front-end templates.
 
 v0.4.0
-- Functions, arrays, structures etc
-- Write a structured README.md
+- Functions, arrays, structures etc.
+- Write a structured README.md.
