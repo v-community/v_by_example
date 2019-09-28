@@ -1,4 +1,11 @@
+v0.1.0
 + Hello V: Using print, println and panic. Comments. Exercises
+
+v0.2.0
 - Primitives, variables, operators mostly
+
+v0.3.0
 - Conditional statements like if, else, else if, for and while
-- Functions, arrays, structures etc 
+
+v0.4.0
+- Functions, arrays, structures etc
