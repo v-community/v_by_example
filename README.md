@@ -23,4 +23,3 @@ For contributing see [CONTRIBUTING.md](contributing.md)
 ## License
 
 [MIT](https://github.com/donnisnoni95/v_by_example/tree/4bb88a0c7a22b30ed33c06bfbed16d9d0f1eeb1a/LICENSE/README.md)
-

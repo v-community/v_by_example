@@ -15,4 +15,3 @@ V supports single line comments `//` and mutli line comments `/* */`. They shoul
 ## Exercises
 
 Try uncommenting the code in `hello.v` and see what happens.
-
