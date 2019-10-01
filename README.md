@@ -1,10 +1,3 @@
----
-description: >-
-  V is an open-source programming language designed to build simple, fast, safe,
-  and maintainable software. V by Example is a hands-on introduction to V using
-  annotated example programs.
----
-
 # V by Example
 
 🗒️ Note: This is still a work in progress. Check [our october.plan](https://github.com/v-community/v_by_example/blob/master/october.plan) out to collaborate with us!
