@@ -2,7 +2,7 @@
 
 ## Using `print`, `println` and `panic`
 
-Like any program we always have to print for getting the output and corrct the result if needed to. 
+Like any program we always have to print for getting the output and correct the result if needed to.
 
 - `print`: for printing the text to the output stream without a newline.
 
