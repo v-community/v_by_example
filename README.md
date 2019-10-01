@@ -7,7 +7,7 @@ description: >-
 
 # V by Example
 
-🗒️ Note: This is still a work in progress
+🗒️ Note: This is still a work in progress. Check [our october plan](https://github.com/v-community/v_by_example/blob/master/october.plan) out to collaborate with us!
 
 ## List of examples
 
