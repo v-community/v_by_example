@@ -1,11 +1,14 @@
 # CHANGELOG
 
+<<<<<<< HEAD:changelog.md
 ## v0.2.0 \(2019-10-01\)
 
 ## Feature Request
 
 * [PR \#13](https://github.com/v-community/v_by_example/pull/13) example: add data types [@donnisnoni95](https://github.com/donnisnoni95)
 
+=======
+>>>>>>> 8d5a1121412d2a0e855246d1a30d489e1e40b207:CHANGELOG.md
 ## v0.1.1 (2019-09-30)
 
 ## Documentation
