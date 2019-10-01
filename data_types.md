@@ -10,6 +10,3 @@ Strings are used to represent text. To use strings in V you can simply use `'` o
 
 As the name suggests, integers are used to represent integer values. To use an integer in V is quite easy. Unlike string data types where you have to wrap it in quotation marks `"` or `'`, you can put an integers directly. For example `print(20)`.
 
-<!-- TODO: ##BOOLEAN -->
-
-<!-- TODO: ##EXERCISES -->
