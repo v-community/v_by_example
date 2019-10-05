@@ -5,13 +5,6 @@
  *
 */
 
-struct foo {
-    name string
-    number int
-}
-
-fn main() {
-
     print('Hello V\n')
     print('Hello World')
 
@@ -23,5 +16,3 @@ fn main() {
    /* println(foo) */ // Also wouldn't work because custom str func not defined .
 
     //panic('Exiting from the program')
-    
-}

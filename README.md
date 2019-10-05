@@ -4,6 +4,8 @@
 
 Note: This is still a work in progress
 
+Discord server : https://discord.gg/g33GaP
+
 ## Contributing
 
 For contributing see [CONTRIBUTING.md](CONTRIBUTING.md)
