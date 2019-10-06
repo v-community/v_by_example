@@ -4,6 +4,8 @@
 *.vrepl_temp.v
 *.tmp.c
 a.out.tmp.c
+*.vrepl.v
+*.vrepl
 
 .DS_Store
 data/.DS_Store

@@ -1,8 +1,10 @@
 # V by Example
 
-> Learn V by Example
+> Learn V by Examples
 
 Note: This is still a work in progress
+
+Discord server : https://discord.gg/g33GaP
 
 ## Contributing
 
