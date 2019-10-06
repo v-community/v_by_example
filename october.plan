@@ -4,7 +4,7 @@ v0.1.0
 
 v0.2.0
 - website: migrate examples to Gitbook.
-- example: primitives, variables, operators mostly.
++ example: primitives, variables, operators mostly.
 
 v0.3.0
 - example: conditional statements like if, else, else if, for and while.
