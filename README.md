@@ -4,7 +4,7 @@
 
 Note: This is still a work in progress
 
-Discord server : https://discord.gg/g33GaP
+Discord server: https://discord.gg/PNHvSj
 
 ## Contributing
 
