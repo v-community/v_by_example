@@ -9,7 +9,7 @@ maria_height := 178
 if john_height < maria_height {
 	println('$john_height < $maria_height')
 } else {
-  println('$john_height > $maria_height')
+	println('$john_height > $maria_height')
 }
 ```
 
@@ -36,9 +36,9 @@ ashia_age := 38
 
 if tom_age < ashia_age {
   if tom_age < 18 {
-	   println('tom_age < 18 and younger than Ashia.')
+	println('tom_age < 18 and younger than Ashia.')
   } else {
-    println('tom_age > 18 and older than Ashia.')
+	println('tom_age > 18 and older than Ashia.')
   }
 } else {
 	println('$tom_age == $ashia_age')
@@ -60,5 +60,6 @@ s := if tom_age > ashia_age {
 else {
 	'Ashia is the youngest'
 }
+
 print(s) // 'Tom is the youngest'
 ```
