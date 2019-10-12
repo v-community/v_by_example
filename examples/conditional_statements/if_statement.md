@@ -63,3 +63,10 @@ else {
 
 print(s) // 'Tom is the youngest'
 ```
+
+## Exercises
+
+1. Write a V program to accept two integers and check whether they are equal or not.
+2. Write a V program to check whether a given number is even or odd.
+3. Write a V program to check whether a given number is positive or negative.
+4. Write a V program to find whether a given year is a leap year or not.
