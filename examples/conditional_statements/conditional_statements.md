@@ -30,7 +30,7 @@ if tom_age < ashia_age {
 }
 ```
 
-It is possible to include an `if...else` statement inside the body of another `if...else` statement.
+It's possible to include an `if...else` statement inside the body of another `if...else` statement.
 
 ```go
 tom_age := 20
@@ -74,7 +74,7 @@ print(s) // 'Tom is the youngest'
 
 ## For
 
-Loops offer a quick and easy way to do something repeatedly. They're handy, if you want to run the same code over and over again, each time with a different value. You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction then Y steps in another; for example, the idea "Go five steps to the east" could be expressed this way as a loop:
+`for` loops offer a quick and easy way to do something repeatedly. They're handy, if you want to run the same code over and over again, each time with a different value. You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction then Y steps in another; for example, the idea "Go five steps to the east" could be expressed this way as a loop:
 
 ```go
 for i := 0; i < 5; i++ {
@@ -88,6 +88,7 @@ V has the `for` looping construct and the loop can be written in different ways:
 
 ```go
 ages := [18, 25, 32, 43, 50]
+
 for age in ages {
 	println(age)
 }
@@ -97,11 +98,12 @@ Note, that the value is read-only.
 
 2. `while` loop form
 
-A while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. There are no parentheses surrounding the condition, and the braces are always required.
+A `while` loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. There are no parentheses surrounding the condition, and the braces are always required.
 
 ```go
 mut factorial := 1
 mut counter := 1
+
 for {
 	counter++
   	factorial=factorial*counter
@@ -118,6 +120,7 @@ println(counter) // "120"
 ```go
 mut factorial := 1
 mut counter := 1
+
 for i := 0; i < 5; i++ {
 	factorial=factorial*counter
 	if i == 6 {
