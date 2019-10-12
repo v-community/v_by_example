@@ -1,4 +1,6 @@
-# If statement
+# Conditional Statements
+
+## If statement
 
 An `if` statement is a programming conditional statement that, if proved true, performs a function or displays information. Below is a general example of an if statement in V:
 
