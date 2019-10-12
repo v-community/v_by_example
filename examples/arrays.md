@@ -5,9 +5,9 @@ An array is a collection of items stored at contiguous memory locations. It's an
 ## How to declare an array in V:
 
 ```go
-mut nums := [1, 2, 3]
-println(nums) // "[1, 2, 3]"
-println(nums[1]) // "2"
+mut ages := [18, 25, 37]
+println(ages) // "[18, 25, 37]"
+println(nums[1]) // "25"
 ```
 
 Note: All elements must have the same type. `[12345, 'V Programming Language']` will not compile.
@@ -17,8 +17,8 @@ Note: All elements must have the same type. `[12345, 'V Programming Language']` 
 `<<` is an operator that appends a value to the end of the array. It can also append an entire array.
 
 ```go
-nums << 4
-println(nums) // "[1, 2, 3, 4]"
+nums << 47
+println(nums) // "[18, 25, 37, 47]"
 ```
 
 ### Size of an array
