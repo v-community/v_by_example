@@ -14,7 +14,12 @@ println(names) // "['Vitor', 'Don', 'Swastik']"
 println(names[0]) // "Vitor"
 ```
 
-Note: All elements must have the same type. `[12345, 'V Programming Language']` will not compile.
+Note: All elements must have the same type. `['Vitor', 'Don', 'Swastik', 0]` will not compile.
+
+```bash
+>>> mut names := ['Vitor', 'Don', 'Swastik', 0]  
+/user/vlang/v_by_example/.vrepl_temp.v:2:43: bad array element type `int` instead of `string`
+```
 
 ## How to append a value to an array in V:
 
@@ -48,6 +53,7 @@ println(names.len) // "1"
 mut names := ['Thiago']
 
 println('Vitor' in names) // "false"
+println('Thiago' in names) // "true"
 ```
 
 ## Exercises
