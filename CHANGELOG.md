@@ -1,5 +1,20 @@
 # Changelog
 
+## v0.3.0 (2019-10-12)
+
+## Chores
+
+- [PR #18](https://github.com/v-community/v_by_example/pull/18) update primitives.md [@donnisnoni95](https://github.com/donnisnoni95)
+- [PR #17](https://github.com/v-community/v_by_example/pull/17) Update repo structure [@vbrazo](https://github.com/vbrazo)
+
+## Documentation
+
+- [PR #16](https://github.com/v-community/v_by_example/pull/16) Fix Discord link [@vbrazo](https://github.com/vbrazo)
+
+## Feature Request / Enhancement
+
+- [PR #19](https://github.com/v-community/v_by_example/pull/19) example: conditional statements like if, else, else if, for and while [@vbrazo](https://github.com/vbrazo)
+
 ## v0.2.0 (2019-10-06)
 
 ## Feature Request / Enhancement
