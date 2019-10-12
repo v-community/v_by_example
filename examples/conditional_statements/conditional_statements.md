@@ -72,3 +72,51 @@ print(s) // 'Tom is the youngest'
 2. Write a V program to check whether a given number is even or odd.
 3. Write a V program to check whether a given number is positive or negative.
 4. Write a V program to find whether a given year is a leap year or not.
+
+## For
+
+V has the `for` looping construct. Here is an example:
+
+```go
+ages := [18, 25, 32, 43, 50]
+for age in ages {
+	println(age)
+}
+```
+
+Loops are handy, if you want to run the same code over and over again, each time with a different value.
+
+Note, that the value is read-only.
+
+## While loop form
+
+A while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. There are no parentheses surrounding the condition, and the braces are always required.
+
+```go
+mut factorial := 1
+mut counter := 1
+for {
+	counter++
+  factorial=factorial*counter
+	if counter >= 5 {
+    print(factorial)
+		break
+	}
+}
+println(counter) // "100"
+```
+
+## For loop with the traditional C style
+
+```go
+mut factorial := 1
+mut counter := 1
+for i := 0; i < 5; i++ {
+  factorial=factorial*counter
+	if i == 6 {
+    print(factorial)
+		continue
+	}
+	println(i)
+}
+```
