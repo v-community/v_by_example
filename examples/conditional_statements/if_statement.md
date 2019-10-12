@@ -42,7 +42,7 @@ if tom_age < ashia_age {
   }
 } else {
 	println('$tom_age == $ashia_age')
-  println('Tom and Ashia have the same age.')
+	println('Tom and Ashia have the same age.')
 }
 ```
 
