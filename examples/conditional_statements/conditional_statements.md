@@ -58,8 +58,7 @@ ashia_age := 38
 
 s := if tom_age < ashia_age {
 	'Tom is the youngest'
-}
-else {
+} else {
 	'Ashia is the youngest'
 }
 
