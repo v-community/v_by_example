@@ -105,12 +105,12 @@ mut counter := 1
 for {
 	counter++
   	factorial=factorial*counter
-	if counter >= 5 {
-    	print(factorial)
+	if counter > 5 {
+		print(factorial)
 		break
 	}
 }
-println(counter) // "100"
+println(counter) // "120"
 ```
 
 3. `for` with the traditional C style
@@ -121,7 +121,7 @@ mut counter := 1
 for i := 0; i < 5; i++ {
 	factorial=factorial*counter
 	if i == 6 {
-    	print(factorial)
+		print(factorial)
 		continue
 	}
 	println(i)
