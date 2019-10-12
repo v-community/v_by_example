@@ -127,3 +127,11 @@ for i := 0; i < 5; i++ {
 	println(i)
 }
 ```
+
+## Exercises
+
+1. Write a V program to display the first 10 natural numbers.
+2. Write a V program to find the sum of first 10 natural numbers.
+3. Write a V program to display n terms of natural number and their sum.
+4. Write a V program to read 10 numbers from keyboard and find their sum and average.
+5. Write a V program to display the cube of the number upto given an integer.
