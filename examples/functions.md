@@ -15,3 +15,11 @@ fn sum(x, y int) int {
 ```
 
 Note that the type comes after the argument's name.
+
+## Exercises
+
+1. Write a V program to find the square of any number using the function.
+2. Write a V program to check a given number is even or odd using the function.
+3. Write a V program to convert decimal number to binary number using the function.
+4. Write a V program to check whether a number is a prime number or not using the function. 
+5. Write a V program to get the largest element of an array using the function.
