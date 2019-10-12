@@ -74,7 +74,17 @@ print(s) // 'Tom is the youngest'
 
 ## For
 
-V has the `for` looping construct. Here is an example:
+Loops offer a quick and easy way to do something repeatedly. They're handy, if you want to run the same code over and over again, each time with a different value. You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction then Y steps in another; for example, the idea "Go five steps to the east" could be expressed this way as a loop:
+
+```go
+for i := 0; i < 5; i++ {
+  println('Walking one step');
+}
+```
+
+V has the `for` looping construct and the loop can be written in different ways:
+
+1. `in` operator
 
 ```go
 ages := [18, 25, 32, 43, 50]
@@ -83,11 +93,9 @@ for age in ages {
 }
 ```
 
-Loops are handy, if you want to run the same code over and over again, each time with a different value.
-
 Note, that the value is read-only.
 
-## While loop form
+2. `while` loop form
 
 A while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. There are no parentheses surrounding the condition, and the braces are always required.
 
@@ -105,7 +113,7 @@ for {
 println(counter) // "100"
 ```
 
-## For loop with the traditional C style
+3. `for` with the traditional C style
 
 ```go
 mut factorial := 1
