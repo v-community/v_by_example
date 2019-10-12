@@ -56,7 +56,7 @@ There are no parentheses surrounding the condition, and the braces are always re
 tom_age := 20
 ashia_age := 38
 
-s := if tom_age > ashia_age {
+s := if tom_age < ashia_age {
 	'Tom is the youngest'
 }
 else {
