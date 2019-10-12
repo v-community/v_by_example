@@ -13,3 +13,8 @@ data/.DS_Store
 # examples executable files
 src/hello_world/hello_world
 src/hello_world/hello_world.exe
+
+.vrepl.dSYM/Contents/Info.plist
+.vrepl_temp
+.vrepl_temp.dSYM/Contents/Info.plist
+.vrepl_temp.dSYM/Contents/Resources/DWARF/.vrepl_temp
