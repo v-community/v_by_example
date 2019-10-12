@@ -97,9 +97,9 @@ mut factorial := 1
 mut counter := 1
 for {
 	counter++
-  factorial=factorial*counter
+  	factorial=factorial*counter
 	if counter >= 5 {
-    print(factorial)
+    	print(factorial)
 		break
 	}
 }
@@ -112,9 +112,9 @@ println(counter) // "100"
 mut factorial := 1
 mut counter := 1
 for i := 0; i < 5; i++ {
-  factorial=factorial*counter
+	factorial=factorial*counter
 	if i == 6 {
-    print(factorial)
+    	print(factorial)
 		continue
 	}
 	println(i)
