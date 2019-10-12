@@ -2,7 +2,7 @@
 
 An array is a collection of items stored at contiguous memory locations. It's an aggregate data structure that is designed to store a group of objects of the same types. It's the most efficient data structure for storing and accessing a sequence of objects.
 
-## How to declare an array in V:
+## How to declare an array
 
 ```go
 mut ages := [18, 25, 37]
@@ -21,7 +21,7 @@ Note: All elements must have the same type. `['Vitor', 'Don', 'Swastik', 0]` wil
 /user/vlang/v_by_example/.vrepl_temp.v:2:43: bad array element type `int` instead of `string`
 ```
 
-## How to append a value to an array in V:
+### Append a value to an array
 
 `<<` is an operator that appends a value to the end of the array. It can also append an entire array.
 
@@ -35,7 +35,7 @@ ages << [47, 49]
 println(ages) // "[18, 47, 49]"
 ```
 
-### Size of an array
+### Length/size of an array
 
 `.len` method returns the length of the array.
 
