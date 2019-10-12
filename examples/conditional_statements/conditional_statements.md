@@ -106,7 +106,8 @@ mut counter := 1
 
 for {
 	counter++
-  	factorial=factorial*counter
+	factorial=factorial*counter
+
 	if counter > 5 {
 		print(factorial)
 		break
