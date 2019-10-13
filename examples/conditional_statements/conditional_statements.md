@@ -62,7 +62,8 @@ s := if tom_age < ashia_age {
 	'Ashia is the youngest'
 }
 
-print(s) // 'Tom is the youngest'
+print(s)
+>> Tom is the youngest
 ```
 
 ## Exercises
@@ -113,7 +114,9 @@ for {
 		break
 	}
 }
-println(counter) // "120"
+
+println(counter)
+>> 120
 ```
 
 3. `for` with the traditional C style

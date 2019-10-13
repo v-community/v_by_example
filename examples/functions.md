@@ -22,7 +22,7 @@ fn main() {
 }
 
 fn full_name(first_name, last_name string) string {
-	return x + y
+	return first_name + last_name
 }
 ```
 
