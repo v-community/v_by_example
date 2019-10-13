@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.4.0 (2019-10-13)
+
+## Chores
+
+- [PR #23](https://github.com/v-community/v_by_example/pull/23) hello.md: formatting [@donnisnoni95](https://github.com/donnisnoni95)
+
+## Feature Request
+
+- [PR #20](https://github.com/v-community/v_by_example/pull/20) example: functions, arrays, structures etc [@vbrazo](https://github.com/vbrazo)
+
 ## v0.3.0 (2019-10-12)
 
 ## Chores
