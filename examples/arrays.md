@@ -6,12 +6,20 @@ An array is a collection of items stored at contiguous memory locations. It's an
 
 ```v
 mut ages := [18, 25, 37]
-println(ages) // "[18, 25, 37]"
-println(ages[1]) // "25"
+
+println(ages)
+>>> [18, 25, 37]
+
+println(ages[1])
+>>> 25
 
 mut names := ['Vitor', 'Don', 'Swastik']
-println(names) // "['Vitor', 'Don', 'Swastik']"
-println(names[0]) // "Vitor"
+
+println(names)
+>> ['Vitor', 'Don', 'Swastik']
+
+println(names[0])
+>> Vitor
 ```
 
 Note: All elements must have the same type. `['Vitor', 'Don', 'Swastik', 0]` will not compile.
@@ -28,11 +36,15 @@ Note: All elements must have the same type. `['Vitor', 'Don', 'Swastik', 0]` wil
 ```v
 mut ages := [18]
 ages << 47
-println(ages) // "[18, 47]"
+
+println(ages)
+>> [18, 47]
 
 mut ages := [18]
 ages << [47, 49]
-println(ages) // "[18, 47, 49]"
+
+println(ages)
+>> [18, 47, 49]
 ```
 
 ### Length/size of an array
@@ -42,7 +54,8 @@ println(ages) // "[18, 47, 49]"
 ```v
 mut names := ['Thiago']
 
-println(names.len) // "1"
+println(names.len)
+>> 1
 ```
 
 ### In operator
@@ -52,8 +65,11 @@ println(names.len) // "1"
 ```v
 mut names := ['Thiago']
 
-println('Vitor' in names) // "false"
-println('Thiago' in names) // "true"
+println('Vitor' in names)
+>> false
+
+println('Thiago' in names)
+>> true
 ```
 
 ## Exercises
