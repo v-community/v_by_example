@@ -4,7 +4,7 @@ An array is a collection of items stored at contiguous memory locations. It's an
 
 ## How to declare an array
 
-```go
+```v
 mut ages := [18, 25, 37]
 println(ages) // "[18, 25, 37]"
 println(ages[1]) // "25"
@@ -25,7 +25,7 @@ Note: All elements must have the same type. `['Vitor', 'Don', 'Swastik', 0]` wil
 
 `<<` is an operator that appends a value to the end of the array. It can also append an entire array.
 
-```go
+```v
 mut ages := [18]
 ages << 47
 println(ages) // "[18, 47]"
@@ -39,7 +39,7 @@ println(ages) // "[18, 47, 49]"
 
 `.len` method returns the length of the array.
 
-```go
+```v
 mut names := ['Thiago']
 
 println(names.len) // "1"
@@ -49,7 +49,7 @@ println(names.len) // "1"
 
 `in` check if an element is inside an array.
 
-```go
+```v
 mut names := ['Thiago']
 
 println('Vitor' in names) // "false"
