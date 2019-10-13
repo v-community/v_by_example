@@ -4,14 +4,14 @@ A struct is a composite data type (or record) declaration that defines a physica
 
 ```v
 struct User {
-	name string
-	email string
+    name string
+    email string
     country string
 }
 
 user := User{
-	name: "V developers"
-	email: "developers@vlang.io"
+    name: "V developers"
+    email: "developers@vlang.io"
     country: "Canada"
 }
 
@@ -37,7 +37,7 @@ Struct fields are `private` and `immutable` by default. Their access modifiers c
 
 ```v
 struct User {
-	email string
+    email string
 }
  ```
 
@@ -45,22 +45,22 @@ struct User {
 
  ```v
 struct User {
-	email string
+    email string
 mut:
-	first_name string
-	last_name string
+    first_name string
+    last_name string
  ```
 
 You can also define them as `public immmutable` (readonly).
 
  ```v
 struct User {
-	email string
+    email string
 mut:
-	first_name string
-	last_name string
+    first_name string
+    last_name string
 pub:
-	sin_number int
+    sin_number int
 }
  ```
 
@@ -68,14 +68,14 @@ or as `public`, but `mutable` only in the parent module.
 
  ```v
 struct User {
-	email string
+    email string
 mut:
-	first_name string
-	last_name string
+    first_name string
+    last_name string
 pub:
-	sin_number int
+    sin_number int
 pub mut:
-	phone int
+    phone int
 }
  ```
 
@@ -83,16 +83,16 @@ or `public` and `mutable` both inside and outside parent module.
 
  ```v
 struct User {
-	email string
+    email string
 mut:
-	first_name string
-	last_name string
+    first_name string
+    last_name string
 pub:
-	sin_number int
+    sin_number int
 pub mut:
-	phone int
+    phone int
 pub mut mut:
-	address_1 string
+    address_1 string
     address_2 string
     city string
     country string
