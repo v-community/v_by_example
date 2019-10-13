@@ -2,10 +2,20 @@
 
 > Learn V by Examples
 
-Note: This is still a work in progress
+V by Example is a direct introduction to V by using annotated program examples.
+
+  - [Examples](#examples)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 Discord server: https://discord.gg/d3Qk65J
 
+## Examples
+
+  - [Keywords](examplest/keywords.md)
+  - [Operator](examples/operator.md)
+  - [Primitives](examples/primitives/primitives.md)
+  
 ## Contributing
 
 For contributing see [CONTRIBUTING.md](CONTRIBUTING.md)
