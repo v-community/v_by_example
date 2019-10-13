@@ -4,7 +4,7 @@ A function is a block of organized, reusable code that is used to perform a sing
 
 Ideally you should consider using the [single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) (SOLID) which states that every module or function should have responsibility over a single part of the functionality provided by the software to keep your code maintainable.
 
-```v
+```go
 fn main() {
 	println(sum(77, 33))
 }
@@ -16,7 +16,7 @@ fn sum(x, y int) int {
 
 Note that the type comes after the argument's name.
 
-```v
+```go
 fn main() {
 	println(full_name("Vitor", "Oliveira"))
 }

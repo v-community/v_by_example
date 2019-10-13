@@ -14,7 +14,7 @@ Printing is handled by various I/O stream functions. One should know where to us
 
 - `panic`: outputs and exits from the program.
 
-```v
+```go
 print('Hello World')
 print('Hello V')
 ```
@@ -23,7 +23,7 @@ This will print `Hello WorldHello V`
 
 If you want to print the next line on a new line you would have to do `\n`.
 
-```v
+```go
 print('Hello World \n')
 print('Hello V ')
 ```
@@ -34,7 +34,7 @@ If you don't want to use `\n` then you can use `println` instead.
 
 V supports single line comments `//` and mutli-line comments `/* */`. They should be used for documenting the code for letting the other users know how the code works. It can also be used for temporarily commenting the code which has to be used later on.
 
-```v
+```go
 // This is a single line comment
 
 /* This is a
