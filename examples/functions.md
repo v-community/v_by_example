@@ -16,6 +16,16 @@ fn sum(x, y int) int {
 
 Note that the type comes after the argument's name.
 
+```v
+fn main() {
+	println(full_name("Vitor", "Oliveira"))
+}
+
+fn full_name(first_name, last_name string) string {
+	return x + y
+}
+```
+
 ## Exercises
 
 1. Write a V program to find the square of any number using the function.
