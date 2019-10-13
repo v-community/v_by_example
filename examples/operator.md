@@ -14,7 +14,7 @@ V supports the following operators:
 
 - `%` (modulos) for int
 
-```v
+```go
 println(3 + 5)
 println(2.0 + 5.0)
 println('hello' + 'world')
@@ -34,7 +34,7 @@ println(27 % 3)
 
 Output :
 
-```v
+```go
 8
 7.0
 hello world
