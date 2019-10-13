@@ -13,19 +13,19 @@ println(ages)
 println(ages[1])
 >>> 25
 
-mut names := ['Vitor', 'Don', 'Swastik']
+mut names := ['vbrazo', 'donnisnoni95', 'Delta456']
 
 println(names)
->> ['Vitor', 'Don', 'Swastik']
+>> ['vbrazo', 'donnisnoni95', 'Delta456']
 
 println(names[0])
->> Vitor
+>> vbrazo
 ```
 
-Note: All elements must have the same type. `['Vitor', 'Don', 'Swastik', 0]` will not compile.
+Note: All elements must have the same type. `['vbrazo', 'donnisnoni95', 'Delta456', 0]` will not compile.
 
 ```bash
->>> mut names := ['Vitor', 'Don', 'Swastik', 0]  
+>>> mut names := ['vbrazo', 'donnisnoni95', 'Delta456', 0]
 /user/vlang/v_by_example/.vrepl_temp.v:2:43: bad array element type `int` instead of `string`
 ```
 
