@@ -13,19 +13,19 @@ println(ages)
 println(ages[1])
 >>> 25
 
-mut names := ['vbrazo', 'donnisnoni95', 'Delta456']
+mut github_users := ['vbrazo', 'donnisnoni95', 'Delta456']
 
-println(names)
+println(github_users)
 >> ['vbrazo', 'donnisnoni95', 'Delta456']
 
-println(names[0])
+println(github_users[0])
 >> vbrazo
 ```
 
 Note: All elements must have the same type. `['vbrazo', 'donnisnoni95', 'Delta456', 0]` will not compile.
 
 ```bash
->>> mut names := ['vbrazo', 'donnisnoni95', 'Delta456', 0]
+>>> mut github_users := ['vbrazo', 'donnisnoni95', 'Delta456', 0]
 /user/vlang/v_by_example/.vrepl_temp.v:2:43: bad array element type `int` instead of `string`
 ```
 
@@ -63,7 +63,7 @@ println(names.len)
 `in` check if an element is inside an array.
 
 ```go
-mut names := ['Thiago']
+mut names := ['Thiago', 'Alex', 'Joe']
 
 println('Vitor' in names)
 >> false
