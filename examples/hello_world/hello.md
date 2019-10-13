@@ -22,10 +22,12 @@ print('Hello V')
 This will print `Hello WorldHello V`
 
 If you want to print the next line on a new line you would have to do `\n`.
+
 ```go
 print('Hello World \n')
 print('Hello V ')
 ```
+
 If you don't want to use `\n` then you can use `println` instead.
 
 ## Comments
@@ -35,7 +37,7 @@ V supports single line comments `//` and mutli-line comments `/* */`. They shoul
 ```go
 // This is a single line comment
 
-/* This is a 
+/* This is a
 *  multi-line comment
 * /* This could be nested as well*/
 */
