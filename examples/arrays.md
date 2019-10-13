@@ -74,7 +74,7 @@ println('Thiago' in names)
 
 ## Exercises
 
-1. Write a V program to store elements in an array and print it
+1. Write a V program to store elements in an array and print it.
 2. Write a V program to read n number of values in an array and display it in reverse order.
 3. Write a V program to find the sum of all elements of the array.
 4. Write a V program to copy the elements of one array into another array.
