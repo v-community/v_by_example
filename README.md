@@ -2,10 +2,24 @@
 
 > Learn V by Examples
 
-Note: This is still a work in progress
+V by Example is a direct introduction to V by using annotated program examples.
 
-Discord server : https://discord.gg/g33GaP
+  - [Examples](#examples)
+  - [Contributing](#contributing)
+  - [License](#license)
 
+Discord server: https://discord.gg/d3Qk65J
+
+## Examples
+
+  - [Arrays](examples/arrays.md)
+  - [Conditional Statements](examples/conditional_statements/conditional_statements.md)
+  - [Functions](examples/functions.md)
+  - [Keywords](examples/keywords.md)
+  - [Operator](examples/operator.md)
+  - [Primitives](examples/primitives/primitives.md)
+  - [Struct](examples/struct.md)
+  
 ## Contributing
 
 For contributing see [CONTRIBUTING.md](CONTRIBUTING.md)

@@ -31,7 +31,9 @@ println(25.0 / 5.0)
 println(27 % 5)
 println(27 % 3)
 ```
+
 Output :
+
 ```go
 8
 7.0
@@ -50,7 +52,7 @@ hello world
 0
 ```
 
-**NOTE**: Unlike other languages, V doesn't allow modulus with float.  
+**NOTE**: Unlike other languages, V doesn't allow modulus with float.
 
 ### Comparsion Operators
 
@@ -73,7 +75,6 @@ hello world
 - `||` or
 
 - `!` not
-
 
 ### Bitwise Operators
 

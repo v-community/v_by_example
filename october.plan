@@ -4,12 +4,12 @@ v0.1.0
 
 v0.2.0
 - website: migrate examples to Gitbook.
-- example: primitives, variables, operators mostly.
++ example: primitives, variables, operators mostly.
 
 v0.3.0
-- example: conditional statements like if, else, else if, for and while.
++ example: conditional statements like if, else, else if, for and while.
 - research: do research on front-end templates.
 
 v0.4.0
-- example: functions, arrays, structures etc.
-- docs: write a structured README.
++ example: functions, arrays, structures etc.
++ docs: write a structured README.
