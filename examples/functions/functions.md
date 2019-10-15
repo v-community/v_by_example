@@ -26,6 +26,53 @@ fn full_name(first_name, last_name string) string {
 }
 ```
 
+## Variadic Functions
+
+Functions can also be variadic i.e. accept infinite number of arguments. They are **not** arrays and cannot be returned.
+
+```go
+fn main() {
+
+	foo("V", "is", "the", "best", "lang" , "ever")	
+}
+
+fn foo(test ...string) {
+	println(test)
+}
+```
+
+Output
+
+```go
+V
+is
+the
+best
+lang
+ever
+```
+
+## Multi-Return Functions
+
+Similar to Go, functions in V can also return more than one and with different type.
+
+```go
+fn main() {	
+	name, age := student("Tom", 15)
+	println(name, age)
+
+}
+
+fn student(name string, age int) string, int {
+	return name, age
+}
+```
+
+Output
+```go 
+Tom , 15
+```
+
 ## Exercises
 
 1. Write a V program to find the square of any number using the function.

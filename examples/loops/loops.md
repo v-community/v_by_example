@@ -1,0 +1,83 @@
+# Looping Constructs
+
+There's only one type of loop in V language like Go which can be used in many ways.
+
+## `for` loop
+
+`for` loops offer a quick and easy way to do something repeatedly. They're handy, if you want to run the same code over and over again, each time with a different value. You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction then Y steps in another; for example, the idea "Go five steps to the east" could be expressed this way as a loop:
+
+```go
+for i := 0; i < 5; i++ {
+  println('Walking one step');
+}
+```
+
+V has the `for` looping construct and the loop can be written in different ways:
+
+1. `in` operator for array/map
+
+```go
+ages := [18, 25, 32, 43, 50]
+
+for age in ages {
+	println(age)
+}
+```
+
+Note, that the value is read-only.
+
+2. `while` loop
+
+A `while` loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. There are no parentheses surrounding the condition, and the braces are always required.
+
+```go
+mut factorial := 1
+mut counter := 1
+
+for {
+	counter++
+	factorial=factorial*counter
+
+	if counter > 5 {
+		print(factorial)
+		break
+	}
+}
+
+println(counter)
+>> 120
+```
+
+3. Traditional C style
+
+```go
+mut factorial := 1
+mut counter := 1
+
+for i := 0; i < 5; i++ {
+	factorial=factorial*counter
+	if i == 6 {
+		print(factorial)
+		continue
+	}
+	println(i)
+}
+```
+
+4. Forever Loop
+
+`for` loop can also be infinite
+
+```go
+for {
+    println('foo')
+}
+```
+
+## Exercises
+
+1. Write a V program to display the first 10 natural numbers.
+2. Write a V program to find the sum of first 10 natural numbers.
+3. Write a V program to display n terms of natural number and their sum.
+4. Write a V program to read 10 numbers from keyboard and find their sum and average.
+5. Write a V program to display the cube of the number upto given an integer.

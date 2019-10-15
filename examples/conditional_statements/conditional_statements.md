@@ -1,8 +1,8 @@
 # Conditional Statements
 
-## If statement
+## `if` statement
 
-An `if` statement is a programming conditional statement that, if proved true, performs a function or displays information. Below is a general example of an if statement in V:
+An `if` statement is a programming conditional statement that, if proved true, executes the code given in the block. Below is a general example of an if statement in V:
 
 ```go
 john_height := 100
@@ -14,6 +14,28 @@ if john_height < maria_height {
 	println('$john_height > $maria_height')
 }
 ```
+
+In the above code, `fn println()` will only execute when the condition is true else no statement would be printed.  
+
+## `else` statement
+
+An `else` statement is a programming conditional statement in which when `if` evaluates to false then the code in else block exeutes.
+
+```go
+joey_age := 12
+kevin_age := 15
+
+if joey_age > kevin_age {
+	println("Joey is older")
+} else {
+	println("Kevin is older")
+}
+```
+
+In this example the block in else will execute because the condition in `if` evaulates to false.
+
+
+## `else if` statment
 
 The `if...else` statement executes two different codes depending upon whether the test expression is `true` or `false`. Sometimes, a choice has to be made from more than 2 possibilities. The `if...else if...else` ladder allows you to check between multiple test expressions and execute different statements.
 
@@ -63,7 +85,11 @@ s := if tom_age < ashia_age {
 }
 
 print(s)
->> Tom is the youngest
+```
+
+Output
+```bash
+Tom is the youngest
 ```
 
 ## Exercises
@@ -72,73 +98,3 @@ print(s)
 2. Write a V program to check whether a given number is even or odd.
 3. Write a V program to check whether a given number is positive or negative.
 4. Write a V program to find whether a given year is a leap year or not.
-
-## For
-
-`for` loops offer a quick and easy way to do something repeatedly. They're handy, if you want to run the same code over and over again, each time with a different value. You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction then Y steps in another; for example, the idea "Go five steps to the east" could be expressed this way as a loop:
-
-```go
-for i := 0; i < 5; i++ {
-  println('Walking one step');
-}
-```
-
-V has the `for` looping construct and the loop can be written in different ways:
-
-1. `in` operator
-
-```go
-ages := [18, 25, 32, 43, 50]
-
-for age in ages {
-	println(age)
-}
-```
-
-Note, that the value is read-only.
-
-2. `while` loop form
-
-A `while` loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. There are no parentheses surrounding the condition, and the braces are always required.
-
-```go
-mut factorial := 1
-mut counter := 1
-
-for {
-	counter++
-	factorial=factorial*counter
-
-	if counter > 5 {
-		print(factorial)
-		break
-	}
-}
-
-println(counter)
->> 120
-```
-
-3. `for` with the traditional C style
-
-```go
-mut factorial := 1
-mut counter := 1
-
-for i := 0; i < 5; i++ {
-	factorial=factorial*counter
-	if i == 6 {
-		print(factorial)
-		continue
-	}
-	println(i)
-}
-```
-
-## Exercises
-
-1. Write a V program to display the first 10 natural numbers.
-2. Write a V program to find the sum of first 10 natural numbers.
-3. Write a V program to display n terms of natural number and their sum.
-4. Write a V program to read 10 numbers from keyboard and find their sum and average.
-5. Write a V program to display the cube of the number upto given an integer.
