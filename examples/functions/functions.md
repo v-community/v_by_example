@@ -4,6 +4,8 @@ A function is a block of organized, reusable code that is used to perform a sing
 
 Ideally you should consider using the [single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) (SOLID) which states that every module or function should have responsibility over a single part of the functionality provided by the software to keep your code maintainable.
 
+Like C and Go, functions cannot be overloaded.
+
 ```go
 fn main() {
 	println(sum(77, 33))
@@ -32,7 +34,6 @@ Functions can also be variadic i.e. accept infinite number of arguments. They ar
 
 ```go
 fn main() {
-
 	foo("V", "is", "the", "best", "lang" , "ever")	
 }
 
@@ -43,7 +44,7 @@ fn foo(test ...string) {
 
 Output
 
-```go
+```bash
 V
 is
 the
@@ -69,8 +70,33 @@ fn student(name string, age int) string, int {
 ```
 
 Output
-```go 
+
+```bash
 Tom , 15
+```
+
+## High Order Functions
+
+Functions can also take in another function which is usually needed to sort, map, fitler etc.
+
+```go
+fn square(num int) int {
+	return num * num
+}
+
+fn run(value int, op fn(int) int) int {
+        return op(value)
+}
+
+fn main() {
+	println(run(10, square))
+}
+```
+
+Output
+
+```bash
+100
 ```
 
 ## Exercises

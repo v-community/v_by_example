@@ -8,7 +8,7 @@ There's only one type of loop in V language like Go which can be used in many wa
 
 ```go
 for i := 0; i < 5; i++ {
-  println('Walking one step');
+    println('Walking one step')
 }
 ```
 
@@ -34,14 +34,16 @@ A `while` loop is a control flow statement that allows code to be executed repea
 mut factorial := 1
 mut counter := 1
 
-for {
-	counter++
-	factorial=factorial*counter
+mut factorial := 1
+mut counter := 1
 
-	if counter > 5 {
-		print(factorial)
-		break
-	}
+for {
+   counter++
+   if counter > 5 {
+    println(factorial)
+    break
+   }
+   factorial=factorial*counter
 }
 
 println(counter)
@@ -54,13 +56,13 @@ println(counter)
 mut factorial := 1
 mut counter := 1
 
-for i := 0; i < 5; i++ {
-	factorial=factorial*counter
-	if i == 6 {
-		print(factorial)
-		continue
-	}
-	println(i)
+for counter = 1; counter < 6; counter++ {
+    factorial = factorial * counter
+       if counter == 5 {
+         print(factorial)
+        continue
+       }
+println(counter)
 }
 ```
 
@@ -78,6 +80,6 @@ for {
 
 1. Write a V program to display the first 10 natural numbers.
 2. Write a V program to find the sum of first 10 natural numbers.
-3. Write a V program to display n terms of natural number and their sum.
+3. Write a V program to print the integers inside an array and also print their sum
 4. Write a V program to read 10 numbers from keyboard and find their sum and average.
 5. Write a V program to display the cube of the number upto given an integer.

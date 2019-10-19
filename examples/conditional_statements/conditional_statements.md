@@ -32,10 +32,10 @@ if joey_age > kevin_age {
 }
 ```
 
-In this example the block in else will execute because the condition in `if` evaulates to false.
+In this example the block in else will execute because the condition in `if` evaluates to false.
 
 
-## `else if` statment
+## `else if` statement
 
 The `if...else` statement executes two different codes depending upon whether the test expression is `true` or `false`. Sometimes, a choice has to be made from more than 2 possibilities. The `if...else if...else` ladder allows you to check between multiple test expressions and execute different statements.
 
@@ -60,13 +60,15 @@ ashia_age := 38
 
 if tom_age < ashia_age {
   if tom_age < 18 {
-	println('tom_age < 18 and younger than Ashia.')
-  } else {
-	println('tom_age > 18 and older than Ashia.')
-  }
-} else {
-	println('$tom_age == $ashia_age')
-	println('Tom and Ashia have the same age.')
+     println('tom_age < 18 and younger than Ashia.')
+    } else {
+      println('tom_age >= 18 and younger than Ashia.')
+     }
+   } 
+   else if tom_age > ashia_age {
+     println('$tom_age > $ashia_age')
+   } else {
+     println('$tom_age == $ashia_age')
 }
 ```
 
