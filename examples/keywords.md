@@ -1,6 +1,6 @@
 ## Keywords
 
-V is a very small language so it has less keywords. There are around 25 keywords.
+V is a very small language so it has comparatively few keywords. There are around 25 keywords.
 
 | break | const  | continue | return  | defer     |
 |-------|--------|----------|---------|-----------|
@@ -9,4 +9,4 @@ V is a very small language so it has less keywords. There are around 25 keywords
 | type  | pub    | fn       | in      | interface |
 | match | module | mut      | none    | or        |
 
-Like other languages, they cannot be used as a variable.
+Like other languages, they cannot be used as variables.
