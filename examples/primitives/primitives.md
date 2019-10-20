@@ -28,7 +28,7 @@ V has less number of primitive types like Go.
 Integer is sub-classified into `signed` and `unsigned`. `signed` means positive or negative and `unsigned` means positive only.
 
 
-### Singed Integer
+### Signed Integer
 
 | Type   |   Size   |                                   Range |
 |--------|:--------:|----------------------------------------:|
