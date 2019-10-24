@@ -4,6 +4,8 @@ A function is a block of organized, reusable code that is used to perform a sing
 
 Ideally you should consider using the [single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) (SOLID) which states that every module or function should have responsibility over a single part of the functionality provided by the software to keep your code maintainable.
 
+Like C and Go, functions cannot be overloaded.
+
 ```go
 fn main() {
 	println(sum(77, 33))
@@ -24,6 +26,77 @@ fn main() {
 fn full_name(first_name, last_name string) string {
 	return first_name + last_name
 }
+```
+
+## Variadic Functions
+
+Functions can also be variadic i.e. accept infinite number of arguments. They are **not** arrays and cannot be returned.
+
+```go
+fn main() {
+	foo("V", "is", "the", "best", "lang" , "ever")	
+}
+
+fn foo(test ...string) {
+	println(test)
+}
+```
+
+Output
+
+```bash
+V
+is
+the
+best
+lang
+ever
+```
+
+## Multi-Return Functions
+
+Similar to Go, functions in V can also return multiple and with different type.
+
+```go
+fn main() {	
+	name, age := student("Tom", 15)
+	println(name, age)
+
+}
+
+fn student(name string, age int) string, int {
+	return name, age
+}
+```
+
+Output
+
+```bash
+Tom , 15
+```
+
+## High Order Functions
+
+Functions can also take in another function which is usually needed to sort, map, fitler etc.
+
+```go
+fn square(num int) int {
+	return num * num
+}
+
+fn run(value int, op fn(int) int) int {
+        return op(value)
+}
+
+fn main() {
+	println(run(10, square))
+}
+```
+
+Output
+
+```bash
+100
 ```
 
 ## Exercises
