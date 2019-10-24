@@ -14,6 +14,7 @@ Discord server: https://discord.gg/d3Qk65J
 
   - [Arrays](examples/arrays.md)
   - [Conditional Statements](examples/conditional_statements/conditional_statements.md)
+  - [Loop](examples/loops/loops.md)
   - [Functions](examples/functions.md)
   - [Keywords](examples/keywords.md)
   - [Operator](examples/operator.md)
