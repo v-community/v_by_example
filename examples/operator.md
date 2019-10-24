@@ -62,9 +62,9 @@ hello world
 
 - `==` equal to
 
-- `>=` greater than equal to
+- `>=` greater than or equal to
 
-- `<=` lesser than equal to
+- `<=` lesser than or equal to
 
 - `!=` not equal to
 

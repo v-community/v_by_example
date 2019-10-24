@@ -1,6 +1,6 @@
 # Arrays
 
-An array is a collection of items stored at contiguous memory locations. It's an aggregate data structure that is designed to store a group of objects of the same types. It's the most efficient data structure for storing and accessing a sequence of objects.
+An array is a collection of items stored in contiguous memory locations. It's an aggregate data structure that is designed to store a group of objects of the same type. It's the most efficient data structure for storing and accessing a sequence of objects.
 
 ## How to declare an array
 
