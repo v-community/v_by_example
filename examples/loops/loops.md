@@ -26,9 +26,10 @@ for age in ages {
 
 Note, that the value is read-only.
 
-2. `while` loop
+2. `for` loop with a condition
 
-A `while` loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. There are no parentheses surrounding the condition, and the braces are always required.
+This is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition.
+There are no parentheses surrounding the condition, and the braces are always required.
 
 ```go
 mut factorial := 1
@@ -40,10 +41,10 @@ mut counter := 1
 for {
    counter++
    if counter > 5 {
-    println(factorial)
-    break
+      println(factorial)
+      break
    }
-   factorial=factorial*counter
+   factorial = factorial * counter
 }
 
 println(counter)
@@ -80,6 +81,6 @@ for {
 
 1. Write a V program to display the first 10 natural numbers.
 2. Write a V program to find the sum of first 10 natural numbers.
-3. Write a V program to print the integers inside an array and also print their sum
+3. Write a V program to print the integers inside an array and also print their mean.
 4. Write a V program to read 10 numbers from keyboard and find their sum and average.
 5. Write a V program to display the cube of the number upto given an integer.

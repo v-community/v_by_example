@@ -19,7 +19,7 @@ In the above code, `fn println()` will only execute when the condition is true e
 
 ## `else` statement
 
-An `else` statement is a programming conditional statement in which when `if` evaluates to false then the code in else block exeutes.
+An `else` statement is a programming conditional statement in which when `if` evaluates to false then the code in else block executes.
 
 ```go
 joey_age := 12
@@ -66,9 +66,9 @@ if tom_age < ashia_age {
      }
    } 
    else if tom_age > ashia_age {
-     println('$tom_age > $ashia_age')
+    println('$tom_age > $ashia_age')
    } else {
-     println('$tom_age == $ashia_age')
+    println('$tom_age == $ashia_age')
 }
 ```
 

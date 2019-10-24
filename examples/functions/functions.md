@@ -55,7 +55,7 @@ ever
 
 ## Multi-Return Functions
 
-Similar to Go, functions in V can also return more than one and with different type.
+Similar to Go, functions in V can also return multiple and with different type.
 
 ```go
 fn main() {	
