@@ -1,5 +1,22 @@
 # Changelog
 
+## v0.5.0 (2019-10-24)
+
+## Bug
+
+- [PR #32](https://github.com/v-community/v_by_example/pull/32) More typos [@ksaj](https://github.com/ksaj)
+- [PR #31](https://github.com/v-community/v_by_example/pull/31) Exponent typo [@ksaj](https://github.com/ksaj)
+
+## Chores
+
+- [PR #33](https://github.com/v-community/v_by_example/pull/33) Grammar [@ksaj](https://github.com/ksaj)
+- [PR #24](https://github.com/v-community/v_by_example/pull/24) Minor fixes [@vbrazo](https://github.com/vbrazo)
+- [PR #23](https://github.com/v-community/v_by_example/pull/23) Missing 'or' [@ksaj](https://github.com/ksaj)
+
+## Feature Request
+
+- [PR #26](https://github.com/v-community/v_by_example/pull/26) Follow #25 and more progress [@Delta456](https://github.com/Delta456)
+
 ## v0.4.0 (2019-10-13)
 
 ## Chores

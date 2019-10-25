@@ -13,9 +13,9 @@ println(ages)
 println(ages[1])
 >>> 25
 
-mut github_users := ['vbrazo', 'donnisnoni95', 'Delta456']
+mut users := ['vbrazo', 'donnisnoni95', 'Delta456']
 
-println(github_users)
+println(users)
 >> ['vbrazo', 'donnisnoni95', 'Delta456']
 
 println(github_users[0])
@@ -25,7 +25,7 @@ println(github_users[0])
 Note: All elements must have the same type. `['vbrazo', 'donnisnoni95', 'Delta456', 0]` will not compile.
 
 ```bash
->>> mut github_users := ['vbrazo', 'donnisnoni95', 'Delta456', 0]
+>>> mut users := ['vbrazo', 'donnisnoni95', 'Delta456', 0]
 /user/vlang/v_by_example/.vrepl_temp.v:2:43: bad array element type `int` instead of `string`
 ```
 

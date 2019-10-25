@@ -1,5 +1,3 @@
-# Hello V
-
 ## Formatted Print
 
 Printing is handled by various I/O stream functions. One should know where to use them accordingly.
