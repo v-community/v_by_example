@@ -7,7 +7,7 @@ Please ensure your pull request adheres to the following guidelines:
 * Please check your spelling and grammar.
 
 ## Adding a New Example
-To add a new example, create the file under the appropriate directory in `./examples`. Please check our `.plan` file to see what examples we plan to create. Feel free to work on any pending examples. We're happy to read your changes and collaborate/code with you to merge them.
+To add a new example, create a new folder and a file or a file (depending upon the example) under the appropriate directory in `./examples`. Please check the `.plan` file to see what examples we plan to create. Feel free to work on any pending examples. We're happy to read/review your changes and collaborate/code with you to merge them.
 
 Thank you for your contributions!
 
