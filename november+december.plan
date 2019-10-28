@@ -1,19 +1,19 @@
 ## November and December plan
 
-- research: keep doing research on front-end templates
-- website: migrate examples to Gitbook
 - example: json
 - example: testing
 - example: reading and writing files
 - example: switch
-- example: Variables
-- example: Mutable and Immuable
-- example: Operators (Complete it)
-- example: Pointers
-- example: Methods
-- example: Generics
-- example: Strings
+- example: variables
+- example: mutable and imutable
+- example: operators (complete it)
+- example: pointers
+- example: methods
+- example: generics
+- example: strings
 - example: xml
 - example: lsp
 - example: css
 - example: xpath (as companion for the xml)
+- research: keep doing research on front-end templates
+- website: migrate examples to GitBook
