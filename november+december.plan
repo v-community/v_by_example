@@ -5,7 +5,7 @@
 - example: reading and writing files
 - example: switch
 - example: variables
-- example: mutable and imutable
+- example: mutable and immutable
 - example: operators (complete it)
 - example: pointers
 - example: methods
