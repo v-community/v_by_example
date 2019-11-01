@@ -21,7 +21,7 @@ Output
 [1, 1, 1, 1, 1, 1, 1]
 ```
 
-## insert
+## `insert`
 
 Syntax
 
