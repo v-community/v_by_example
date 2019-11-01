@@ -15,7 +15,7 @@ if john_height < maria_height {
 }
 ```
 
-In the above code, `fn println()` will only execute when the condition is true else no statement would be printed.  
+In the above code, `fn println()` will only execute when the condition is true else no statement would be printed.
 
 ## `else` statement
 
@@ -33,7 +33,6 @@ if joey_age > kevin_age {
 ```
 
 In this example the block in else will execute because the condition in `if` evaluates to false.
-
 
 ## `else if` statement
 
@@ -64,7 +63,7 @@ if tom_age < ashia_age {
     } else {
       println('tom_age >= 18 and younger than Ashia.')
      }
-   } 
+   }
    else if tom_age > ashia_age {
     println('$tom_age > $ashia_age')
    } else {
@@ -90,6 +89,7 @@ print(s)
 ```
 
 Output
+
 ```bash
 Tom is the youngest
 ```
