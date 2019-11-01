@@ -11,14 +11,14 @@ array.repeat(number int)
 Makes an array with the given element number of times.
 
 ```go
-foo := int[1].repeat(7)
+foo := [1, 2].repeat(5)
 println(foo)
 ```
 
 Output
 
 ```go
-[1, 1, 1, 1, 1, 1, 1]
+[1, 2, 1, 2, 1, 2, 1, 2, 1, 2]
 ```
 
 ## `insert`
