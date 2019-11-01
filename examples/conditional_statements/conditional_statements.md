@@ -32,7 +32,7 @@ if joey_age > kevin_age {
 }
 ```
 
-In this example the block in else will execute because the condition in `if` evaluates to false.
+In this example, the block in else will execute because the condition in `if` evaluates to false.
 
 ## `else if` statement
 
