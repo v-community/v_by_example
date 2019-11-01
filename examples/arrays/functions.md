@@ -31,9 +31,16 @@ array.insert(num int, data T)
 
 Inserts the data at a given position and shifts the elements in the array.
 
+<!--
+    mut names := ['Samuel', 'John', 'Peter']
+    tom := 'Tom'
+    names.insert(2, &tom)
+    println(names)
+-->
+
 ```go
-names := ['Samuel', 'John', 'Peter']
-names.insert(2,'Tom')
+mut names := ['Samuel', 'John', 'Peter']
+names.insert(2, 'Tom')
 println(names)
 ```
 
