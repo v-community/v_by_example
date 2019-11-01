@@ -5,7 +5,7 @@
 Syntax
 
 ```go
-Type[element].repeat(number int)
+array.repeat(number int)
 ```
 
 Makes an array with the given element number of times.
