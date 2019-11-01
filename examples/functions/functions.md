@@ -2,7 +2,7 @@
 
 A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing.
 
-Ideally, you should consider using the single responsibility principle (SOLID) which states that every module or function should have responsibility for a single part of the functionality provided by the software to keep your code maintainable.
+Ideally, you should consider using the [single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) (SOLID) which states that every module or function should have responsibility for a single part of the functionality provided by the software to keep your code maintainable.
 
 Like C and Go, functions cannot be overloaded.
 
