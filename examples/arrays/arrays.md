@@ -72,6 +72,15 @@ println('Thiago' in names)
 >> true
 ```
 
+## Create an empty array
+
+If you want to create a new empty array, just declare `[]` followed by the data type.
+
+```go
+mut names := []string
+mut numbers := []int
+```
+
 ## Exercises
 
 1. Write a V program to store elements in an array and print it.
