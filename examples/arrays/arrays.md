@@ -22,6 +22,16 @@ println(github_users[0])
 >> vbrazo
 ```
 
+### Create an empty array
+
+If you want to create a new empty array, just declare `[]` followed by the data type.
+
+```go
+mut names := []string
+mut numbers := []int
+
+```
+
 Note: All elements must have the same type. `['vbrazo', 'donnisnoni95', 'Delta456', 0]` will not compile.
 
 ```bash
@@ -70,15 +80,6 @@ println('Vitor' in names)
 
 println('Thiago' in names)
 >> true
-```
-
-## Create an empty array
-
-If you want to create a new empty array, just declare `[]` followed by the data type.
-
-```go
-mut names := []string
-mut numbers := []int
 ```
 
 ## Exercises
