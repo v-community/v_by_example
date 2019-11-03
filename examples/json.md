@@ -19,7 +19,7 @@ struct Customer {
 
 fn main() {
 	customers_string := '[{ "first_name": "Vitor", "last_name": "Oliveira", "hometown": "Rio de Janeiro" }, { "first_name": "Don", "last_name": "Nisnoni", "hometown": "Kupang" }]'
-	customer := json.decode([]Customer, customer_string) or {
+	customers := json.decode([]Customer, customers_string) or {
 		eprintln('Failed to parse json')
 		return
 	}
