@@ -1,6 +1,8 @@
 # Struct
 
-A struct is a composite data type (or record) declaration that defines a physically grouped list of variables under one name in a block of memory, allowing the different variables to be accessed via a single pointer or by the struct declared name which returns the same address.
+A struct is a composite data type (or record) declaration that defines a physically grouped list of variables under one name in a block of memory, allowing different variables to be accessed via a single pointer or by the struct declared name which returns the same address.
+
+For people coming from OOP languages, it can be thought as class but with more restrictions.
 
 ```go
 struct User {
@@ -9,7 +11,7 @@ struct User {
     country string
 }
 
-user := User{
+user := User {
     name: "V developers"
     email: "developers@vlang.io"
     country: "Canada"
@@ -39,66 +41,66 @@ Struct fields are `private` and `immutable` by default. Their access modifiers c
 struct User {
     email string
 }
- ```
+```
 
- You can define them as `private mutable`.
+You can define them as `private mutable`.
 
- ```go
+```go
 struct User {
-    email string
+   email string
 mut:
-    first_name string
-    last_name string
- ```
+   first_name string
+   last_name string
+```
 
 You can also define them as `public immmutable` (readonly).
 
- ```go
+```go
 struct User {
-    email string
+   email string
 mut:
-    first_name string
-    last_name string
+   first_name string
+   last_name string
 pub:
-    sin_number int
+   sin_number int
 }
- ```
+```
 
 or as `public`, but `mutable` only in the parent module.
 
- ```go
+```go
 struct User {
-    email string
+   email string
 mut:
-    first_name string
-    last_name string
+   first_name string
+   last_name string
 pub:
-    sin_number int
+   sin_number int
 pub mut:
-    phone int
+   phone int
 }
- ```
+```
 
 or `public` and `mutable` both inside and outside parent module.
 
- ```go
+```go
 struct User {
-    email string
+   email string
 mut:
-    first_name string
-    last_name string
+   first_name string
+   last_name string
 pub:
-    sin_number int
+   sin_number int
 pub mut:
-    phone int
+   phone int
 pub mut mut:
-    address_1 string
-    address_2 string
-    city string
-    country string
-    zip string
+   address_1 string
+   address_2 string
+   city string
+   country string
+   zip string
 }
- ```
+```
 
 ## Exercises
 

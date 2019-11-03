@@ -28,7 +28,7 @@ V has less number of primitive types like Go.
 Integer is sub-classified into `signed` and `unsigned`. `signed` means positive or negative and `unsigned` means positive only.
 
 
-### Singed Integer
+### Signed Integer
 
 | Type   |   Size   |                                   Range |
 |--------|:--------:|----------------------------------------:|
@@ -42,7 +42,7 @@ Integer is sub-classified into `signed` and `unsigned`. `signed` means positive 
 
 | Type   |   Size   |                                   Range |
 |--------|:--------:|----------------------------------------:|
-| u8     |  8 bits  |                  0 to 2<sup>17</sup>  -1|
+| u8     |  8 bits  |                  0 to 2<sup>7</sup>  -1|
 | u16    |  16 bits |                 0 to 2<sup>15</sup> - 1 |
 | u32    |  32 bits |                 0 to 2<sup>31</sup> - 1 |
 | u64    | 64 bits  |                 0 to 2<sup>63</sup> - 1 |

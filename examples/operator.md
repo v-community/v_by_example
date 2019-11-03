@@ -14,6 +14,10 @@ V supports the following operators:
 
 - `%` (modulos) for int
 
+- `=` (assignment) for changing values
+
+- `:=` for initialising values
+
 ```go
 println(3 + 5)
 println(2.0 + 5.0)
@@ -32,7 +36,7 @@ println(27 % 5)
 println(27 % 3)
 ```
 
-Output :
+Output 
 
 ```go
 8
@@ -62,9 +66,9 @@ hello world
 
 - `==` equal to
 
-- `>=` greater than equal to
+- `>=` greater than or equal to
 
-- `<=` lesser than equal to
+- `<=` lesser than or equal to
 
 - `!=` not equal to
 

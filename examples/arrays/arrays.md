@@ -1,6 +1,6 @@
 # Arrays
 
-An array is a collection of items stored at contiguous memory locations. It's an aggregate data structure that is designed to store a group of objects of the same types. It's the most efficient data structure for storing and accessing a sequence of objects.
+An array is a collection of items stored in contiguous memory locations. It's an aggregate data structure that is designed to store a group of objects of the same type. It's the most efficient data structure for storing and accessing a sequence of objects.
 
 ## How to declare an array
 
@@ -13,19 +13,28 @@ println(ages)
 println(ages[1])
 >>> 25
 
-mut github_users := ['vbrazo', 'donnisnoni95', 'Delta456']
+mut users := ['vbrazo', 'donnisnoni95', 'Delta456']
 
-println(github_users)
+println(users)
 >> ['vbrazo', 'donnisnoni95', 'Delta456']
 
 println(github_users[0])
 >> vbrazo
 ```
 
+### Create an empty array
+
+If you want to create a new empty array, just declare `[]` followed by the data type.
+
+```go
+mut names := []string
+mut numbers := []int
+```
+
 Note: All elements must have the same type. `['vbrazo', 'donnisnoni95', 'Delta456', 0]` will not compile.
 
 ```bash
->>> mut github_users := ['vbrazo', 'donnisnoni95', 'Delta456', 0]
+>>> mut users := ['vbrazo', 'donnisnoni95', 'Delta456', 0]
 /user/vlang/v_by_example/.vrepl_temp.v:2:43: bad array element type `int` instead of `string`
 ```
 
@@ -74,7 +83,7 @@ println('Thiago' in names)
 
 ## Exercises
 
-1. Write a V program to store elements in an array and print it
+1. Write a V program to store elements in an array and print it.
 2. Write a V program to read n number of values in an array and display it in reverse order.
 3. Write a V program to find the sum of all elements of the array.
 4. Write a V program to copy the elements of one array into another array.
