@@ -15,6 +15,7 @@ Discord server: https://discord.gg/d3Qk65J
   - [Arrays](examples/arrays.md)
   - [Conditional Statement](conditional_statements/conditional_statements.md)
   - [Functions](examples/functions.md)
+  - [JSON](examples/json.md)
   - [Keywords](examplest/keywords.md)
   - [Operator](examples/operator.md)
   - [Primitives](examples/primitives/primitives.md)
