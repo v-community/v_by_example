@@ -5,7 +5,7 @@
 *.tmp.c
 a.out.tmp.c
 *.vrepl.v
-*.vrepl
+*.vrepl*
 .vrepl_temp
 
 .DS_Store
