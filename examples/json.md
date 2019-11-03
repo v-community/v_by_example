@@ -63,4 +63,4 @@ fn main() {
 1. Compare how you handle JSON in your favorite language and V.
 2. Build an `Address` struct that contains address information.
 3. Use the `Address` struct to decode and encode a string that contains JSON format.
-4. Create 2 structs: `Address` and `User` where a user has many addresses. Now receive a string with a nested JSON, decode and encode it.
+4. Create 2 structs: `Address` and `User` where a user has many addresses. Now receive a string with a nested JSON like `'[{ "first_name": "Vitor", "last_name": "Oliveira", "hometown": "Rio de Janeiro", "addresses": [{ street_name: "Rua Princesa Isabel", city: "Rio de Janeiro", country: "Brazil" }]}]'`, decode and encode it.
