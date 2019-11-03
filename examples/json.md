@@ -22,11 +22,11 @@ fn main() {
 	customer := json.decode([]Customer, s) or {
 		eprintln('Failed to parse json')
 		return
-    }
+	}
 
 	for customer in customers {
 		println('$customer.first_name: $customer.hometown')
-    }
+	}
 }
 ```
 
@@ -46,7 +46,7 @@ struct Customer {
 fn main() {
 	s := '[{ "first_name": "Vitor", "last_name": "Oliveira", "hometown": "Rio de Janeiro"}]'
 
-    customers := json.decode([]Customer, s) or {
+	customers := json.decode([]Customer, s) or {
 		eprintln('Failed to parse json')
 		return
 	}
