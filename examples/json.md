@@ -18,8 +18,8 @@ struct Customer {
 }
 
 fn main() {
-	s := '[{ "first_name": "Vitor", "last_name": "Oliveira", "hometown": "Rio de Janeiro" }]'
-	customer := json.decode([]Customer, s) or {
+	customers_string := '[{ "first_name": "Vitor", "last_name": "Oliveira", "hometown": "Rio de Janeiro" }, { "first_name": "Don", "last_name": "Nisnoni", "hometown": "Kupang" }]'
+	customer := json.decode([]Customer, customer_string) or {
 		eprintln('Failed to parse json')
 		return
 	}
@@ -45,14 +45,14 @@ struct Customer {
 }
 
 fn main() {
-	s := '[{ "first_name": "Vitor", "last_name": "Oliveira", "hometown": "Rio de Janeiro"}]'
+	customer_string := '[{ "first_name": "Vitor", "last_name": "Oliveira", "hometown": "Rio de Janeiro"}]'
 
-	customers := json.decode([]Customer, s) or {
+	customer := json.decode([]Customer, customer_string) or {
 		eprintln('Failed to parse json')
 		return
 	}
 
-	encoded_json := json.encode(customers)
+	encoded_json := json.encode(customer)
 
 	println(encoded_json)
 }
