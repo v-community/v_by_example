@@ -18,14 +18,15 @@ struct Customer {
 }
 
 fn main() {
-	s := '[{ "first_name": "Vitor", "last_name": "Oliveira", "hometown": "Rio de Janeiro"}]'
+	s := '[{ "first_name": "Vitor", "last_name": "Oliveira", "hometown": "Rio de Janeiro" }]'
 	customer := json.decode([]Customer, s) or {
 		eprintln('Failed to parse json')
 		return
 	}
 
+	// Print the list of customers
 	for customer in customers {
-		println('$customer.first_name: $customer.hometown')
+		println('$customer.first_name $customer.last_name: $customer.hometown')
 	}
 }
 ```
@@ -51,7 +52,9 @@ fn main() {
 		return
 	}
 
-	println(json.encode(customers))
+	encoded_json := json.encode(customers)
+
+	println(encoded_json)
 }
 ```
 
