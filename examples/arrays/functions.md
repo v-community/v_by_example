@@ -1,26 +1,27 @@
 # Array Functions
 
-## `repeat` 
+## `repeat`
 
 Syntax
 
 ```go
-Type[element].repeat(number int)
+array.repeat(number int)
 ```
 
 Makes an array with the given element number of times.
 
 ```go
-foo := int[1].repeat(7)
+foo := [1, 2].repeat(5)
 println(foo)
 ```
+
 Output
 
 ```go
-[1, 1, 1, 1, 1, 1, 1]
+[1, 2, 1, 2, 1, 2, 1, 2, 1, 2]
 ```
 
-## insert
+## `insert`
 
 Syntax
 
@@ -28,11 +29,11 @@ Syntax
 array.insert(num int, data T)
 ```
 
-Inserts the data at a given position and shifts the elements in the array
+Inserts the data at a given position and shifts the elements in the array.
 
 ```go
-names := ['Samuel', 'John', 'Peter']
-names.insert(2,'Tom')
+mut names := ['Samuel', 'John', 'Peter']
+names.insert(2, 'Tom')
 println(names)
 ```
 
@@ -50,7 +51,7 @@ Syntax
 array.delete(element T)
 ```
 
-Deletes the element present in the array
+Deletes the element present in the array.
 
 ```go
 even_numbers = [2, 4, 6, 8, 10]
@@ -72,7 +73,7 @@ Syntax
 array.reverse()
 ```
 
-Reverses the array
+Reverses the array.
 
 ```go
 float_num := [1.1, 1.3, 1.25, 1.4]
@@ -93,7 +94,7 @@ Syntax
 array.clone()
 ```
 
-Clones and returns a new array
+Clones and returns a new array.
 
 ```go
 foo := [1, 2, 4, 5, 4, 6]
