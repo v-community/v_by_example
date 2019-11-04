@@ -1,6 +1,6 @@
 # Looping Constructs
 
-There's only one type of loop in V language like Go which can be used in many ways.
+There's only one type of loop in V language, like Go which can be used in many ways.
 
 ## `for` loop
 
@@ -8,7 +8,7 @@ There's only one type of loop in V language like Go which can be used in many wa
 
 ```go
 for i := 0; i < 5; i++ {
-    println('Walking one step')
+   println('Walking one step')
 }
 ```
 
@@ -24,7 +24,7 @@ for age in ages {
 }
 ```
 
-Note, that the value is read-only.
+> Note, that the value is read-only.
 
 2. `for` loop with a condition
 
@@ -32,9 +32,6 @@ This is a control flow statement that allows code to be executed repeatedly base
 There are no parentheses surrounding the condition, and the braces are always required.
 
 ```go
-mut factorial := 1
-mut counter := 1
-
 mut factorial := 1
 mut counter := 1
 
@@ -48,7 +45,13 @@ for {
 }
 
 println(counter)
->> 120
+```
+
+Output:
+
+```bash
+120
+6
 ```
 
 3. Traditional C style
@@ -58,22 +61,22 @@ mut factorial := 1
 mut counter := 1
 
 for counter = 1; counter < 6; counter++ {
-    factorial = factorial * counter
-       if counter == 5 {
-         print(factorial)
-        continue
-       }
-println(counter)
+   factorial = factorial * counter
+   if counter == 5 {
+      print(factorial)
+      continue
+   }
+   println(counter)
 }
 ```
 
-4. Forever Loop
+4. Infinite Loop
 
 `for` loop can also be infinite
 
 ```go
 for {
-    println('foo')
+   println('foo')
 }
 ```
 
