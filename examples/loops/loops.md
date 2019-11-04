@@ -67,7 +67,7 @@ for counter = 1; counter < 6; counter++ {
 }
 ```
 
-4. Forever Loop
+4. Infinite Loop
 
 `for` loop can also be infinite
 
