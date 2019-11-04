@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.6.0 (TBD)
+## v0.6.0 (2019-11-03)
 
 ## Documentation
 
