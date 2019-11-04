@@ -8,7 +8,7 @@ Automated tests follow the process of testing the software using an automation t
 
 ## Tests in V
 
-In V, all test files have to be named with following format: *_test.v and the functions should start with test_.
+In V, all test files have to be named with following format: `*_test.v` and the functions should start with `test_`.
 
 ```go
 // sum.v
