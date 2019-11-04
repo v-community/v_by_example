@@ -8,7 +8,7 @@ There's only one type of loop in V language, like Go which can be used in many w
 
 ```go
 for i := 0; i < 5; i++ {
-    println('Walking one step')
+   println('Walking one step')
 }
 ```
 
@@ -73,7 +73,7 @@ for counter = 1; counter < 6; counter++ {
 
 ```go
 for {
-    println('foo')
+   println('foo')
 }
 ```
 
