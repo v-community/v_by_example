@@ -58,12 +58,12 @@ mut factorial := 1
 mut counter := 1
 
 for counter = 1; counter < 6; counter++ {
-    factorial = factorial * counter
-       if counter == 5 {
-         print(factorial)
-        continue
-       }
-println(counter)
+   factorial = factorial * counter
+   if counter == 5 {
+      print(factorial)
+      continue
+   }
+   println(counter)
 }
 ```
 
