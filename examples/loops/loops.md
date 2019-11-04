@@ -1,6 +1,6 @@
 # Looping Constructs
 
-There's only one type of loop in V language like Go which can be used in many ways.
+There's only one type of loop in V language, like Go which can be used in many ways.
 
 ## `for` loop
 
