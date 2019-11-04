@@ -13,7 +13,7 @@ In V, all test files have to be named with following format: *_test.v and the fu
 ```go
 // sum.v
 fn sum(a, b int) int {
-	return a + b
+    return a + b
 }
 ```
 
@@ -34,11 +34,11 @@ To execute the test, you should run `v test_sum.v`.
 import json
 
 fn test_encode_customer(){
-	customer := Customer{ first_name: "Vitor", last_name: "Oliveira" }
+    customer := Customer{ first_name: "Vitor", last_name: "Oliveira" }
     expected := '{ "first_name": "Vitor", "last_name": "Oliveira" }'
 
-	encoded_json := json.encode(customer)
-	assert encoded_json == expected
+    encoded_json := json.encode(customer)
+    assert encoded_json == expected
 }
 ```
 
