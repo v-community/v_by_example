@@ -42,7 +42,7 @@ fn test_encode_customer(){
 }
 ```
 
-2. Testing files
+2. Testing files:
 
 ```go
 import os
