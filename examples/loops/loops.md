@@ -35,9 +35,6 @@ There are no parentheses surrounding the condition, and the braces are always re
 mut factorial := 1
 mut counter := 1
 
-mut factorial := 1
-mut counter := 1
-
 for {
    counter++
    if counter > 5 {
