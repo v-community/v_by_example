@@ -20,6 +20,7 @@ Discord server: https://discord.gg/d3Qk65J
   - [Keywords](examples/keywords.md)
   - [Operator](examples/operator.md)
   - [Primitives](examples/primitives/primitives.md)
+  - [Testing](examples/testing.md)
   - [Struct](examples/struct/struct.md)
   
 ## Contributing
