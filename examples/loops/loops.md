@@ -24,7 +24,7 @@ for age in ages {
 }
 ```
 
-Note, that the value is read-only.
+> Note, that the value is read-only.
 
 2. `for` loop with a condition
 
