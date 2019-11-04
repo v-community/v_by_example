@@ -45,7 +45,13 @@ for {
 }
 
 println(counter)
->> 120
+```
+
+Output:
+
+```bash
+120
+6
 ```
 
 3. Traditional C style
