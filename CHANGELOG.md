@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.7.0 (2019-11-03)
+
+- [PR #59](https://github.com/v-community/v_by_example/pull/59) Add testing examples [@vbrazo](https://github.com/vbrazo)
+
+------------------------------------------------------------------------------
+
 ## v0.6.0 (2019-11-03)
 
 ## Documentation
