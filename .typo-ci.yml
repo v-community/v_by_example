@@ -1,0 +1,10 @@
+dictionaries:
+  - en
+  - en_GB
+
+# Files to exclude
+excluded_files:
+  - "*.v"
+
+# Words to exclude
+excluded_words:
