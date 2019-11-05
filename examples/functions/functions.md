@@ -60,11 +60,12 @@ Similar to Go, functions in V can also return multiple and with a different type
 ```go
 fn main() {
 	name, age := student("Tom", 15)
-	println(name, age)
+	println(name)
+	println(age)
 
 }
 
-fn student(name string, age int) string, int {
+fn student(name string, age int) (string, int) {
 	return name, age
 }
 ```
