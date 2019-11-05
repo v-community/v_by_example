@@ -31,7 +31,7 @@ mut names := []string
 mut numbers := []int
 ```
 
-Note: All elements must have the same type. `['vbrazo', 'donnisnoni95', 'Delta456', 0]` will not compile.
+> Note: All elements must have the same type. `['vbrazo', 'donnisnoni95', 'Delta456', 0]` will not compile.
 
 ```bash
 >>> mut users := ['vbrazo', 'donnisnoni95', 'Delta456', 0]
