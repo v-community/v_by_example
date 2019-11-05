@@ -16,7 +16,7 @@ fn sum(x, y int) int {
 }
 ```
 
-Note that the type comes after the argument's name.
+> Note that the type comes after the argument's name.
 
 ```go
 fn main() {

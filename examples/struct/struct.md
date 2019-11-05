@@ -20,7 +20,7 @@ user := User {
 println(user.country)
 ```
 
-Note: Structs are allocated on the stack.
+> Note: Structs are allocated on the stack.
 
 ### `&` prefix
 

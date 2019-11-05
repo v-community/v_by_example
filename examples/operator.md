@@ -56,7 +56,7 @@ hello world
 0
 ```
 
-**NOTE**: Unlike other languages, V doesn't allow modulus with float.
+> Note: Unlike other languages, V doesn't allow modulus with float.
 
 ### Comparsion Operators
 
