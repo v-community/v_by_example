@@ -36,7 +36,7 @@ println(27 % 5)
 println(27 % 3)
 ```
 
-Output 
+Output
 
 ```go
 8

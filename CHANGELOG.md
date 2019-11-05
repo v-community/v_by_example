@@ -3,6 +3,7 @@
 ## v0.7.0 (2019-11-03)
 
 - [PR #60](https://github.com/v-community/v_by_example/pull/60) Add testing examples [@vbrazo](https://github.com/vbrazo)
+- [PR #61](https://github.com/v-community/v_by_example/pull/63) Add Typo CI [@Delta456](https://github.com/Delta456)
 
 ------------------------------------------------------------------------------
 
@@ -10,7 +11,7 @@
 
 ## Documentation
 
-- [PR #58](https://github.com/v-community/v_by_example/pull/58) add coma and remove some whitespaces [@donnisnoni95](https://github.com/donnisnoni95)
+- [PR #58](https://github.com/v-community/v_by_example/pull/58) add comma and remove some whitespaces [@donnisnoni95](https://github.com/donnisnoni95)
 - [PR #57](https://github.com/v-community/v_by_example/pull/57) array: add how to create an empty array [@donnisnoni95](https://github.com/donnisnoni95)
 - [PR #41](https://github.com/v-community/v_by_example/pull/41) examples: improve grammar, better MD structure & fix some code [@donnisnoni95](https://github.com/donnisnoni95)
 - [PR #40](https://github.com/v-community/v_by_example/pull/40) November and December plan [@vbrazo](https://github.com/vbrazo)
