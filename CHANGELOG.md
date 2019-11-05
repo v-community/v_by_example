@@ -1,5 +1,28 @@
 # Changelog
 
+## v0.7.0 (2019-11-03)
+
+- [PR #60](https://github.com/v-community/v_by_example/pull/60) Add testing examples [@vbrazo](https://github.com/vbrazo)
+
+------------------------------------------------------------------------------
+
+## v0.6.0 (2019-11-03)
+
+## Documentation
+
+- [PR #58](https://github.com/v-community/v_by_example/pull/58) add coma and remove some whitespaces [@donnisnoni95](https://github.com/donnisnoni95)
+- [PR #57](https://github.com/v-community/v_by_example/pull/57) array: add how to create an empty array [@donnisnoni95](https://github.com/donnisnoni95)
+- [PR #41](https://github.com/v-community/v_by_example/pull/41) examples: improve grammar, better MD structure & fix some code [@donnisnoni95](https://github.com/donnisnoni95)
+- [PR #40](https://github.com/v-community/v_by_example/pull/40) November and December plan [@vbrazo](https://github.com/vbrazo)
+- [PR #38](https://github.com/v-community/v_by_example/pull/38) Improve contributing [@vbrazo](https://github.com/vbrazo)
+- [PR #37](https://github.com/v-community/v_by_example/pull/37) Fix broken README links [@vbrazo](https://github.com/vbrazo)
+
+## Feature request
+
+- [PR #59](https://github.com/v-community/v_by_example/pull/59) Add JSON example [@vbrazo](https://github.com/vbrazo)
+
+------------------------------------------------------------------------------
+
 ## v0.5.0 (2019-10-24)
 
 ## Bug
@@ -17,6 +40,8 @@
 
 - [PR #26](https://github.com/v-community/v_by_example/pull/26) Follow #25 and more progress [@Delta456](https://github.com/Delta456)
 
+------------------------------------------------------------------------------
+
 ## v0.4.0 (2019-10-13)
 
 ## Chores
@@ -26,6 +51,8 @@
 ## Feature Request
 
 - [PR #20](https://github.com/v-community/v_by_example/pull/20) example: functions, arrays, structures etc [@vbrazo](https://github.com/vbrazo)
+
+------------------------------------------------------------------------------
 
 ## v0.3.0 (2019-10-12)
 
@@ -41,6 +68,8 @@
 ## Feature Request / Enhancement
 
 - [PR #19](https://github.com/v-community/v_by_example/pull/19) example: conditional statements like if, else, else if, for and while [@vbrazo](https://github.com/vbrazo)
+
+------------------------------------------------------------------------------
 
 ## v0.2.0 (2019-10-06)
 
@@ -59,6 +88,8 @@
 ## Chores
 
 - [PR #12](https://github.com/v-community/v_by_example/pull/12) ignore executable chores [@donnisnoni95](https://github.com/donnisnoni95)
+
+------------------------------------------------------------------------------
 
 ## v0.1.0 (2019-09-26)
 
