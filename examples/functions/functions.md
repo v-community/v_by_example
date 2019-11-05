@@ -62,7 +62,6 @@ fn main() {
 	name, age := student("Tom", 15)
 	println(name)
 	println(age)
-
 }
 
 fn student(name string, age int) (string, int) {
