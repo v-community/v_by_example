@@ -7,4 +7,5 @@ excluded_files:
   - "*.v"
 
 # Words to exclude
-# excluded_words:
+excluded_words:
+  - typoci
