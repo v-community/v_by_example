@@ -3,7 +3,7 @@
 ## v0.7.0 (2019-11-03)
 
 - [PR #60](https://github.com/v-community/v_by_example/pull/60) Add testing examples [@vbrazo](https://github.com/vbrazo)
-- [PR #61](https://github.com/v-community/v_by_example/pull/60) Add Typo CI [@Delta456](https://github.com/Delta456)
+- [PR #61](https://github.com/v-community/v_by_example/pull/63) Add Typo CI [@Delta456](https://github.com/Delta456)
 
 ------------------------------------------------------------------------------
 
