@@ -8,7 +8,7 @@ There's only one type of loop in V language, like Go which can be used in many w
 
 ```go
 for i := 0; i < 5; i++ {
-   println('Walking one step')
+    println('Walking one step')
 }
 ```
 
@@ -20,7 +20,7 @@ V has the `for` looping construct and the loop can be written in different ways:
 ages := [18, 25, 32, 43, 50]
 
 for age in ages {
-	println(age)
+    println(age)
 }
 ```
 
@@ -36,12 +36,12 @@ mut factorial := 1
 mut counter := 1
 
 for {
-   counter++
-   if counter > 5 {
-      println(factorial)
-      break
-   }
-   factorial = factorial * counter
+    counter++
+    if counter > 5 {
+       println(factorial)
+       break
+    }
+    factorial = factorial * counter
 }
 
 println(counter)
@@ -61,12 +61,12 @@ mut factorial := 1
 mut counter := 1
 
 for counter = 1; counter < 6; counter++ {
-   factorial = factorial * counter
-   if counter == 5 {
-      print(factorial)
-      continue
-   }
-   println(counter)
+    factorial = factorial * counter
+    if counter == 5 {
+        print(factorial)
+        continue
+    }
+    println(counter)
 }
 ```
 
@@ -76,7 +76,7 @@ for counter = 1; counter < 6; counter++ {
 
 ```go
 for {
-   println('foo')
+    println('foo')
 }
 ```
 

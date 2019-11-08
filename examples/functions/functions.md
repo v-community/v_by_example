@@ -8,11 +8,11 @@ Like C and Go, functions cannot be overloaded.
 
 ```go
 fn main() {
-	println(sum(77, 33))
+    println(sum(77, 33))
 }
 
 fn sum(x, y int) int {
-	return x + y
+    return x + y
 }
 ```
 
@@ -20,11 +20,11 @@ fn sum(x, y int) int {
 
 ```go
 fn main() {
-	println(full_name("Vitor", "Oliveira"))
+    println(full_name("Vitor", "Oliveira"))
 }
 
 fn full_name(first_name, last_name string) string {
-	return first_name + last_name
+    return first_name + last_name
 }
 ```
 

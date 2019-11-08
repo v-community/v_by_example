@@ -6,15 +6,15 @@ For people coming from OOP languages, it can be thought as class but with more r
 
 ```go
 struct User {
-   name string
-   email string
-   country string
+    name string
+    email string
+    country string
 }
 
 user := User {
-   name: "V developers"
-   email: "developers@vlang.io"
-   country: "Canada"
+    name: "V developers"
+    email: "developers@vlang.io"
+    country: "Canada"
 }
 
 println(user.country)
@@ -39,7 +39,7 @@ Struct fields are `private` and `immutable` by default. Their access modifiers c
 
 ```go
 struct User {
-   email string
+    email string
 }
 ```
 
@@ -47,22 +47,22 @@ You can define them as `private mutable`.
 
 ```go
 struct User {
-   email string
+    email string
 mut:
-   first_name string
-   last_name string
+    first_name string
+    last_name string
 ```
 
 You can also define them as `public immmutable` (readonly).
 
 ```go
 struct User {
-   email string
+    email string
 mut:
-   first_name string
-   last_name string
+    first_name string
+    last_name string
 pub:
-   sin_number int
+    sin_number int
 }
 ```
 
@@ -85,20 +85,20 @@ or `public` and `mutable` both inside and outside parent module.
 
 ```go
 struct User {
-   email string
+    email string
 mut:
-   first_name string
-   last_name string
+    first_name string
+    last_name string
 pub:
-   sin_number int
+    sin_number int
 pub mut:
-   phone int
+    phone int
 pub mut mut:
-   address_1 string
-   address_2 string
-   city string
-   country string
-   zip string
+    address_1 string
+    address_2 string
+    city string
+    country string
+    zip     string
 }
 ```
 
