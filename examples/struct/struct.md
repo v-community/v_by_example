@@ -6,15 +6,15 @@ For people coming from OOP languages, it can be thought as class but with more r
 
 ```go
 struct User {
-    name string
-    email string
-    country string
+   name string
+   email string
+   country string
 }
 
 user := User {
-    name: "V developers"
-    email: "developers@vlang.io"
-    country: "Canada"
+   name: "V developers"
+   email: "developers@vlang.io"
+   country: "Canada"
 }
 
 println(user.country)
@@ -22,7 +22,7 @@ println(user.country)
 
 > Note: Structs are allocated on the stack.
 
-### `&` prefix
+### The `&` prefix
 
 You can allocate a struct on the heap and get a reference to it by using the `&` prefix as follows:
 
@@ -39,7 +39,7 @@ Struct fields are `private` and `immutable` by default. Their access modifiers c
 
 ```go
 struct User {
-    email string
+   email string
 }
 ```
 

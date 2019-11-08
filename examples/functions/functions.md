@@ -38,7 +38,9 @@ fn main() {
 }
 
 fn foo(test ...string) {
-	println(test)
+	for txt in test {
+		println(txt)
+	}
 }
 ```
 
@@ -77,7 +79,7 @@ Tom , 15
 
 ## High Order Functions
 
-Functions in V can also take in another function which is usually needed to sort, map, fitler etc.
+Functions in V can also take in another function as a parameter which is usually needed for something like sort, map, filter, etc.
 
 ```go
 fn square(num int) int {

@@ -47,7 +47,7 @@ for {
 println(counter)
 ```
 
-Output:
+Output
 
 ```bash
 120
