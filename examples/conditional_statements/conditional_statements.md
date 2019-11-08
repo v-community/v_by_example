@@ -9,9 +9,9 @@ john_height := 100
 maria_height := 178
 
 if john_height < maria_height {
-	println('$john_height < $maria_height')
+    println('$john_height < $maria_height')
 } else {
-	println('$john_height > $maria_height')
+    println('$john_height > $maria_height')
 }
 ```
 
@@ -26,9 +26,9 @@ joey_age := 12
 kevin_age := 15
 
 if joey_age > kevin_age {
-	println("Joey is older")
+    println("Joey is older")
 } else {
-	println("Kevin is older")
+    println("Kevin is older")
 }
 ```
 
@@ -43,11 +43,11 @@ tom_age := 20
 ashia_age := 38
 
 if tom_age < ashia_age {
-	println('$tom_age < $ashia_age')
+    println('$tom_age < $ashia_age')
 } else if tom_age > ashia_age {
-	println('$tom_age > $ashia_age')
+    println('$tom_age > $ashia_age')
 } else {
-	println('$tom_age == $ashia_age')
+    println('$tom_age == $ashia_age')
 }
 ```
 
@@ -58,17 +58,16 @@ tom_age := 20
 ashia_age := 38
 
 if tom_age < ashia_age {
-  if tom_age < 18 {
-     println('tom_age < 18 and younger than Ashia.')
+    if tom_age < 18 {
+      println('tom_age < 18 and younger than Ashia.')
     } else {
-      println('tom_age >= 18 and younger than Ashia.')
-     }
-   }
-   else if tom_age > ashia_age {
-    println('$tom_age > $ashia_age')
-   } else {
-    println('$tom_age == $ashia_age')
-}
+        println('tom_age >= 18 and younger than Ashia.')
+    }
+   } else if tom_age > ashia_age {
+       println('$tom_age > $ashia_age')
+    } else {
+        println('$tom_age == $ashia_age')
+    }
 ```
 
 There are no parentheses surrounding the condition, and the braces are always required.
@@ -80,9 +79,9 @@ tom_age := 20
 ashia_age := 38
 
 s := if tom_age < ashia_age {
-	'Tom is the youngest'
+    'Tom is the youngest'
 } else {
-	'Ashia is the youngest'
+    'Ashia is the youngest'
 }
 
 print(s)
