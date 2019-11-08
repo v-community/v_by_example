@@ -38,7 +38,9 @@ fn main() {
 }
 
 fn foo(test ...string) {
-	println(test)
+	for txt in test {
+		println(txt)
+	}
 }
 ```
 
