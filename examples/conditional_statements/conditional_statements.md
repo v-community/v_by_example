@@ -58,7 +58,7 @@ Tom is younger than Asia
 
 ## Nested `if..else` statement
 
-It is always legal to nest `if...else` statements which means you can use one `if`, `else` or `else...if` statement inside another `if` or `else...if` statement.
+It is always a good practice to nest `if...else` statements which means you can use one `if`, `else` or `else...if` statement inside another `if` or `else...if` statement.
 
 ```go
 tom_age := 20
