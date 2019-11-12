@@ -42,11 +42,11 @@ tom_age := 20
 ashia_age := 38
 
 if tom_age < ashia_age {
-    println('$tom_age < $ashia_age')
+    println('Tom is younger than Asia')
 } else if tom_age > ashia_age {
-    println('$tom_age > $ashia_age')
+    println('Tom is older than Ashia')
 } else {
-    println('$tom_age == $ashia_age')
+    println('Tom and Ashia are the same age')
 }
 ```
 
