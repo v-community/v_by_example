@@ -42,12 +42,18 @@ tom_age := 20
 ashia_age := 38
 
 if tom_age < ashia_age {
-    println("Tom is younger than Asia")
+    println("Tom is younger than Ashia")
 } else if tom_age > ashia_age {
     println("Tom is older than Ashia")
 } else {
     println("Tom and Ashia are the same age")
 }
+```
+
+Output
+
+```bash
+
 ```
 
 ## Nested `if..else` statement
