@@ -57,15 +57,15 @@ ashia_age := 38
 
 if tom_age < ashia_age {
     if tom_age < 18 {
-      println('tom_age < 18 and younger than Ashia.')
+        println('tom_age < 18 and younger than Ashia.')
     } else {
         println('tom_age >= 18 and younger than Ashia.')
     }
-   } else if tom_age > ashia_age {
-       println('$tom_age > $ashia_age')
-    } else {
-        println('$tom_age == $ashia_age')
-    }
+} else if tom_age > ashia_age {
+    println('$tom_age > $ashia_age')
+} else {
+    println('$tom_age == $ashia_age')
+}
 ```
 
 There are no parentheses surrounding the condition, and the braces are always required.
