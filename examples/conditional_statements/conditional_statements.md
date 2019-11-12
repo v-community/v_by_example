@@ -13,7 +13,7 @@ if john_height < maria_height {
 }
 ```
 
-In the above code, `fn println()` will only execute when the condition is true else no statement would be printed.
+In the above code, The `println()` will only executed when the condition is true.
 
 ## The `else` statement
 
