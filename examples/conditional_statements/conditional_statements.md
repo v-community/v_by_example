@@ -79,7 +79,7 @@ tom_age >= 18 and younger than Ashia.
 
 ## Using `if..else` as expression
 
-`if` can also be used as an expression:
+The `if..else` can also be used as an expression:
 
 ```go
 tom_age := 20
