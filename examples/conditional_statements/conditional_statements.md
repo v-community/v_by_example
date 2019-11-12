@@ -17,7 +17,7 @@ In the above code, The `println()` will only executed when the condition is true
 
 ## The `else` statement
 
-An `else` statement is a programming conditional statement in which when `if` evaluates to false then the code in else block executes.
+An `else` statement is a programming conditional statement in which when `if` evaluates to false then the code in `else` block executes.
 
 ```go
 joey_age := 12
