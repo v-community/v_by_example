@@ -34,13 +34,13 @@ Functions can also be variadic i.e. accept an infinite number of arguments. They
 
 ```go
 fn main() {
-	foo("V", "is", "the", "best", "lang" , "ever")
+    foo("V", "is", "the", "best", "lang" , "ever")
 }
 
 fn foo(test ...string) {
-	for txt in test {
-		println(txt)
-	}
+    for txt in test {
+        println(txt)
+    }
 }
 ```
 
@@ -61,13 +61,13 @@ Similar to Go, functions in V can also return multiple and with a different type
 
 ```go
 fn main() {
-	name, age := student("Tom", 15)
-	println(name)
-	println(age)
+    name, age := student("Tom", 15)
+    println(name)
+    println(age)
 }
 
 fn student(name string, age int) (string, int) {
-	return name, age
+    return name, age
 }
 ```
 
@@ -83,15 +83,15 @@ Functions in V can also take in another function as a parameter which is usually
 
 ```go
 fn square(num int) int {
-	return num * num
+    return num * num
 }
 
 fn run(value int, op fn(int) int) int {
-	return op(value)
+    return op(value)
 }
 
 fn main() {
-	println(run(10, square))
+    println(run(10, square))
 }
 ```
 
