@@ -9,9 +9,7 @@ john_height := 100
 maria_height := 178
 
 if john_height < maria_height {
-    println('$john_height < $maria_height')
-} else {
-    println('$john_height > $maria_height')
+    println('$john_height is larger than $maria_height')
 }
 ```
 
