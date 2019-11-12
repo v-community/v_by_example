@@ -9,7 +9,7 @@ john_height := 100
 maria_height := 178
 
 if john_height < maria_height {
-    println('Maria is taller than John')
+    println("Maria is taller than John")
 }
 ```
 
@@ -42,11 +42,11 @@ tom_age := 20
 ashia_age := 38
 
 if tom_age < ashia_age {
-    println('Tom is younger than Asia')
+    println("Tom is younger than Asia")
 } else if tom_age > ashia_age {
-    println('Tom is older than Ashia')
+    println("Tom is older than Ashia")
 } else {
-    println('Tom and Ashia are the same age')
+    println("Tom and Ashia are the same age")
 }
 ```
 
@@ -60,14 +60,14 @@ ashia_age := 38
 
 if tom_age < ashia_age {
     if tom_age < 18 {
-        println('tom_age < 18 and younger than Ashia.')
+        println("tom_age < 18 and younger than Ashia.")
     } else {
-        println('tom_age >= 18 and younger than Ashia.')
+        println("tom_age >= 18 and younger than Ashia.")
     }
 } else if tom_age > ashia_age {
-    println('$tom_age > $ashia_age')
+    println("$tom_age > $ashia_age")
 } else {
-    println('$tom_age == $ashia_age')
+    println("$tom_age == $ashia_age")
 }
 ```
 
@@ -86,9 +86,9 @@ tom_age := 20
 ashia_age := 38
 
 s := if tom_age < ashia_age {
-    'Tom is the youngest'
+    "Tom is the youngest"
 } else {
-    'Ashia is the youngest'
+    "Ashia is the youngest"
 }
 
 print(s)
