@@ -49,7 +49,9 @@ if tom_age < ashia_age {
 }
 ```
 
-It's possible to include an `if...else` statement inside the body of another `if...else` statement.
+## Nested `if..else` statement
+
+It is always legal to nest if-else statements which means you can use one `if`, `else` or `else if` statement inside another if or else if statement.
 
 ```go
 tom_age := 20
