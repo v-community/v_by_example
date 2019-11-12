@@ -68,6 +68,12 @@ if tom_age < ashia_age {
 }
 ```
 
+Output
+
+```bash
+tom_age >= 18 and younger than Ashia.
+```
+
 There are no parentheses surrounding the condition, and the braces are always required.
 
 `if` can also be used as an expression:
