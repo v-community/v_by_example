@@ -51,6 +51,7 @@ struct User {
 mut:
     first_name string
     last_name string
+}
 ```
 
 You can also define them as `public immmutable` (readonly).
