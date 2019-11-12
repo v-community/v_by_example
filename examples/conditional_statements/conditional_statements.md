@@ -14,6 +14,7 @@ if john_height < maria_height {
 ```
 
 In the above code, The `println()` will only executed when the condition is true.
+There are no parentheses needed for surrounding the condition, and the braces are always required.
 
 ## The `else` statement
 
@@ -75,8 +76,6 @@ Output
 ```bash
 tom_age >= 18 and younger than Ashia.
 ```
-
-There are no parentheses surrounding the condition, and the braces are always required.
 
 `if` can also be used as an expression:
 
