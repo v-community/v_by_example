@@ -1,6 +1,6 @@
 # Conditional Statements
 
-## `if` statement
+## The `if` statement
 
 An `if` statement is a programming conditional statement that, if proved true, executes the code given in the block. Below is a general example of an if statement in V:
 
@@ -15,7 +15,7 @@ if john_height < maria_height {
 
 In the above code, `fn println()` will only execute when the condition is true else no statement would be printed.
 
-## `else` statement
+## The `else` statement
 
 An `else` statement is a programming conditional statement in which when `if` evaluates to false then the code in else block executes.
 
@@ -32,7 +32,7 @@ if joey_age > kevin_age {
 
 In this example, the block in else will execute because the condition in `if` evaluates to false.
 
-## `else if` statement
+## The `else if` statement
 
 The `if...else` statement executes two different codes depending upon whether the test expression is `true` or `false`. Sometimes, a choice has to be made from more than 2 possibilities. The `if...else if...else` ladder allows you to check between multiple test expressions and execute different statements.
 
