@@ -53,7 +53,7 @@ if tom_age < ashia_age {
 Output
 
 ```bash
-
+Tom is younger than Asia
 ```
 
 ## Nested `if..else` statement
