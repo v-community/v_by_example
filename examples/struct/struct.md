@@ -22,7 +22,13 @@ println(user.country)
 
 > Note: Structs are allocated on the stack.
 
-### The `&` prefix
+You can use a comma to separate each field when creating a new instance of the struct. It's useful when you want to create a new instance on a single line.
+
+```go
+user := User { name: "V developers", email: "developers@vlang.io", country: "Canada" }
+```
+
+## The `&` prefix
 
 You can allocate a struct on the heap and get a reference to it by using the `&` prefix as follows:
 
