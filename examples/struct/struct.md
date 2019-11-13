@@ -112,4 +112,4 @@ pub mut mut:
 ## Exercises
 
 1. Create a struct that stores and displays user information.
-2. Create a struct that stores the pointer (x, y) with private and public fields.
+2. Create a `Point` struct that holds `x` and `y` field and guard them with private and public.
