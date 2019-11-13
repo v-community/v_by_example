@@ -11,13 +11,13 @@ import (
 )
 
 fn main() {
-    file_content, error_message := ioutil.ReadFile("./ecommerce-data.txt")
+	file_content, error_message := ioutil.ReadFile("./ecommerce-data.txt")
 
-    if error_message != nil {
-        eprintln(error_message)
-    }
+	if error_message != nil {
+		eprintln(error_message)
+	}
 
-    println(string(file_content))
+	println(string(file_content))
 }
 ```
 
@@ -35,15 +35,15 @@ fn main() {
 	content := "random string in V"
 	error_message := ioutil.WriteFile("/tmp/writing_a_file", content, 0644)
 
-    if error_message != nil {
-        eprintln(error_message)
-    }
+	if error_message != nil {
+		eprintln(error_message)
+	}
 
 	file, error_message := os.Create("/tmp/writing_a_file_2")
 
-    if error_message != nil {
-        eprintln(error_message)
-    }
+	if error_message != nil {
+		eprintln(error_message)
+	}
 
 	defer file.Close()
 }
