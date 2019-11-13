@@ -7,8 +7,8 @@ Reading a file is an important task to tackle several different problems in comp
 ```go
 fn main() {
     mut fp := flag.new_flag_parser(os.args)
-    generator := fp.string('generator', '', 'faker generator name')
-    method := fp.string('method', '', 'faker generator method name')
+    generator := fp.string('generator', '', 'generator name')
+    method := fp.string('method', '', 'generator method name')
     path := './data/$generator/$method'
 
     if os.file_exists(path) {
