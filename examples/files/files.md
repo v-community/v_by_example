@@ -11,7 +11,7 @@ import (
 )
 
 fn main() {
-	file_content, error_message := ioutil.ReadFile("./ecommerce-data.txt")
+	file_content, error_message := ioutil.ReadFile("./commerce-data.txt")
 
 	if error_message != nil {
 		eprintln(error_message)
