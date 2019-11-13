@@ -2,7 +2,7 @@
 
 A struct is a composite data type (or record) declaration that defines a physically grouped list of variables under one name in a block of memory, allowing different variables to be accessed via a single pointer or by the struct declared name which returns the same address.
 
-For people coming from OOP languages, it can be thought as class but with more restrictions.
+For people coming from [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) languages, it can be thought as `class` but with more restrictions.
 
 ```go
 struct User {
@@ -22,7 +22,13 @@ println(user.country)
 
 > Note: Structs are allocated on the stack.
 
-### The `&` prefix
+You can use a comma to separate each field when creating a new instance of the struct. It's useful when you want to create a new instance on a single line.
+
+```go
+user := User { name: "V developers", email: "developers@vlang.io", country: "Canada" }
+```
+
+## The `&` prefix
 
 You can allocate a struct on the heap and get a reference to it by using the `&` prefix as follows:
 
@@ -106,4 +112,4 @@ pub mut mut:
 ## Exercises
 
 1. Create a struct that stores and displays user information.
-2. Create a struct that stores the pointer (x, y) with private and public fields.
+2. Create a `Point` struct that holds `x` and `y` field and guard them with private and public.
