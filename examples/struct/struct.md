@@ -2,7 +2,7 @@
 
 A struct is a composite data type (or record) declaration that defines a physically grouped list of variables under one name in a block of memory, allowing different variables to be accessed via a single pointer or by the struct declared name which returns the same address.
 
-For people coming from OOP languages, it can be thought as class but with more restrictions.
+For people coming from OOP languages, it can be thought as `class` but with more restrictions.
 
 ```go
 struct User {
