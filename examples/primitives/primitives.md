@@ -1,8 +1,8 @@
-## Primitives
+# Primitives
 
 V has less number of primitive types like Go.
 
-### Basic Types
+## Basic Types
 
 - bool either `true` or `false`
 

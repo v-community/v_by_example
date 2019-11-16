@@ -1,4 +1,4 @@
-## Keywords
+# Keywords
 
 V is a very small language so it has few keywords. There are around 25 keywords.
 
