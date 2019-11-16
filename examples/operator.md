@@ -58,7 +58,7 @@ hello world
 
 > Note: Unlike other languages, V doesn't allow modulus with float.
 
-## Comparsion Operators
+## Comparison Operators
 
 - `>` greater than
 
