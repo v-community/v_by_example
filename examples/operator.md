@@ -1,8 +1,8 @@
-## Operators
+# Operators
 
 V supports the following operators:
 
-### Basic Operators
+## Basic Operators
 
 - `+` (addition) for int, float and string
 
@@ -58,7 +58,7 @@ hello world
 
 > Note: Unlike other languages, V doesn't allow modulus with float.
 
-### Comparsion Operators
+## Comparison Operators
 
 - `>` greater than
 
@@ -72,7 +72,7 @@ hello world
 
 - `!=` not equal to
 
-### Boolean Operators
+## Boolean Operators
 
 - `&&` and
 
@@ -80,7 +80,7 @@ hello world
 
 - `!` not
 
-### Bitwise Operators
+## Bitwise Operators
 
 - `>>` left bitshift
 
@@ -92,7 +92,7 @@ hello world
 
 - `^` bitwise xor
 
-### Assignments Operators
+## Assignments Operators
 
 - `+=` same as `foo = foo + var`
 
@@ -110,7 +110,7 @@ hello world
 
 - `<<=` same as `foo = foo << var`
 
-### Special Operators
+## Special Operators
 
 - `in` for membership
 

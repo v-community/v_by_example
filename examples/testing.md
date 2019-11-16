@@ -1,4 +1,4 @@
-## Testing
+# Testing
 
 Testing in software development is a process that aims to evaluate the functionality of an application with an intent to find whether the code met the specified requirements or not as well as identifying the problems to ensure that the product has expected quality.
 
@@ -26,7 +26,7 @@ fn test_sum() {
 
 To execute the test, you should run `v test_sum.v`.
 
-## Examples
+### Examples
 
 1. Testing JSON structures:
 
