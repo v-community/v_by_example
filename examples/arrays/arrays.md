@@ -4,25 +4,47 @@ An array is a collection of items stored in contiguous memory locations. It's an
 
 ## How to declare an array
 
+**Create an array that holds integer values:**
+
 ```go
 mut ages := [18, 25, 37]
 
 println(ages)
->>> [18, 25, 37]
+```
 
-println(ages[1])
->>> 25
+Output
 
+```
+[18, 25, 37]
+```
+
+**Or create an array that holds string values:**
+
+```go
 mut users := ['vbrazo', 'donnisnoni95', 'Delta456']
 
 println(users)
->> ['vbrazo', 'donnisnoni95', 'Delta456']
-
-println(github_users[0])
->> vbrazo
 ```
 
-### Create an empty array
+Output
+
+```
+['vbrazo', 'donnisnoni95', 'Delta456']
+```
+
+> Note: All elements must have the same type. The following code will not compile.
+
+```go
+mut users := ['vbrazo', 'donnisnoni95', 'Delta456', 0]
+```
+
+Output
+
+```
+~/main.v:2:43: bad array element type `int` instead of `string`
+```
+
+## Create an empty array
 
 If you want to create a new empty array, just declare `[]` followed by the data type.
 
@@ -31,43 +53,73 @@ mut names := []string
 mut numbers := []int
 ```
 
-> Note: All elements must have the same type. `['vbrazo', 'donnisnoni95', 'Delta456', 0]` will not compile.
+## Accessing element of the array
 
-```bash
->>> mut users := ['vbrazo', 'donnisnoni95', 'Delta456', 0]
-/user/vlang/v_by_example/.vrepl_temp.v:2:43: bad array element type `int` instead of `string`
+```go
+mut users := ['vbrazo', 'donnisnoni95', 'Delta456']
+
+println(users[0])
+println(users[2])
+println(users[1])
 ```
 
-### Append a value to an array
+Output
 
-`<<` is an operator that appends a value to the end of the array. It can also append an entire array.
+```
+vbrazo
+Delta456
+donnisnoni95
+```
+
+## Append a value to an array
+
+`<<` is an operator that appends a value to the end of the array.
 
 ```go
 mut ages := [18]
 ages << 47
 
 println(ages)
->> [18, 47]
+```
 
+Output
+
+```
+[18, 47]
+```
+
+It can also append an entire array.
+
+```go
 mut ages := [18]
 ages << [47, 49]
 
 println(ages)
->> [18, 47, 49]
 ```
 
-### Length/size of an array
+Output
+
+```
+[18, 47, 49]
+```
+
+## Length/size of an array
 
 `.len` method returns the length of the array.
 
 ```go
-mut names := ['Thiago']
+mut names := ['Thiago', 'John']
 
 println(names.len)
->> 1
 ```
 
-### In operator
+Output
+
+```
+2
+```
+
+## In operator
 
 `in` check if an element is inside an array.
 
@@ -75,10 +127,14 @@ println(names.len)
 mut names := ['Thiago', 'Alex', 'Joe']
 
 println('Vitor' in names)
->> false
-
 println('Thiago' in names)
->> true
+```
+
+Output
+
+```
+false
+true
 ```
 
 ## Exercises
