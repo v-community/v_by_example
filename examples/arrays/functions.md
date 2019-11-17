@@ -48,15 +48,15 @@ Output
 Syntax
 
 ```go
-array.delete(element T)
+array.delete(ix int)
 ```
 
-Deletes the element present in the array.
+Deletes the element present in the array at index ix.
 
 ```go
-even_numbers = [2, 4, 6, 8, 10]
-even_numbers.delete(8)
-println(even_number)
+mut even_numbers = [2, 4, 6, 8, 10]
+even_numbers.delete(3)
+println(even_numbers)
 ```
 
 Output
