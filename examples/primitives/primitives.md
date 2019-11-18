@@ -1,6 +1,6 @@
 # Primitives
 
-V has less number of primitive types like Go.
+V has less primitive types than Go.
 
 ## Basic Types
 
