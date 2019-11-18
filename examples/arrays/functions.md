@@ -51,7 +51,7 @@ Syntax
 array.delete(ix int)
 ```
 
-Deletes the element present in the array at index ix.
+Deletes the element present in the array at index `ix`.
 
 ```go
 mut even_numbers = [2, 4, 6, 8, 10]
