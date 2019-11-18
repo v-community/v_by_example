@@ -32,7 +32,7 @@ Integer is sub-classified into `signed` and `unsigned`. `signed` means positive 
 | ------ | :------: | --------------------------------------: |
 | int8   |  8 bits  |                -128 to 2<sup>7</sup> -1 |
 | int16  | 16 bits  |   -2<sup>15</sup> to 2<sup>15</sup> - 1 |
-| int32  | 32 bits  |   -2<sup>31</sup> to 2<sup>31</sup> - 1 |
+| int    | 32 bits  |   -2<sup>31</sup> to 2<sup>31</sup> - 1 |
 | int64  | 64 bits  |   -2<sup>63</sup> to 2<sup>63</sup> - 1 |
 | int128 | 128 bits | -2<sup>127</sup> to 2<sup>127</sup> - 1 |
 
@@ -40,7 +40,7 @@ Integer is sub-classified into `signed` and `unsigned`. `signed` means positive 
 
 | Type |   Size   |                    Range |
 | ---- | :------: | -----------------------: |
-| u8   |  8 bits  |    0 to 2<sup>7</sup> -1 |
+| byte |  8 bits  |    0 to 2<sup>7</sup> -1 |
 | u16  | 16 bits  |  0 to 2<sup>15</sup> - 1 |
 | u32  | 32 bits  |  0 to 2<sup>31</sup> - 1 |
 | u64  | 64 bits  |  0 to 2<sup>63</sup> - 1 |
