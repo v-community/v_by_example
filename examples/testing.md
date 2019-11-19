@@ -11,16 +11,21 @@ Automated tests follow the process of testing the software using an automation t
 In V, all test files have to be named with the following format: `*_test.v` and the functions should start with `test_*`.
 
 ```go
-// sum.v
-fn sum(a, b int) int {
+// sum.v in subfolder sum
+module sum
+
+pub fn sum(a, b int) int {
     return a + b
 }
 ```
 
 ```go
-// test_sum.v
+// sum_test.v
+import sum
+
 fn test_sum() {
-    assert sum(2, 3) == 5
+    assert sum.sum(2, 3) == 5
+     // assert sum.sum(2, 3) == 777 // => sum_test.v:6: FAILED assertion
 }
 ```
 
