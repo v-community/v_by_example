@@ -54,6 +54,27 @@ Output
 6
 ```
 
+A for loop with a break statement can always be made shorter by placing the inverse condition right after for, making it equivalent with the while statement in other languages.
+
+```go
+mut factorial := 1
+mut counter := 1
+
+for counter <= 5 {
+    factorial = factorial * counter
+    counter++
+}
+println(factorial)   
+println(counter)     
+```
+
+Output
+
+```bash
+120
+6
+```
+
 3. Traditional C style
 
 ```go
