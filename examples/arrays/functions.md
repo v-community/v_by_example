@@ -21,28 +21,6 @@ Output
 [1, 2, 1, 2, 1, 2, 1, 2, 1, 2]
 ```
 
-## `insert`
-
-Syntax
-
-```go
-array.insert(num int, data T)
-```
-
-Inserts the data at a given position and shifts the elements in the array.
-
-```go
-mut names := ['Samuel', 'John', 'Peter']
-names.insert(2, 'Tom')
-println(names)
-```
-
-Output
-
-```go
-['Samuel', 'John', 'Tom', 'Peter']
-```
-
 ## `delete`
 
 Syntax
