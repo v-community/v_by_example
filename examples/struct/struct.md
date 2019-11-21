@@ -11,13 +11,15 @@ struct User {
     country string
 }
 
-user := User {
-    name: "V developers"
-    email: "developers@vlang.io"
-    country: "Canada"
-}
+fn main() {
+	user := User {
+			name: "V developers"
+			email: "developers@vlang.io"
+			country: "Canada"
+	}
 
-println(user.country)
+	println(user.country)
+}
 ```
 
 > Note: Structs are allocated on the stack.
