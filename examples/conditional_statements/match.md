@@ -28,7 +28,7 @@ s := match num {
 }
 ```
 
-#### Enums
+### Enums
 
 One can also match on `enum` values (variants) as branches by using the `.variant_here` syntax:
 
@@ -67,3 +67,13 @@ fn is_land_creature_alt(a Animal) bool {
     }
 }
 ```
+
+### Exercises
+
+1. Write a V program that creates an array of all even numbers from 1 to 50.
+2. Write a V program that, given an array of numbers, returns the maximum value.
+3. Write a V program that, given a number as input returns the number and prints:
+    - `"moo'`if the input is dividable by 2, except its also dividable by 4
+    - `'floor'` if the number is dividable by 4
+    - the number otherwise
+4. Write a V program that determines whether color (enum) is red or blue
