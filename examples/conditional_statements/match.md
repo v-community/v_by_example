@@ -65,6 +65,15 @@ fn is_land_creature_alt(a Animal) bool {
         }
     }
 }
+
+fn main() {
+    my_cat := Animal.cat
+    my_goldfish := Animal.goldfish
+
+    println(makes_miau(my_cat)) // true
+    println(is_land_creature(my_cat)) // true
+    println(is_land_creature(my_goldfish)) // false
+}
 ```
 
 ### Exercises
