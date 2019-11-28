@@ -27,6 +27,35 @@ s := match num {
 }
 ```
 
+Examples:
+
+```go
+fn even(num int) bool {
+    match num % 2 == 0  {
+        true { print('The input number is even.') }
+        else { print('The input number is odd.') }
+    }
+}
+
+fn num_to_str(num int) int {
+    match num {
+        1 { 'one' }
+        2 { 'two' }
+        else {
+            'many'
+        }
+    }
+}
+
+fn main() {
+    println(even(14))           // 'The input number is even.'
+    println(even(3))            // 'The input number is odd.'
+    println(num_to_str(1))      // 'one'
+    println(num_to_str(2))      // 'two'
+    println(num_to_str(352))    // 'many'
+}
+```
+
 ### Enums
 
 One can also match on `enum` values (variants) as branches by using the `.variant_here` syntax:
