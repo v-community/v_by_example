@@ -9,8 +9,20 @@ fn main() {
 	println('The color $green_col is red or blue: ' + is_red_or_blue(green_col).str())
 	println('The color $red_col is red or blue: ' + is_red_or_blue(red_col).str())
 	println('The color $grey_col is red or blue: ' + is_red_or_blue(grey_col).str())
+
+	println(num_str(2)) // 'two'
+	println(num_str(5)) // 'many'
 }
 
+fn num_str(num int) string {
+	return match num {
+    	1 { 'one' }
+    	2 { 'two' }
+   		else {
+        	'many'
+    	}
+	}
+}
 
 fn create_even_numbers_to_fifty() []int {
 	mut numbers := []int
@@ -30,7 +42,7 @@ fn max_val(numbers []int) int {
 	for num in numbers {
 		match num > maximum {
 			true { 
-					println('current number: ' + num.str())
+					//println('current number: ' + num.str())
 					maximum = num
 				}
 			else { continue }
