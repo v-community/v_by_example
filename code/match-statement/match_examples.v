@@ -58,21 +58,4 @@ fn is_red_or_blue(c Color) bool {
 	}
 }
 
-// fn moo_floor(x int) int {
-// 	input := x
-// 	return match x % 2 { 
-// 		0 {
-// 			match x % 4 {
-// 				1 {
-// 					x
-// 				}
-// 				else { 
-// 					print('moo')
-// 					x 
-// 				}
-// 			}
-// 		}
-// 		else { x }
-// 	}
-// }
 
