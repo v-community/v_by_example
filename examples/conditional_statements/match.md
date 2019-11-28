@@ -22,7 +22,6 @@ s := match num {
     1 { 'one' }
     2 { 'two' }
     else {
-        println('the input was not matched before')
         'many'
     }
 }
@@ -33,7 +32,7 @@ s := match num {
 One can also match on `enum` values (variants) as branches by using the `.variant_here` syntax:
 
 ```go
-enum Animals {
+enum Animal {
     cat
     dog
     goldfish
