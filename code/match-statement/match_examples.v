@@ -44,7 +44,7 @@ fn max_val(numbers []int) int {
 			true { 
 					//println('current number: ' + num.str())
 					maximum = num
-				}
+			}
 			else { continue }
 		}
 	}
