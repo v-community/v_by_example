@@ -1,5 +1,19 @@
 # Changelog
 
+- [PR #66](https://github.com/v-community/v_by_example/pull/66) Update .typo-ci.yml [@donnisnoni95](https://github.com/donnisnoni95)
+
+## Enhancement
+
+- [PR #63](https://github.com/v-community/v_by_example/pull/63) Add Typo CI [@Delta456](https://github.com/Delta456)
+- [PR #62](https://github.com/v-community/v_by_example/pull/62) remove unused newline [@Delta456](https://github.com/Delta456)
+
+## Documentation
+
+- [PR #69](https://github.com/v-community/v_by_example/pull/69) using 4 spaces for indentation & format table [@donnisnoni95](https://github.com/donnisnoni95)
+- [PR #68](https://github.com/v-community/v_by_example/pull/68) update variadic function, fix typo & improve grammar [@donnisnoni95](https://github.com/donnisnoni95)
+- [PR #67](https://github.com/v-community/v_by_example/pull/67) update note section [@donnisnoni95](https://github.com/donnisnoni95)
+- [PR #60](https://github.com/v-community/v_by_example/pull/60) fix grammar, formating some code & fix example for loop example [@donnisnoni95](https://github.com/donnisnoni95)
+
 ## v0.7.0 (2019-11-03)
 
 - [PR #60](https://github.com/v-community/v_by_example/pull/60) Add testing examples [@vbrazo](https://github.com/vbrazo)
