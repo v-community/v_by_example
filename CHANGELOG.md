@@ -1,5 +1,7 @@
 # Changelog
 
+## Unreleased
+
 - [PR #66](https://github.com/v-community/v_by_example/pull/66) Update .typo-ci.yml [@donnisnoni95](https://github.com/donnisnoni95)
 
 ## Enhancement
