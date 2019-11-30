@@ -1,5 +1,7 @@
 ## November and December plan
 
+- example: json
+- example: testing
 - example: reading and writing files
 - example: mutable and immutable
 - example: operators (complete it)
@@ -11,3 +13,4 @@
 - example: css
 - example: xpath (as companion for the xml)
 - research: keep doing research on front-end templates
+- website: migrate examples to GitBook
