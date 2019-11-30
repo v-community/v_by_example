@@ -8,7 +8,6 @@
 - example: pointers
 - example: methods
 - example: generics
-- example: strings
 - example: xml
 - example: lsp
 - example: css
