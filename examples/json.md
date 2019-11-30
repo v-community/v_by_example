@@ -8,7 +8,7 @@ To read more about JSON visit: [json.org](http://json.org).
 
 To parse a JSON string received by another application or generated within your existing application:
 
-```go
+```v
 import json
 
 struct Customer {
@@ -35,7 +35,7 @@ fn main() {
 
 Creating a JSON string for communication or serialization is just as simple. We decode and encode in the example below:
 
-```go
+```v
 import json
 
 struct Customer {

@@ -6,7 +6,7 @@ A match statement is a short-hand way for `if - else`.
 If the input is matched the statement block of the first matching branch will be executed and its last expression will be returned.
 The `else` branch will be executed when there is no other matching branch.
 
-```go
+```v
 num := 1
 match num % 2 == 0  {
     true { print('The input number is even.') }
@@ -16,7 +16,7 @@ match num % 2 == 0  {
 
 One can also initialize variables using `match` to have different values according to a condition.
 
-```go
+```v
 num := 3
 s := match num {
     1 { 'one' }
@@ -29,7 +29,7 @@ s := match num {
 
 Examples:
 
-```go
+```v
 fn even(num int) bool {
     match num % 2 == 0  {
         true { print('The input number is even.') }
@@ -60,7 +60,7 @@ fn main() {
 
 One can also match on `enum` values (variants) as branches by using the `.variant_here` syntax:
 
-```go
+```v
 enum Animal {
     cat
     dog
