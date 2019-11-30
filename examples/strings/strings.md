@@ -1,6 +1,6 @@
 # Strings
  
-In V one can define strings using the `:=` operator. Strings (like other variables) are immutable by default. One is free to use `""` or `''` to denote a string. When using `vfmt` all double qouted strings will be converted to sinqle quoted ones unless it contains a single quote character.
+In V one can define strings using the `:=` operator. Strings (like other variables) are immutable by default. One is free to use `""` or `''` to denote a string. When using `vfmt` all double quoted strings will be converted to single quoted ones unless it contains a single quote character.
 
 ```go
 name := 'Bob'
