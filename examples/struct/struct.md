@@ -2,31 +2,39 @@
 
 A struct is a composite data type (or record) declaration that defines a physically grouped list of variables under one name in a block of memory, allowing different variables to be accessed via a single pointer or by the struct declared name which returns the same address.
 
-For people coming from OOP languages, it can be thought as class but with more restrictions.
+For people coming from [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) languages, it can be thought as `class` but with more restrictions.
 
-```go
+```v
 struct User {
     name string
     email string
     country string
 }
 
-user := User {
-    name: "V developers"
-    email: "developers@vlang.io"
-    country: "Canada"
-}
+fn main() {
+    user := User {
+        name: "V developers"
+        email: "developers@vlang.io"
+        country: "Canada"
+    }
 
-println(user.country)
+    println(user.country)
+}
 ```
 
 > Note: Structs are allocated on the stack.
 
-### `&` prefix
+You can use a comma to separate each field when creating a new instance of the struct. It's useful when you want to create a new instance on a single line.
+
+```v
+user := User { name: "V developers", email: "developers@vlang.io", country: "Canada" }
+```
+
+## The `&` prefix
 
 You can allocate a struct on the heap and get a reference to it by using the `&` prefix as follows:
 
-```go
+```v
 user := &User{"V developers", "developers@vlang.io", "Canada"}
 println(user.name)
 ```
@@ -37,7 +45,7 @@ The type of `user` is `&User`. It's a reference to `User`.
 
 Struct fields are `private` and `immutable` by default. Their access modifiers can be changed with `pub` and `mut`.
 
-```go
+```v
 struct User {
     email string
 }
@@ -45,30 +53,31 @@ struct User {
 
 You can define them as `private mutable`.
 
-```go
+```v
 struct User {
-   email string
+    email string
 mut:
-   first_name string
-   last_name string
+    first_name string
+    last_name string
+}
 ```
 
 You can also define them as `public immmutable` (readonly).
 
-```go
+```v
 struct User {
-   email string
+    email string
 mut:
-   first_name string
-   last_name string
+    first_name string
+    last_name string
 pub:
-   sin_number int
+    sin_number int
 }
 ```
 
 or as `public`, but `mutable` only in the parent module.
 
-```go
+```v
 struct User {
    email string
 mut:
@@ -83,26 +92,26 @@ pub mut:
 
 or `public` and `mutable` both inside and outside parent module.
 
-```go
+```v
 struct User {
-   email string
+    email string
 mut:
-   first_name string
-   last_name string
+    first_name string
+    last_name string
 pub:
-   sin_number int
+    sin_number int
 pub mut:
-   phone int
+    phone int
 pub mut mut:
-   address_1 string
-   address_2 string
-   city string
-   country string
-   zip string
+    address_1 string
+    address_2 string
+    city string
+    country string
+    zip     string
 }
 ```
 
 ## Exercises
 
 1. Create a struct that stores and displays user information.
-2. Create a struct that stores the pointer (x, y) with private and public fields.
+2. Create a `Point` struct that holds `x` and `y` field and guard them with private and public.

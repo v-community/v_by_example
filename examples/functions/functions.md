@@ -6,40 +6,36 @@ Ideally, you should consider using the [single responsibility principle](https:/
 
 Like C and Go, functions cannot be overloaded.
 
-```go
-fn main() {
-	println(sum(77, 33))
+```v
+fn sum(x, y int) int {
+    return x + y
 }
 
-fn sum(x, y int) int {
-	return x + y
-}
+println(sum(77, 33))
 ```
 
 > Note: The type comes after the argument's name.
 
-```go
-fn main() {
-	println(full_name("Vitor", "Oliveira"))
+```v
+fn full_name(first_name, last_name string) string {
+    return first_name + ' ' + last_name
 }
 
-fn full_name(first_name, last_name string) string {
-	return first_name + last_name
-}
+println(full_name("Vitor", "Oliveira"))
 ```
 
 ## Variadic Functions
 
 Functions can also be variadic i.e. accept an infinite number of arguments. They are not arrays and cannot be returned.
 
-```go
-fn main() {
-	foo("V", "is", "the", "best", "lang" , "ever")
+```v
+fn foo(test ...string) {
+    for txt in test {
+        println(txt)
+    }
 }
 
-fn foo(test ...string) {
-	println(test)
-}
+foo("V", "is", "the", "best", "lang" , "ever")
 ```
 
 Output
@@ -57,40 +53,36 @@ ever
 
 Similar to Go, functions in V can also return multiple and with a different type.
 
-```go
-fn main() {
-	name, age := student("Tom", 15)
-	println(name)
-	println(age)
+```v
+fn student(name string, age int) (string, int) {
+    return name, age
 }
 
-fn student(name string, age int) (string, int) {
-	return name, age
-}
+name1, age1 := student("Tom", 15)
+println(name1)
+println(age1)
 ```
 
 Output
 
 ```bash
-Tom , 15
+Tom, 15
 ```
 
 ## High Order Functions
 
-Functions in V can also take in another function which is usually needed to sort, map, fitler etc.
+Functions in V can also take in another function as a parameter which is usually needed for something like sort, map, filter, etc.
 
-```go
+```v
 fn square(num int) int {
-	return num * num
+    return num * num
 }
 
 fn run(value int, op fn(int) int) int {
-	return op(value)
+    return op(value)
 }
 
-fn main() {
-	println(run(10, square))
-}
+println(run(10, square))
 ```
 
 Output

@@ -4,64 +4,42 @@
 
 Syntax
 
-```go
+```v
 array.repeat(number int)
 ```
 
 Makes an array with the given element number of times.
 
-```go
+```v
 foo := [1, 2].repeat(5)
 println(foo)
 ```
 
 Output
 
-```go
+```v
 [1, 2, 1, 2, 1, 2, 1, 2, 1, 2]
-```
-
-## `insert`
-
-Syntax
-
-```go
-array.insert(num int, data T)
-```
-
-Inserts the data at a given position and shifts the elements in the array.
-
-```go
-mut names := ['Samuel', 'John', 'Peter']
-names.insert(2, 'Tom')
-println(names)
-```
-
-Output
-
-```go
-['Samuel', 'John', 'Tom', 'Peter']
 ```
 
 ## `delete`
 
 Syntax
 
-```go
-array.delete(element T)
+```v
+array.delete(ix int)
 ```
 
-Deletes the element present in the array.
+Deletes the element present in the array at index `ix`.
 
-```go
-even_numbers = [2, 4, 6, 8, 10]
-even_numbers.delete(8)
-println(even_number)
+```v
+mut even_numbers = [2, 4, 6, 8, 10]
+even_numbers.delete(3)
+println(even_numbers)
 ```
 
 Output
 
-```go
+```v
 [2, 4, 6, 10]
 ```
 
@@ -69,20 +47,20 @@ Output
 
 Syntax
 
-```go
+```v
 array.reverse()
 ```
 
 Reverses the array.
 
-```go
+```v
 float_num := [1.1, 1.3, 1.25, 1.4]
 float_num.reverse()
 ```
 
 Output
 
-```go
+```v
 [1.4, 1.25, 1.3, 1.1]
 ```
 
@@ -90,13 +68,13 @@ Output
 
 Syntax
 
-```go
+```v
 array.clone()
 ```
 
 Clones and returns a new array.
 
-```go
+```v
 foo := [1, 2, 4, 5, 4, 6]
 foo1 := foo.clone()
 println(foo1)
@@ -104,6 +82,6 @@ println(foo1)
 
 Output
 
-```go
+```v
 [1, 2, 4, 5, 4, 6]
 ```

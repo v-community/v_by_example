@@ -1,4 +1,4 @@
-## Testing
+# Testing
 
 Testing in software development is a process that aims to evaluate the functionality of an application with an intent to find whether the code met the specified requirements or not as well as identifying the problems to ensure that the product has expected quality.
 
@@ -10,27 +10,32 @@ Automated tests follow the process of testing the software using an automation t
 
 In V, all test files have to be named with the following format: `*_test.v` and the functions should start with `test_*`.
 
-```go
-// sum.v
-fn sum(a, b int) int {
+```v
+// sum.v in subfolder sum
+module sum
+
+pub fn sum(a, b int) int {
     return a + b
 }
 ```
 
-```go
-// test_sum.v
+```v
+// sum_test.v
+import sum
+
 fn test_sum() {
-    assert sum(2, 3) == 5
+    assert sum.sum(2, 3) == 5
+     // assert sum.sum(2, 3) == 777 // => sum_test.v:6: FAILED assertion
 }
 ```
 
 To execute the test, you should run `v test_sum.v`.
 
-## Examples
+### Examples
 
 1. Testing JSON structures:
 
-```go
+```v
 import json
 
 fn test_encode_customer(){
@@ -44,7 +49,7 @@ fn test_encode_customer(){
 
 2. Testing files:
 
-```go
+```v
 import os
 
 fn test_file_creation() {

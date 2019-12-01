@@ -1,4 +1,4 @@
-## JSON
+# JSON
 
 JavaScript Object Notation (JSON) is a lightweight data-interchange format that is easy for humans to read and write. Furthermore, equally simple for machines to generate and/or parse. JSON is completely language agnostic and that's why it's the ideal interchange format.
 
@@ -8,26 +8,26 @@ To read more about JSON visit: [json.org](http://json.org).
 
 To parse a JSON string received by another application or generated within your existing application:
 
-```go
+```v
 import json
 
 struct Customer {
-	first_name    string
-	last_name     string
-	hometown      string
+    first_name    string
+    last_name     string
+    hometown      string
 }
 
 fn main() {
-	customers_string := '[{ "first_name": "Vitor", "last_name": "Oliveira", "hometown": "Rio de Janeiro" }, { "first_name": "Don", "last_name": "Nisnoni", "hometown": "Kupang" }]'
-	customers := json.decode([]Customer, customers_string) or {
-		eprintln('Failed to parse json')
-		return
-	}
+    customers_string := '[{ "first_name": "Vitor", "last_name": "Oliveira", "hometown": "Rio de Janeiro" }, { "first_name": "Don", "last_name": "Nisnoni", "hometown": "Kupang" }]'
+    customers := json.decode([]Customer, customers_string) or {
+        eprintln('Failed to parse json')
+        return
+    }
 
-	// Print the list of customers
-	for customer in customers {
-		println('$customer.first_name $customer.last_name: $customer.hometown')
-	}
+    // Print the list of customers
+    for customer in customers {
+        println('$customer.first_name $customer.last_name: $customer.hometown')
+    }
 }
 ```
 
@@ -35,26 +35,26 @@ fn main() {
 
 Creating a JSON string for communication or serialization is just as simple. We decode and encode in the example below:
 
-```go
+```v
 import json
 
 struct Customer {
-	first_name    string
-	last_name     string
-	hometown      string
+    first_name    string
+    last_name     string
+    hometown      string
 }
 
 fn main() {
-	customer_string := '[{ "first_name": "Vitor", "last_name": "Oliveira", "hometown": "Rio de Janeiro"}]'
+    customer_string := '[{ "first_name": "Vitor", "last_name": "Oliveira", "hometown": "Rio de Janeiro"}]'
 
-	customer := json.decode([]Customer, customer_string) or {
-		eprintln('Failed to parse json')
-		return
-	}
+    customer := json.decode([]Customer, customer_string) or {
+        eprintln('Failed to parse json')
+        return
+    }
 
-	encoded_json := json.encode(customer)
+    encoded_json := json.encode(customer)
 
-	println(encoded_json)
+    println(encoded_json)
 }
 ```
 

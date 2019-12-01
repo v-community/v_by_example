@@ -6,9 +6,9 @@ There's only one type of loop in V language, like Go which can be used in many w
 
 `for` loops offer a quick and easy way to do something repeatedly. They're handy, if you want to run the same code over and over again, each time with a different value. You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction then Y steps in another; for example, the idea "Go five steps to the east" could be expressed this way as a loop:
 
-```go
+```v
 for i := 0; i < 5; i++ {
-   println('Walking one step')
+    println('Walking one step')
 }
 ```
 
@@ -16,11 +16,11 @@ V has the `for` looping construct and the loop can be written in different ways:
 
 1. `in` operator for array/map
 
-```go
+```v
 ages := [18, 25, 32, 43, 50]
 
 for age in ages {
-	println(age)
+    println(age)
 }
 ```
 
@@ -31,23 +31,44 @@ for age in ages {
 This is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition.
 There are no parentheses surrounding the condition, and the braces are always required.
 
-```go
+```v
 mut factorial := 1
 mut counter := 1
 
 for {
-   counter++
-   if counter > 5 {
-      println(factorial)
-      break
-   }
-   factorial = factorial * counter
+    counter++
+    if counter > 5 {
+       println(factorial)
+       break
+    }
+    factorial = factorial * counter
 }
 
 println(counter)
 ```
 
-Output:
+Output
+
+```bash
+120
+6
+```
+
+A for loop with a break statement can always be made shorter by placing the inverse condition right after for, making it equivalent with the while statement in other languages.
+
+```v
+mut factorial := 1
+mut counter := 1
+
+for counter <= 5 {
+    factorial = factorial * counter
+    counter++
+}
+println(factorial)
+println(counter)
+```
+
+Output
 
 ```bash
 120
@@ -56,17 +77,17 @@ Output:
 
 3. Traditional C style
 
-```go
+```v
 mut factorial := 1
 mut counter := 1
 
 for counter = 1; counter < 6; counter++ {
-   factorial = factorial * counter
-   if counter == 5 {
-      print(factorial)
-      continue
-   }
-   println(counter)
+    factorial = factorial * counter
+    if counter == 5 {
+        print(factorial)
+        continue
+    }
+    println(counter)
 }
 ```
 
@@ -74,9 +95,9 @@ for counter = 1; counter < 6; counter++ {
 
 `for` loop can also be infinite
 
-```go
+```v
 for {
-   println('foo')
+    println('foo')
 }
 ```
 
