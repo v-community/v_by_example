@@ -8,6 +8,10 @@ excluded_files:
 
 # Words to exclude
 excluded_words:
-  - typoci
-  - ioutil
   - eprintln
+  - mut
+  - println
+  - pub
+  - fn
+  - bool
+  - typoci
