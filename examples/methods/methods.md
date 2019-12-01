@@ -45,5 +45,5 @@ The convention of V is not to use receiver names like `self`, `this` or similar 
 
 ## Exercises
 
-1. Create a method for the type `Person` that determines if a person is of legal-age.
+1. Create a method for the type `Person` that determines if a person has a legal age or not.
 2. Create a method that determines whether an `Animal` has fur or not.
