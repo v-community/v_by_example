@@ -4,7 +4,7 @@
 
 An `if` statement is a programming conditional statement that, if proved true, executes the code given in the block. Below is a general example of an if statement in V:
 
-```go
+```v
 john_height := 100
 maria_height := 178
 
@@ -20,7 +20,7 @@ There are no parentheses needed for surrounding the condition, and the braces ar
 
 An `else` statement is a programming conditional statement in which when `if` evaluates to false then the code in `else` block executes.
 
-```go
+```v
 joey_age := 12
 kevin_age := 15
 
@@ -37,7 +37,7 @@ In this example, the code inside the `else` block will execute because the condi
 
 The `if...else` statement executes two different codes depending upon whether the test expression is `true` or `false`. Sometimes, a choice has to be made from more than 2 possibilities. The `if...else if...else` ladder allows you to check between multiple test expressions and execute different statements.
 
-```go
+```v
 tom_age := 20
 ashia_age := 38
 
@@ -60,7 +60,7 @@ Tom is younger than Asia
 
 It is always a good practice to nest `if...else` statements which means you can use one `if`, `else` or `else...if` statement inside another `if` or `else...if` statement.
 
-```go
+```v
 tom_age := 20
 ashia_age := 38
 
@@ -87,7 +87,7 @@ tom_age >= 18 and younger than Ashia.
 
 The `if..else` can also be used as an expression:
 
-```go
+```v
 tom_age := 20
 ashia_age := 38
 

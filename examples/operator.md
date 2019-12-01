@@ -18,7 +18,7 @@ V supports the following operators:
 
 - `:=` for initialising values
 
-```go
+```v
 println(3 + 5)
 println(2.0 + 5.0)
 println('hello' + 'world')
@@ -38,7 +38,7 @@ println(27 % 3)
 
 Output
 
-```go
+```v
 8
 7.0
 hello world

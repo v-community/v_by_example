@@ -6,7 +6,7 @@ Ideally, you should consider using the [single responsibility principle](https:/
 
 Like C and Go, functions cannot be overloaded.
 
-```go
+```v
 fn sum(x, y int) int {
     return x + y
 }
@@ -16,7 +16,7 @@ println(sum(77, 33))
 
 > Note: The type comes after the argument's name.
 
-```go
+```v
 fn full_name(first_name, last_name string) string {
     return first_name + ' ' + last_name
 }
@@ -28,7 +28,7 @@ println(full_name("Vitor", "Oliveira"))
 
 Functions can also be variadic i.e. accept an infinite number of arguments. They are not arrays and cannot be returned.
 
-```go
+```v
 fn foo(test ...string) {
     for txt in test {
         println(txt)
@@ -53,7 +53,7 @@ ever
 
 Similar to Go, functions in V can also return multiple and with a different type.
 
-```go
+```v
 fn student(name string, age int) (string, int) {
     return name, age
 }
@@ -66,14 +66,14 @@ println(age1)
 Output
 
 ```bash
-Tom , 15
+Tom, 15
 ```
 
 ## High Order Functions
 
 Functions in V can also take in another function as a parameter which is usually needed for something like sort, map, filter, etc.
 
-```go
+```v
 fn square(num int) int {
     return num * num
 }

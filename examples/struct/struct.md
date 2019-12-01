@@ -4,7 +4,7 @@ A struct is a composite data type (or record) declaration that defines a physica
 
 For people coming from [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) languages, it can be thought as `class` but with more restrictions.
 
-```go
+```v
 struct User {
     name string
     email string
@@ -12,13 +12,13 @@ struct User {
 }
 
 fn main() {
-	user := User {
-			name: "V developers"
-			email: "developers@vlang.io"
-			country: "Canada"
-	}
+    user := User {
+        name: "V developers"
+        email: "developers@vlang.io"
+        country: "Canada"
+    }
 
-	println(user.country)
+    println(user.country)
 }
 ```
 
@@ -26,7 +26,7 @@ fn main() {
 
 You can use a comma to separate each field when creating a new instance of the struct. It's useful when you want to create a new instance on a single line.
 
-```go
+```v
 user := User { name: "V developers", email: "developers@vlang.io", country: "Canada" }
 ```
 
@@ -34,7 +34,7 @@ user := User { name: "V developers", email: "developers@vlang.io", country: "Can
 
 You can allocate a struct on the heap and get a reference to it by using the `&` prefix as follows:
 
-```go
+```v
 user := &User{"V developers", "developers@vlang.io", "Canada"}
 println(user.name)
 ```
@@ -45,7 +45,7 @@ The type of `user` is `&User`. It's a reference to `User`.
 
 Struct fields are `private` and `immutable` by default. Their access modifiers can be changed with `pub` and `mut`.
 
-```go
+```v
 struct User {
     email string
 }
@@ -53,7 +53,7 @@ struct User {
 
 You can define them as `private mutable`.
 
-```go
+```v
 struct User {
     email string
 mut:
@@ -64,7 +64,7 @@ mut:
 
 You can also define them as `public immmutable` (readonly).
 
-```go
+```v
 struct User {
     email string
 mut:
@@ -77,7 +77,7 @@ pub:
 
 or as `public`, but `mutable` only in the parent module.
 
-```go
+```v
 struct User {
    email string
 mut:
@@ -92,7 +92,7 @@ pub mut:
 
 or `public` and `mutable` both inside and outside parent module.
 
-```go
+```v
 struct User {
     email string
 mut:

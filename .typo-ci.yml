@@ -9,4 +9,5 @@ excluded_files:
 # Words to exclude
 excluded_words:
   - typoci
+  - r'*'
   - r'Hello\nWorld'
