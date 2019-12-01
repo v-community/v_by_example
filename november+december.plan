@@ -4,7 +4,6 @@
 - example: mutable and immutable
 - example: operators (complete it)
 - example: pointers
-- example: methods
 - example: generics
 - example: xml
 - example: lsp
