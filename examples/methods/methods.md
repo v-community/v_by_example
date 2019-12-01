@@ -42,3 +42,9 @@ fn main() {
 This code above realizes two methods for receivers `u` of type `User`.
 Note that the method `has_birthday()` has a `mut` receiver, this is needed here since we want to change its data.
 The convention of V is not to use receiver names like `self`, `this` or similar things but a short, preferably one letter long, name.
+
+## Exercises
+
+1. Create a method for the type `Person` that determines if a person is of legal-age.
+2. Create a method that determines whether a `Animal` has fur or not.
+
