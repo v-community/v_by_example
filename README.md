@@ -12,6 +12,7 @@ Discord server: https://discord.gg/d3Qk65J
 
 ## Examples
 
+- [Strings](examples/strings/strings.md)
 - [Variables](examples/variables/variables.md)
 - [Arrays](examples/arrays/arrays.md)
 - [Conditional Statements](examples/conditional_statements/conditional_statements.md)

@@ -10,4 +10,4 @@ excluded_files:
 excluded_words:
   - typoci
   - r'*'
-  - vlang
+  - r'Hello\nWorld'
