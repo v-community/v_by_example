@@ -43,5 +43,24 @@ fn print_random_element(lines []string, length int) {
 Writing files in V is similar to read files.
 
 ```v
-// TODO
+fn main() {
+    path := './data/file.txt'
+    text := 'Full text description.'
+
+    if os.write_file(path, text) {
+        print_generator_sample(path)
+    } else {
+        println('Failed while creating file')
+        return
+    }
+}
+
+fn print_generator_sample(path string) {
+    contents := os.read_file(path.trim_space()) or {
+        println('Failed to open $path')
+        return
+    }
+
+    println(contents.split_into_lines())
+}
 ```
