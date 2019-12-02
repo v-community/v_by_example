@@ -113,5 +113,5 @@ pub mut mut:
 
 ## Exercises
 
-1. Create a struct that stores and displays user information.
+1. Create a struct that stores and displays `User` information.
 2. Create a `Point` struct that holds `x` and `y` field and guard them with private and public.

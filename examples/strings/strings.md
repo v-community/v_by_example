@@ -12,7 +12,7 @@ Getting the length of a string works with `.len`.
 
 ## Interpolation
 
-It is possible to do string interpolation with `$` in front of the variable, like so:
+It is possible to do string interpolation with `$` in front of the variable:
 
 ```v
 name:= 'Bob'
@@ -36,7 +36,7 @@ println('${bob.name}s age is higher or equal to 18: ${bob.age >= 18}')  // 0 <=>
 
 ## Concatenation
 
-Strings can be concatenated with the `+` operator. Since strings are also immutable by default it is only possible to concatenate strings if they are declared `mut`.
+Strings can be concatenated with the `+` operator. Since strings are also immutable by default it is only possible to concatenate strings if they are declared with `mut`.
 
 ```v
 mut text := 'Hello'
@@ -47,13 +47,14 @@ println(concatenated_text)      // Hello World!
 ```
 
 Appending to a string works with concatenation as well as with `+=` operator.
+
 ```go
 mut hello := 'Hello '
 hello += 'from V!'      // appends 'from V!' to the string stored in hello.
 println(hello)          // Hello from V!
 ```
 
-In V, string data is encoded using UTF-8 and the string itself is a read-only array of bytes. This makes slicing possible, which means we can access single character literals or slices of a string variable.
+In V, string data is encoded using UTF-8 and the string itself is a read-only array of bytes. This makes slicing possible, which means we can access single-character literals or slices of a string variable.
 
 ```v
 robert := 'Robert'
