@@ -65,3 +65,9 @@ fn read_file(path string) {
     return contents.split_into_lines()
 }
 ```
+
+## Exercises
+
+1. Write a V program to create a new file with content.
+2. Write a V program to read 2 different files and display their content.
+3. Read how the `os` library works in V and understand how you could use it.
