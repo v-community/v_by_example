@@ -56,7 +56,7 @@ fn main() {
     print(content_lines)
 }
 
-fn read_file_and_print_content(path string) {
+fn read_file(path string) {
     contents := os.read_file(path.trim_space()) or {
         println('Failed to open $path')
         return
