@@ -52,16 +52,16 @@ fn main() {
         return
     }
 
-    print(contents)
-    read_file_and_print(path)
+    content_lines = read_file(path)
+    print(content_lines)
 }
 
-fn read_file_and_print(path string) {
+fn read_file_and_print_content(path string) {
     contents := os.read_file(path.trim_space()) or {
         println('Failed to open $path')
         return
     }
 
-    println(contents.split_into_lines())
+    return contents.split_into_lines()
 }
 ```
