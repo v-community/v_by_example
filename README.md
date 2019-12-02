@@ -19,6 +19,7 @@ Discord server: https://discord.gg/d3Qk65J
 - [Match](examples/conditional_statements/match.md)
 - [Loops](examples/loops/loops.md)
 - [Functions](examples/functions/functions.md)
+- [Files](examples/files/files.md)
 - [JSON](examples/json.md)
 - [Keywords](examples/keywords.md)
 - [Operator](examples/operator.md)
