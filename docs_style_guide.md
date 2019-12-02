@@ -1,6 +1,6 @@
 # Documentation Style Guide
 
-These are the guidelines for writing Electron documentation.
+These are the guidelines for writing documentation.
 
 ## Titles
 
