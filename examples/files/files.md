@@ -47,15 +47,16 @@ fn main() {
     path := './data/file.txt'
     text := 'Full text description.'
 
-    if os.write_file(path, text) {
-        print_generator_sample(path)
-    } else {
+    if contents := os.write_file(path, text) or {
         println('Failed while creating file')
         return
     }
+
+    print(contents)
+    read_file_and_print(path)
 }
 
-fn print_generator_sample(path string) {
+fn read_file_and_print(path string) {
     contents := os.read_file(path.trim_space()) or {
         println('Failed to open $path')
         return
