@@ -12,20 +12,24 @@ Discord: https://discord.gg/d3Qk65J
 
 ## Examples
 
-- [Strings](examples/strings/strings.md)
-- [Variables](examples/variables/variables.md)
-- [Arrays](examples/arrays/arrays.md)
-- [Conditional Statements](examples/conditional_statements/if-else.md)
-- [Match](examples/conditional_statements/match.md)
-- [Loops](examples/loops/loops.md)
-- [Functions](examples/functions/functions.md)
-- [Files](examples/files/files.md)
+- [Arrays](examples/arrays.md)
+- [Arrays Functions](examples/arrays-functions.md)
+- [Comments](examples/comment.md)
+- [Files](examples/files.md)
+- [Functions](examples/functions.md)
+- [Hello Wolrd](examples/hello.md)
+- [If-else](examples/if-else.md)
 - [JSON](examples/json.md)
 - [Keywords](examples/keywords.md)
+- [Loops](examples/loops.md)
+- [Match](examples/match.md)
+- [Methods](examples/methods.md)
 - [Operator](examples/operator.md)
-- [Primitives](examples/primitives/primitives.md)
+- [Primitives](examples/primitives.md)
+- [Strings](examples/strings.md)
+- [Struct](examples/struct.md)
 - [Testing](examples/testing.md)
-- [Struct](examples/struct/struct.md)
+- [Variables](examples/variables.md)
   
 ## Contributing
 
