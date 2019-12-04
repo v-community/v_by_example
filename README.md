@@ -15,7 +15,7 @@ Discord: https://discord.gg/d3Qk65J
 - [Strings](examples/strings/strings.md)
 - [Variables](examples/variables/variables.md)
 - [Arrays](examples/arrays/arrays.md)
-- [Conditional Statements](examples/conditional_statements/conditional_statements.md)
+- [Conditional Statements](examples/conditional_statements/if-else.md)
 - [Match](examples/conditional_statements/match.md)
 - [Loops](examples/loops/loops.md)
 - [Functions](examples/functions/functions.md)
