@@ -4,9 +4,12 @@ There's only one type of loop in V language, like Go which can be used in many w
 
 ## `for` loop
 
-`for` loops offer a quick and easy way to do something repeatedly. They're handy, if you want to run the same code over and over again, each time with a different value. You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction then Y steps in another; for example, the idea "Go five steps to the east" could be expressed this way as a loop:
+`for` loops offer a quick and easy way to do something repeatedly. 
+They're handy, if you want to run the same code over and over again, each time with a different value.
+You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction then Y steps in another; 
+for example, the idea "Go five steps to the east" could be expressed this way as a loop:
 
-```v
+```go
 for i := 0; i < 5; i++ {
     println('Walking one step')
 }
@@ -16,7 +19,7 @@ V has the `for` looping construct and the loop can be written in different ways:
 
 1. `in` operator for array/map
 
-```v
+```go
 ages := [18, 25, 32, 43, 50]
 
 for age in ages {
@@ -31,7 +34,7 @@ for age in ages {
 This is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition.
 There are no parentheses surrounding the condition, and the braces are always required.
 
-```v
+```go
 mut factorial := 1
 mut counter := 1
 
@@ -49,14 +52,14 @@ println(counter)
 
 Output
 
-```bash
+```
 120
 6
 ```
 
 A for loop with a break statement can always be made shorter by placing the inverse condition right after for, making it equivalent with the while statement in other languages.
 
-```v
+```go
 mut factorial := 1
 mut counter := 1
 
@@ -70,14 +73,14 @@ println(counter)
 
 Output
 
-```bash
+```
 120
 6
 ```
 
 3. Traditional C style
 
-```v
+```go
 mut factorial := 1
 mut counter := 1
 
@@ -95,7 +98,7 @@ for counter = 1; counter < 6; counter++ {
 
 `for` loop can also be infinite
 
-```v
+```go
 for {
     println('foo')
 }

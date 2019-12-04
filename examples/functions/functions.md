@@ -1,12 +1,14 @@
 # Functions
 
-A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing.
+A function is a block of organized, reusable code that is used to perform a single, related action. 
+Functions provide better modularity for your application and a high degree of code reusing.
 
-Ideally, you should consider using the [single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) (SOLID) which states that every module or function should have responsibility for a single part of the functionality provided by the software to keep your code maintainable.
+Ideally, you should consider using the [single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) (SOLID) which states that every module or function should have responsibility 
+for a single part of the functionality provided by the software to keep your code maintainable.
 
 Like C and Go, functions cannot be overloaded.
 
-```v
+```go
 fn sum(x, y int) int {
     return x + y
 }
@@ -16,7 +18,7 @@ println(sum(77, 33))
 
 > Note: The type comes after the argument's name.
 
-```v
+```go
 fn full_name(first_name, last_name string) string {
     return first_name + ' ' + last_name
 }
@@ -26,9 +28,10 @@ println(full_name("Vitor", "Oliveira"))
 
 ## Variadic Functions
 
-Functions can also be variadic i.e. accept an infinite number of arguments. They are not arrays and cannot be returned.
+Functions can also be variadic i.e. accept an infinite number of arguments. 
+They are not arrays and cannot be returned.
 
-```v
+```go
 fn foo(test ...string) {
     for txt in test {
         println(txt)
@@ -40,7 +43,7 @@ foo("V", "is", "the", "best", "lang" , "ever")
 
 Output
 
-```bash
+```
 V
 is
 the
@@ -53,7 +56,7 @@ ever
 
 Similar to Go, functions in V can also return multiple and with a different type.
 
-```v
+```go
 fn student(name string, age int) (string, int) {
     return name, age
 }
@@ -65,15 +68,16 @@ println(age1)
 
 Output
 
-```bash
+```
 Tom, 15
 ```
 
 ## High Order Functions
 
-Functions in V can also take in another function as a parameter which is usually needed for something like sort, map, filter, etc.
+Functions in V can also take in another function as a parameter which is usually 
+needed for something like sort, map, filter, etc.
 
-```v
+```go
 fn square(num int) int {
     return num * num
 }
@@ -87,7 +91,7 @@ println(run(10, square))
 
 Output
 
-```bash
+```
 100
 ```
 

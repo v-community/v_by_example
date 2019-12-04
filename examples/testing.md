@@ -10,7 +10,7 @@ Automated tests follow the process of testing the software using an automation t
 
 In V, all test files have to be named with the following format: `*_test.v` and the functions should start with `test_*`.
 
-```v
+```go
 // sum.v in subfolder sum
 module sum
 
@@ -19,7 +19,7 @@ pub fn sum(a, b int) int {
 }
 ```
 
-```v
+```go
 // sum_test.v
 import sum
 
@@ -35,7 +35,7 @@ To execute the test, you should run `v test_sum.v`.
 
 1. Testing JSON structures:
 
-```v
+```go
 import json
 
 fn test_encode_customer(){
@@ -49,7 +49,7 @@ fn test_encode_customer(){
 
 2. Testing files:
 
-```v
+```go
 import os
 
 fn test_file_creation() {

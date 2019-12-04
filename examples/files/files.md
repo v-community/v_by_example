@@ -4,7 +4,7 @@ A File in V is an abstraction of any file object accessible by the program and i
 
 Reading a file is an important task to tackle several different problems in computer science. In order to accomplish this task you can use the V native library `os` as described below:
 
-```v
+```go
 import os
 
 fn main() {
@@ -44,7 +44,7 @@ fn print_random_element(lines []string, length int) {
 
 Writing files in V is similar to read files.
 
-```v
+```go
 import os
 
 fn main() {
