@@ -17,7 +17,7 @@ Discord: https://discord.gg/d3Qk65J
 - [Comments](examples/comment.md)
 - [Files](examples/files.md)
 - [Functions](examples/functions.md)
-- [Hello Wolrd](examples/hello.md)
+- [Hello World](examples/hello.md)
 - [If-else](examples/if-else.md)
 - [JSON](examples/json.md)
 - [Keywords](examples/keywords.md)
