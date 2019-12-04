@@ -6,7 +6,7 @@ An array is a collection of items stored in contiguous memory locations. It's an
 
 **Create an array that holds integer values:**
 
-```v
+```go
 mut ages := [18, 25, 37]
 
 println(ages)
@@ -14,13 +14,13 @@ println(ages)
 
 Output
 
-```v
+```
 [18, 25, 37]
 ```
 
 **Or create an array that holds string values:**
 
-```v
+```go
 mut users := ['vbrazo', 'donnisnoni95', 'Delta456']
 
 println(users)
@@ -28,19 +28,19 @@ println(users)
 
 Output
 
-```v
+```
 ['vbrazo', 'donnisnoni95', 'Delta456']
 ```
 
 > Note: All elements must have the same type. The following code will not compile.
 
-```v
+```go
 mut users := ['vbrazo', 'donnisnoni95', 'Delta456', 0]
 ```
 
 Output
 
-```v
+```
 ~/main.v:2:43: bad array element type `int` instead of `string`
 ```
 
@@ -48,14 +48,14 @@ Output
 
 If you want to create a new empty array, just declare `[]` followed by the data type.
 
-```v
+```go
 mut names := []string
 mut numbers := []int
 ```
 
 ## Accessing element of the array
 
-```v
+```go
 mut users := ['vbrazo', 'donnisnoni95', 'Delta456']
 
 println(users[0])
@@ -65,7 +65,7 @@ println(users[1])
 
 Output
 
-```v
+```go
 vbrazo
 Delta456
 donnisnoni95
@@ -75,7 +75,7 @@ donnisnoni95
 
 `<<` is an operator that appends a value to the end of the array.
 
-```v
+```go
 mut ages := [18]
 ages << 47
 
@@ -84,13 +84,13 @@ println(ages)
 
 Output
 
-```v
+```go
 [18, 47]
 ```
 
 It can also append an entire array.
 
-```v
+```go
 mut ages := [18]
 ages << [47, 49]
 
@@ -99,7 +99,7 @@ println(ages)
 
 Output
 
-```v
+```
 [18, 47, 49]
 ```
 
@@ -107,7 +107,7 @@ Output
 
 `.len` method returns the length of the array.
 
-```v
+```go
 mut names := ['Thiago', 'John']
 
 println(names.len)
@@ -115,7 +115,7 @@ println(names.len)
 
 Output
 
-```v
+```
 2
 ```
 
@@ -123,7 +123,7 @@ Output
 
 `in` check if an element is inside an array.
 
-```v
+```go
 mut names := ['Thiago', 'Alex', 'Joe']
 
 println('Vitor' in names)
@@ -132,7 +132,7 @@ println('Thiago' in names)
 
 Output
 
-```v
+```
 false
 true
 ```

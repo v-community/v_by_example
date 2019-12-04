@@ -4,7 +4,9 @@ A File in V is an abstraction of any file object accessible by the program and i
 
 Reading a file is an important task to tackle several different problems in computer science. In order to accomplish this task you can use the V native library `os` as described below:
 
-```v
+```go
+import os
+
 fn main() {
     mut fp := flag.new_flag_parser(os.args)
     generator := fp.string('generator', '', 'generator name')
@@ -42,7 +44,9 @@ fn print_random_element(lines []string, length int) {
 
 Writing files in V is similar to read files.
 
-```v
+```go
+import os
+
 fn main() {
     path := './data/file.txt'
     text := 'Full text description.'
@@ -71,3 +75,4 @@ fn read_file(path string) {
 1. Write a V program to create a new file with content.
 2. Write a V program to read 2 different files and display their content.
 3. Read how the `os` library works in V and understand how you could use it.
+4. Encode a nested json string and write a new file with the result.
