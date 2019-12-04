@@ -1,10 +1,11 @@
 # Methods
 
 V does not have classes. But one can define methods for types.
-A method is a function that has a special receiver argument, only a receiver of the specified type can execute this function.
+A method is a function that has a special receiver argument, 
+only a receiver of the specified type can execute this function.
 The receiver has its own argument list between `fn` and the method name.
 
-```v
+```go
 struct User {
     name string
     email string
