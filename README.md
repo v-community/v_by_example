@@ -13,31 +13,31 @@ Discord: https://discord.gg/d3Qk65J
 ## Section 1
 
 - [Hello World](examples/hello.md)
+- [V Keywords](examples/keywords.md)
+- [Primitives](examples/primitives.md)
 - [Variables](examples/variables.md)
-- [Operator](examples/operator.md)
-- [Functions](examples/functions.md)
 
 ## Section 2
 
-- [Struct](examples/struct.md)
-- [Methods](examples/methods.md)
+- [Operator](examples/operator.md)
 - [If-else](examples/if-else.md)
 - [Match](examples/match.md)
 - [Loops](examples/loops.md)
 
 ## Section 3
 
-- [Primitives](examples/primitives.md)
+- [Functions](examples/functions.md)
+- [Strings](examples/strings.md)
 - [Arrays](examples/arrays.md)
-- [Arrays Functions](examples/array-functions.md)
-- [V Keywords](examples/keywords.md)
+- [Struct](examples/struct.md)
+- [Methods](examples/methods.md)
 
 ## Section 4
 
+- [Arrays Functions](examples/array-functions.md)
 - [Testing](examples/testing.md)
 - [Files](examples/files.md)
 - [JSON](examples/json.md)
-- [Strings](examples/strings.md)
 
 ## Contributing
 
