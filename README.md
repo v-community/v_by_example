@@ -34,7 +34,7 @@ Discord: https://discord.gg/d3Qk65J
 
 ## Section 4
 
-- [Arrays Functions](examples/array-functions.md)
+- [Array Functions](examples/array-functions.md)
 - [Testing](examples/testing.md)
 - [Files](examples/files.md)
 - [JSON](examples/json.md)
