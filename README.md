@@ -10,26 +10,37 @@ V by Example is a direct introduction to V by using annotated program examples.
 
 Discord: https://discord.gg/d3Qk65J
 
-## Examples
+## Section 1
+
+- [Hello World](examples/hello.md)
+- [Variables](examples/variables.md)
+- [Operator](examples/operator.md)
+- [Methods](examples/methods.md)
+
+## Section 2
+
+- [Functions](examples/functions.md)
+- [If-else](examples/if-else.md)
+- [Loops](examples/loops.md)
+- [Match](examples/match.md)
+
+## Section 3
 
 - [Arrays](examples/arrays.md)
 - [Arrays Functions](examples/array-functions.md)
-- [Comments](examples/comment.md)
+- [V Keywords](examples/keywords.md)
+
+## Section 4
+
 - [Files](examples/files.md)
-- [Functions](examples/functions.md)
-- [Hello World](examples/hello.md)
-- [If-else](examples/if-else.md)
 - [JSON](examples/json.md)
-- [Keywords](examples/keywords.md)
-- [Loops](examples/loops.md)
-- [Match](examples/match.md)
-- [Methods](examples/methods.md)
-- [Operator](examples/operator.md)
 - [Primitives](examples/primitives.md)
 - [Strings](examples/strings.md)
+
+## Section 5
+
 - [Struct](examples/struct.md)
 - [Testing](examples/testing.md)
-- [Variables](examples/variables.md)
   
 ## Contributing
 
