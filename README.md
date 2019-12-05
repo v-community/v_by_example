@@ -15,10 +15,11 @@ Discord: https://discord.gg/d3Qk65J
 - [Hello World](examples/hello.md)
 - [Variables](examples/variables.md)
 - [Operator](examples/operator.md)
-- [Methods](examples/methods.md)
+- [Struct](examples/struct.md)
 
 ## Section 2
 
+- [Methods](examples/methods.md)
 - [Functions](examples/functions.md)
 - [If-else](examples/if-else.md)
 - [Loops](examples/loops.md)
@@ -26,22 +27,18 @@ Discord: https://discord.gg/d3Qk65J
 
 ## Section 3
 
+- [Primitives](examples/primitives.md)
 - [Arrays](examples/arrays.md)
 - [Arrays Functions](examples/array-functions.md)
 - [V Keywords](examples/keywords.md)
 
 ## Section 4
 
+- [Testing](examples/testing.md)
 - [Files](examples/files.md)
 - [JSON](examples/json.md)
-- [Primitives](examples/primitives.md)
 - [Strings](examples/strings.md)
 
-## Section 5
-
-- [Struct](examples/struct.md)
-- [Testing](examples/testing.md)
-  
 ## Contributing
 
 For contributing see [CONTRIBUTING.md](CONTRIBUTING.md)
