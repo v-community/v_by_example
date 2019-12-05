@@ -16,6 +16,7 @@ Discord: https://discord.gg/d3Qk65J
 - [V Keywords](examples/keywords.md)
 - [Primitives](examples/primitives.md)
 - [Variables](examples/variables.md)
+- [Strings](examples/strings.md)
 
 ## Section 2
 
@@ -27,7 +28,6 @@ Discord: https://discord.gg/d3Qk65J
 ## Section 3
 
 - [Functions](examples/functions.md)
-- [Strings](examples/strings.md)
 - [Arrays](examples/arrays.md)
 - [Struct](examples/struct.md)
 - [Methods](examples/methods.md)
