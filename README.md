@@ -13,7 +13,7 @@ Discord: https://discord.gg/d3Qk65J
 ## Examples
 
 - [Arrays](examples/arrays.md)
-- [Arrays Functions](examples/arrays-functions.md)
+- [Arrays Functions](examples/array-functions.md)
 - [Comments](examples/comment.md)
 - [Files](examples/files.md)
 - [Functions](examples/functions.md)
