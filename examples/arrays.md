@@ -145,7 +145,7 @@ The syntax is like this `my_array[start..end]`
 
 ```go
 animals := ['lion', 'goose', 'chicken', 'turkey', 'tiger']
-poultry := [1..4]
+poultry := animals[1..4]
 println(poultry) // ["goose", "chicken", "turkey"]
 ```
 
