@@ -1,4 +1,4 @@
-# Conditional Statements
+# If statement
 
 ## The `if` statement
 
