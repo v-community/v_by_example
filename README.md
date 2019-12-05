@@ -15,15 +15,15 @@ Discord: https://discord.gg/d3Qk65J
 - [Hello World](examples/hello.md)
 - [Variables](examples/variables.md)
 - [Operator](examples/operator.md)
-- [Struct](examples/struct.md)
+- [Functions](examples/functions.md)
 
 ## Section 2
 
+- [Struct](examples/struct.md)
 - [Methods](examples/methods.md)
-- [Functions](examples/functions.md)
 - [If-else](examples/if-else.md)
-- [Loops](examples/loops.md)
 - [Match](examples/match.md)
+- [Loops](examples/loops.md)
 
 ## Section 3
 
