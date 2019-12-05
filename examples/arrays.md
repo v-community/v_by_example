@@ -137,6 +137,28 @@ false
 true
 ```
 
+## Slicing an array
+
+It's easy to slice an array in V. You can slice an array with the default 
+V slicing feature without having to call the `slice ()` method.
+The syntax is like this `my_array[start..end]`
+
+```go
+animals := ['lion', 'goose', 'chicken', 'turkey', 'tiger']
+poultry := [1..4]
+println(poultry) // ["goose", "chicken", "turkey"]
+```
+
+If you want to slice from the start of the index, just ignore it to put `0` and using  instead `my_array[..end]` or `my_array[start..]`.
+
+```go
+x := ['h', 'e', 'l', 'l', 'o']
+y := x[..x.len-1]
+z := x[1..]
+println(y) // ['h', 'e', 'l', 'l']
+println(z) // ['e', 'l', 'l', '0']
+```
+
 ## Exercises
 
 1. Write a V program to store elements in an array and print it.
