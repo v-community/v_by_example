@@ -19,7 +19,7 @@ Introduction to V by presenting a few basic examples and exercises.
 - [Primitives](examples/section_1/primitives.md)
 - [Variables](examples/section_1/variables.md)
 - [Strings](examples/section_1/strings.md)
-- [Comment](examples/section_5/comment.md)
+- [Comment](examples/section_1/comment.md)
 
 ## Section 2
 
