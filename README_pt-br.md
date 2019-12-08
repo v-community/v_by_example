@@ -28,7 +28,7 @@ Lista atual de mantenedores/autores:
 
 ## Contribuindo
 
-Veja nosso [CONTRIBUTING.md] (CONTRIBUTING.md) e comece a contribuir hoje. Normalmente, elegemos novos mantenedores com base em contribuições.
+Veja nosso [CONTRIBUTING.md](CONTRIBUTING.md) e comece a contribuir hoje. Normalmente, elegemos novos mantenedores com base em contribuições.
 
 
 ## License
