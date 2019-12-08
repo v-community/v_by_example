@@ -18,7 +18,7 @@ V suporta os seguintes operadores:
 
 - `: =` para inicializar valores
 
-`` v
+```v
 println(3+5)
 println(2.0+5.0)
 println('olá'+'mundo')
@@ -34,11 +34,11 @@ println(25.0/5.0)
 
 println(27%5)
 println(27%3)
-`` ``
+```
 
 Saída
 
-`` v
+```
 8
 7.0
 Olá Mundo
@@ -54,7 +54,7 @@ Olá Mundo
 
 2
 0 0
-`` ``
+```
 
 > Nota: Ao contrário de outras linguagens, o V não permite módulo com float.
 
@@ -114,4 +114,4 @@ Olá Mundo
 
 - `in` para associação
 
-- 'none' para opcional
+- `none` para opcional
