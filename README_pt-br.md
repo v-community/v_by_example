@@ -15,6 +15,7 @@ Discord: https://discord.gg/d3Qk65J
 Introdução ao V, apresentando alguns exemplos e exercícios básicos.
 
 - [Comentários](pt-br/examples/section_1/comment.md)
+- [Palavras-chave](pt-br/examples/section_1/keywords.md)
 
 ## Time
 
