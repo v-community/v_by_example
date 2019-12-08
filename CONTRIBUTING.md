@@ -1,28 +1,26 @@
-## Contribuindo
+## Contributing
 
-## Geral
+## General
+Please ensure your pull request adheres to the following guidelines:
 
-Verifique se sua solicitação de recebimento segue as seguintes diretrizes:
+* New example or improvements to existing examples are welcome.
+* Please check your spelling and grammar.
 
-* Novos exemplos ou melhorias nos exemplos existentes são bem-vindos.
-* Verifique sua ortografia e gramática.
+## Adding a New Example
+To add a new example, create a new folder and a file or a file (depending upon the example) under the appropriate directory in `./examples`. Please check the `.plan` file to see what examples we plan to create. Feel free to work on any pending examples. We're happy to read/review your changes and collaborate/code with you to merge them.
 
-## Adicionando um novo exemplo
+Thank you for your contributions!
 
-Para adicionar um novo exemplo, crie uma nova pasta e um arquivo ou um arquivo (dependendo do exemplo) no diretório apropriado em `./examples`. Por favor, verifique o arquivo `.plan` para ver quais exemplos planejamos criar. Sinta-se à vontade para trabalhar em quaisquer exemplos pendentes. É um prazer ler / revisar suas alterações e colaborar / codificar com você para mesclá-las.
+## Getting started with the project
 
-Obrigado por suas contribuições!
+#### 1. Fork and clone this repository
 
-## Introdução ao projeto
+[Fork this repository](https://github.com/v-community/v_by_example/fork) and clone your fork. If you don't know what forking means or don't know how to do it, nice instructions are available [here](https://help.github.com/articles/fork-a-repo/).
 
-#### 1. Bifurque e clone este repositório
+#### 2. Make your changes and push them
 
-[Bifurque este repositório](https://github.com/v-community/v_by_example/fork) e clone seu bifurcação. Se você não sabe o que significa bifurcação ou não sabe como fazê-lo, boas instruções estão disponíveis [aqui](https://help.github.com/articles/fork-a-repo/).
+Now you're ready to make your changes! Once you're done with your changes, push those changes to your fork and then [submit a **pull request**](https://help.github.com/articles/using-pull-requests/).
 
-#### 2. Faça as alterações e pressione-as
+## License
 
-Agora você está pronto para fazer suas alterações! Depois de concluir as alterações, envie essas alterações para o fork e [envie uma ** solicitação de recebimento **](https://help.github.com/articles/using-pull-requests/).
-
-## Licença
-
-Este código é gratuito para uso sob os termos da licença MIT.
+This code is free to use under the terms of the MIT license.
