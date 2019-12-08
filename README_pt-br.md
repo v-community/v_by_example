@@ -14,7 +14,7 @@ Discord: https://discord.gg/d3Qk65J
 
 Introdução ao V, apresentando alguns exemplos e exercícios básicos.
 
-- [Comentários](examples/pt-br/section_1/comment.md)
+- [Comentários](pt-br/examples/section_1/comment.md)
 
 ## Time
 
@@ -28,8 +28,7 @@ Lista atual de mantenedores/autores:
 
 ## Contribuindo
 
-Veja nosso [CONTRIBUTING.md](CONTRIBUTING.md) e comece a contribuir hoje. Normalmente, elegemos novos mantenedores com base em contribuições.
-
+Veja nosso [CONTRIBUTING.md](CONTRIBUTING_pt-br.md) e comece a contribuir hoje. Normalmente, elegemos novos mantenedores com base em contribuições.
 
 ## License
 
