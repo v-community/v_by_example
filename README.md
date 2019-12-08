@@ -50,7 +50,7 @@ In this section, we dive deeper and study the features inside the Array object. 
 
 ## Team
 
-Current list of maintainers:
+Current list of maintainers/authors:
 
 * [Don Alfons Nisnoni](https://github.com/donnisnoni95)
 * [Ivo-Balbaert](https://github.com/ibalbaert)
