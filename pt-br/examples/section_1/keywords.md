@@ -10,4 +10,4 @@ V é uma linguagem muito pequena, por isso possui poucas palavras-chave. Existem
 | type     | pub    | mut | in          | interface |
 | match    | module | or  | none        |           |
 
-Como outros idiomas, eles não podem ser usados como uma variável.
+Como outras linguagens, as palavras-chave não podem ser usados como uma variável.
