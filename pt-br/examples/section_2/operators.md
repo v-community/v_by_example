@@ -56,7 +56,7 @@ Olá Mundo
 0 0
 `` ``
 
-> Nota: Ao contrário de outros idiomas, o V não permite módulo com flutuação.
+> Nota: Ao contrário de outras linguagens, o V não permite módulo com float.
 
 ## Operadores de comparação
 
@@ -84,13 +84,13 @@ Olá Mundo
 
 - `>>` left bitshift
 
-- `<<` direita deslocamento de bits
+- `<<` right bitshift
 
-- `&` bit a bit e
+- `&` bitwise and
 
-- `|` bit a bit ou
+- `|` bitwise or
 
-- `^` bit a bit xor
+- `^` bitwise xor
 
 ## Operadores de atribuições
 
