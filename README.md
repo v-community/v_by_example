@@ -48,9 +48,20 @@ In this section, we dive deeper and study the features inside the Array object. 
 - [Files](examples/section_4/files.md)
 - [JSON](examples/section_4/json.md)
 
+## Team
+
+Current list of maintainers:
+
+* [Don Alfons Nisnoni](https://github.com/donnisnoni95)
+* [Ivo-Balbaert](https://github.com/ibalbaert)
+* [Sven Patrick Meier](https://github.com/tobyhinloopen)
+* [Swastik Baranwal](https://github.com/Delta456)
+* [Vitor Oliveira](https://github.com/vbrazo)
+
 ## Contributing
 
-For contributing see [CONTRIBUTING.md](CONTRIBUTING.md)
+See our [CONTRIBUTING.md](CONTRIBUTING.md) and start contributing today. We usually elect new maintainers based on contributions.
+
 
 ## License
 
