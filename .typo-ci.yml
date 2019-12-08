@@ -1,6 +1,7 @@
 dictionaries:
   - en
   - en_GB
+  - pt
 
 # Files to exclude
 excluded_files:
