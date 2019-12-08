@@ -19,21 +19,21 @@ V suporta os seguintes operadores:
 - `: =` para inicializar valores
 
 `` v
-println(3 + 5)
-println(2.0 + 5.0)
-println('olá' + 'mundo')
+println(3+5)
+println(2.0+5.0)
+println('olá'+'mundo')
 
-println(9 - 10)
-println(7.0 - 5.0)
+println(9-10)
+println(7.0-5.0)
 
 println(3 * 5)
 println(2,0 * 4)
 
 println(23/3)
-println(25.0 / 5.0)
+println(25.0/5.0)
 
-impressão(27% 5)
-impressão(27% 3)
+println(27%5)
+println(27%3)
 `` ``
 
 Saída
