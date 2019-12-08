@@ -56,7 +56,7 @@ Current list of maintainers/authors:
 
 * [Don Alfons Nisnoni](https://github.com/donnisnoni95)
 * [Ivo-Balbaert](https://github.com/ibalbaert)
-* [Sven Patrick Meier](https://github.com/tobyhinloopen)
+* [Sven Patrick Meier](https://github.com/SuicideS3ason)
 * [Swastik Baranwal](https://github.com/Delta456)
 * [Vitor Oliveira](https://github.com/vbrazo)
 
