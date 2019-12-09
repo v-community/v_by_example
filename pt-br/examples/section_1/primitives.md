@@ -30,7 +30,7 @@ O número inteiro é subclassificado em `signed` e `unsigned`. `signed` signific
 
 ### Signed Integer
 
-| Type   |   Size   |                                   Range |
+| Tipo   | Tamanho  |                                   Range |
 | ------ | :------: | --------------------------------------: |
 | int8   |  8 bits  |                -128 to 2<sup>7</sup> -1 |
 | int16  | 16 bits  |   -2<sup>15</sup> to 2<sup>15</sup> - 1 |
