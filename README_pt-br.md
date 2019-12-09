@@ -15,6 +15,13 @@ Discord: https://discord.gg/d3Qk65J
 Introdução ao V, apresentando alguns exemplos e exercícios básicos.
 
 - [Comentários](pt-br/examples/section_1/comment.md)
+- [Palavras-chave](pt-br/examples/section_1/keywords.md)
+
+## Seção 2
+
+Esta seção discute os principais operadores e instruções condicionais em V.
+
+- [Operadores](pt-br/examples/section_2/operators.md)
 
 ## Time
 
