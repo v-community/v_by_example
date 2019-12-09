@@ -16,6 +16,12 @@ Introdução ao V, apresentando alguns exemplos e exercícios básicos.
 
 - [Comentários](pt-br/examples/section_1/comment.md)
 
+## Seção 2
+
+- [Operadores](pt-br/examples/section_2/operators.md)
+
+Esta seção discute os principais operadores e instruções condicionais em V.
+
 ## Time
 
 Lista atual de mantenedores/autores:
