@@ -24,8 +24,6 @@ V tem menos tipos primitivos que Go.
 
 ## Inteiro
 
-Integer is sub-classified into `signed` and `unsigned`. `signed` means positive or negative and `unsigned` means positive only.
-
 O número inteiro é subclassificado em `signed` e `unsigned`. `signed` significa positivo ou negativo e não `unsigned` significa apenas positivo.
 
 ### Signed Integer
