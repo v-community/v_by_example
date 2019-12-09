@@ -16,12 +16,12 @@ Discord: https://discord.gg/d3Qk65J
 
 Einführung in V mit einfachen Beispielen und Aufgaben.
 
-- [Hello World](de/examples/section_1/hello_world.md)
-- [V Schlüsselwörter](de/examples/section_1/keywords.md)
-- [Primitives](de/examples/section_1/primitives.md)
-- [Variablen](de/examples/section_1/variables.md)
-- [Strings](de/examples/section_1/strings.md)
-- [Kommentare](de/examples/section_1/comment.md)
+- [Hello World](examples/section_1/hello_world.md)
+- [V Schlüsselwörter](examples/section_1/keywords.md)
+- [Primitives](examples/section_1/primitives.md)
+- [Variablen](examples/section_1/variables.md)
+- [Strings](examples/section_1/strings.md)
+- [Kommentare](examples/section_1/comment.md)
 
 ## Kapitel 2
 
