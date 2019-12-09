@@ -39,7 +39,7 @@ Der Typ Integer kann weiterhin unterschieden werden in `signed` und `unsigned`. 
 
 ### Unsigned Integer
 
-| Type |   Size   |                     Range |
+| Type |   Size   |               Wertbereich |
 | ---- | :------: | ------------------------: |
 | byte |  8 bits  |    0 bis 2<sup>7</sup> -1 |
 | u16  | 16 bits  |  0 bis 2<sup>15</sup> - 1 |
