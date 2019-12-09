@@ -2,47 +2,34 @@
 
 Printing is handled by various I/O stream functions. One should know where to use them accordingly.
 
-- `print`: for printing the text to the output stream without a newline.
+Konsolenausgaben werden durch verschiedene I/O-Streams gehandhabt, dazu sollte man wissen, wo und wie sie zu verwenden sind.
 
-- `println`: same as `print` but newline appended automatically.
+- `print`: schreibt Text in den Standard output stream (stdout), ohne einen Zeilenumbruch am Ende.
 
-- `eprint`: same as `print` but the output goes to error stream (stderr).
+- `println`: wie `print`, allerdings mit Zeilenumbruch am Ende.
 
-- `eprintln`: same as `println` but the output goes to error stream (stderr).
+- `eprint`: wie `print`, aber der Output geht durch den Standard Error Stream (stderr).
 
-- `panic`: outputs and exits from the program.
+- `eprintln`: wie `eprint`, aber mit einem Zeilenumbruch am Ende.
+
+- `panic`: gibt den übergebenen Text auf der Konsole aus und beendet das Programm mit Fehlerode 1.
 
 ```v
 print('Hello World')
 print('Hello V')
 ```
 
-This will print `Hello WorldHello V`
+Dieses Programm erzeugt die folgende Ausgabe in der Konsole: `Hello WorldHello V`
 
-If you want to print the next line on a new line you would have to do `\n`.
+Wenn man die nächste Zeile in einer neuen Zeile ausgeben möchte, muss man am Ende des Satzes ein `\n` hinzufügen.
 
 ```v
 print('Hello World \n')
 print('Hello V ')
 ```
 
-If you don't want to use `\n` then you can use `println` instead.
-
-## Comments
-
-V supports single line comments `//` and multi-line comments `/* */`. 
-They should be used for documenting the code for letting the other users know how the code works. 
-It can also be used for temporarily commenting the code which has to be used later on.
-
-```v
-// This is a single line comment
-
-/* This is a
-*  multi-line comment
-* /* This could be nested as well*/
-*/
-```
+Wenn man `\n` nicht verwenden möchte, dann kann man statt `print` auch `println` verwenden.
 
 ## Exercises
 
-Try uncommenting the code in `hello.v` and see what happens.
+Entkommentiere den Code in `hello.v` und sieh was passiert.
