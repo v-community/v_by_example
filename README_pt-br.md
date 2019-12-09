@@ -18,9 +18,9 @@ Introdução ao V, apresentando alguns exemplos e exercícios básicos.
 
 ## Seção 2
 
-- [Operadores](pt-br/examples/section_2/operators.md)
-
 Esta seção discute os principais operadores e instruções condicionais em V.
+
+- [Operadores](pt-br/examples/section_2/operators.md)
 
 ## Time
 
