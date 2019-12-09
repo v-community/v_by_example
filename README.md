@@ -1,6 +1,6 @@
 # V by Example
 
-[Brazilian Portuguese](README_pt-br.md) | [English](README.md)
+[Brazilian Portuguese](README_pt-br.md) | [Deutsch](de/README_de.md) | [English](README.md)
 
 > Learn V by Examples
 
@@ -54,16 +54,15 @@ In this section, we dive deeper and study the features inside the Array object. 
 
 Current list of maintainers/authors:
 
-* [Don Alfons Nisnoni](https://github.com/donnisnoni95)
-* [Ivo-Balbaert](https://github.com/ibalbaert)
-* [Sven Patrick Meier](https://github.com/SuicideS3ason)
-* [Swastik Baranwal](https://github.com/Delta456)
-* [Vitor Oliveira](https://github.com/vbrazo)
+- [Don Alfons Nisnoni](https://github.com/donnisnoni95)
+- [Ivo-Balbaert](https://github.com/ibalbaert)
+- [Sven Patrick Meier](https://github.com/SuicideS3ason)
+- [Swastik Baranwal](https://github.com/Delta456)
+- [Vitor Oliveira](https://github.com/vbrazo)
 
 ## Contributing
 
 See our [CONTRIBUTING.md](CONTRIBUTING.md) and start contributing today. We usually elect new maintainers based on contributions.
-
 
 ## License
 
