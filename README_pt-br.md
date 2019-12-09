@@ -22,6 +22,7 @@ Introdução ao V, apresentando alguns exemplos e exercícios básicos.
 Esta seção discute os principais operadores e instruções condicionais em V.
 
 - [Operadores](pt-br/examples/section_2/operators.md)
+- [Primitivos](pt-br/examples/section_2/primitives.md)
 
 ## Time
 
