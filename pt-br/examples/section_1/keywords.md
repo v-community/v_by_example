@@ -2,7 +2,7 @@
 
 V é uma linguagem muito pequena, por isso possui poucas palavras-chave. Existem cerca de 25 palavras-chave.
 
-| Palavras-chave na linguagem V                     |
+| Keywords | in     | V   | Programming | Language  |
 | -------- | ------ | --- | ----------- | --------- |
 | break    | const  | as  | continue    | defer     |
 | else     | enum   | fn  | for         | struct    |
