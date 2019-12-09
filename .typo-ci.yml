@@ -13,6 +13,21 @@ excluded_words:
   - r'*'
   - r'Hello\nWorld'
   - variadic
+  - palavras-chave
+  - outras
+  - linguagens
+  - podem
+  - ser
+  - usados
+  - uma
+  - linguagem
+  - muito
+  - pequena
+  - por
+  - possui
+  - poucas
+  - Existem
+  - cerca
   - Operadores
   - Esta
   - discute
