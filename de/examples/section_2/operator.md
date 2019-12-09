@@ -1,22 +1,25 @@
 # Operators
 
-V supports the following operators:
+V bietet die folgenden Operatoren:
 
-## Basic Operators
+## Grundlegende Operatoren
 
-- `+` (addition) for int, float and string
+- `+`:
 
-- `-` (subtraction) for int and float
+  - Arithmetik: Addition von `int`, `float`
+  - `string`-Konkatenation.
 
-- `*` (multiplication) for int and float
+- `-` Subtraktion von `int` und `float`.
 
-- `/` (division) for int and float
+- `*` Multiplikation von `int` und `float`.
 
-- `%` (modulos) for int
+- `/` Division von `int` und `float`.
 
-- `=` (assignment) for changing values
+- `%` Modulo-operator: Ganzzahlige Teilung mit Rest `int`.
 
-- `:=` for initialising values
+- `=` Zuweisung eines Wertes für eine Variable.
+
+- `:=` Deklaration und Initialisierung einer Variable.
 
 ```v
 println(3 + 5)
@@ -56,62 +59,62 @@ hello world
 0
 ```
 
-> Note: Unlike other languages, V doesn't allow modulus with float.
+> Bemerkung: Im Gegensatz zu anderen (Programmier-) Sprachen kann der `Modulo`-operator (`%`) in V nicht mit `floats` angewandt werden.
 
-## Comparison Operators
+## Vergleichsoperatoren
 
-- `>` greater than
+- `>` größer als
 
-- `<` lesser than
+- `<` kleiner als
 
-- `==` equal to
+- `==` gleich
 
-- `>=` greater than or equal to
+- `>=` größer oder gleich
 
-- `<=` lesser than or equal to
+- `<=` kleiner oder gleich
 
-- `!=` not equal to
+- `!=` ungleich
 
-## Boolean Operators
+## Boolsche Operatoren
 
-- `&&` and
+- `&&` logisches und
 
-- `||` or
+- `||` logisches oder
 
-- `!` not
+- `!` logisches nicht
 
 ## Bitwise Operators
 
-- `>>` left bitshift
+- `>>` bitshift links
 
-- `<<` right bitshift
+- `<<` bitshift rechts
 
-- `&` bitwise and
+- `&` bitweises Und
 
-- `|` bitwise or
+- `|` bitweises Oder
 
-- `^` bitwise xor
+- `^` bitweises XOR (exklusives Oder)
 
-## Assignments Operators
+## Zuweisungsoperatoren
 
-- `+=` same as `foo = foo + var`
+- `+=` ist äquivalent zu `foo = foo + var`
 
-- `-=` same as `foo = foo - var`
+- `-=` ist äquivalent zu `foo = foo - var`
 
-- `*=` same as `foo = foo * var`
+- `*=` ist äquivalent zu `foo = foo * var`
 
-- `/=` same as `foo = foo / var`
+- `/=` ist äquivalent zu `foo = foo / var`
 
-- `&=` same as `foo = foo & var`
+- `&=` ist äquivalent zu `foo = foo & var`
 
-- `|=` same as `foo = foo | var`
+- `|=` ist äquivalent zu `foo = foo | var`
 
-- `>>=` same as `foo = foo >> var`
+- `>>=` ist äquivalent zu `foo = foo >> var`
 
-- `<<=` same as `foo = foo << var`
+- `<<=` ist äquivalent zu `foo = foo << var`
 
-## Special Operators
+## Spezielle Operatoren
 
-- `in` for membership
+- `in`: für eine Prüfung ob ein Element Teil einer Sammlung ist.
 
-- `none` for optional
+- `none`: zur Prüfung, ob ein Wert gesetzt wurde.
