@@ -1,9 +1,9 @@
 # Functions
 
-A function is a block of organized, reusable code that is used to perform a single, related action. 
+A function is a block of organized, reusable code that is used to perform a single, related action.
 Functions provide better modularity for your application and a high degree of code reusing.
 
-Ideally, you should consider using the [single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) (SOLID) which states that every module or function should have responsibility 
+Ideally, you should consider using the [single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) (SOLID) which states that every module or function should have responsibility
 for a single part of the functionality provided by the software to keep your code maintainable.
 
 Like C and Go, functions cannot be overloaded.
@@ -28,7 +28,7 @@ println(full_name("Vitor", "Oliveira"))
 
 ## Variadic Functions
 
-Functions can also be variadic i.e. accept an infinite number of arguments. 
+Functions can also be variadic i.e. accept an infinite number of arguments.
 They are not arrays and cannot be returned.
 
 ```go
@@ -43,7 +43,7 @@ foo("V", "is", "the", "best", "lang" , "ever")
 
 Output
 
-```
+```console
 V
 is
 the
@@ -61,20 +61,32 @@ fn student(name string, age int) (string, int) {
     return name, age
 }
 
-name1, age1 := student("Tom", 15)
+name, age := student("Tom", 15)
 println(name1)
 println(age1)
 ```
 
 Output
 
-```
+```console
 Tom, 15
+```
+
+You can also use `_` for ignoring values when it is not needed.
+
+```go
+fn student(name string, age int) (string, int) {
+    return name, age
+}
+
+_, age := student("Tom", 15)
+println(age)
+println(_) // ERROR: Cannot use _ as value
 ```
 
 ## High Order Functions
 
-Functions in V can also take in another function as a parameter which is usually 
+Functions in V can also take in another function as a parameter which is usually
 needed for something like sort, map, filter, etc.
 
 ```go
@@ -91,7 +103,7 @@ println(run(10, square))
 
 Output
 
-```
+```console
 100
 ```
 

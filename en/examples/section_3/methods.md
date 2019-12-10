@@ -33,7 +33,7 @@ fn main() {
         age: 17
     }
     println(bob.can_register())                                             // false
-    println('Bob needs to be 16 to register, but he only is ${bob.age}.')   // Bob needs to be 16 to register, but he only is 15.
+    println("Bob needs to be 16 to register, but he only is ${bob.age}.")   // Bob needs to be 16 to register, but he only is 15.
     println(alice.can_register())                                           // true
     bob.has_birthday()
     println(bob.age)                                                        // 16

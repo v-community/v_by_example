@@ -44,5 +44,40 @@ fn main() {
 
 here `age := 21` will result in another error while compiling, because the variable `age` is already defined in the scope.
 
+Like Go, You can also use `_` for ignoring values when it is not needed. Usually used in multi return functions.
+
+```go
+_ := "I don't need this value"
+println(_) // ERROR: Cannot use `_` as value
+```
+
 Declare value: `:=`
 Assign value: `=`
+
+## Naming Rules
+
+The following are the rules which should be kept in mind while naming variables.
+
+- Name should not contain Uppercase letters like `AlphaTest`
+- Use underscores as separators like `hello_world`
+- Name should be descriptive as possible
+- Name should not contain `__`
+- Name should not contain any space
+- If the name is longer than 11 then it must use `_` as separator
+
+These rules are from [`Snake_Case`](https://en.wikipedia.org/wiki/Snake_case). V uses Snake Case and prefers it because it is more easy to read, write and understand.
+
+### Valid Names
+
+```go
+boby
+john_dads
+myfamily_number
+```
+
+### Invalid Names
+
+```go
+IamNotValid
+new Make
+```
