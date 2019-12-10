@@ -52,7 +52,7 @@ if tom_age < ashia_age {
 
 Output
 
-```
+```console
 Tom is younger than Asia
 ```
 
@@ -79,7 +79,7 @@ if tom_age < ashia_age {
 
 Output
 
-```
+```console
 tom_age >= 18 and younger than Ashia.
 ```
 
@@ -102,7 +102,7 @@ print(s)
 
 Output
 
-```
+```console
 Tom is the youngest
 ```
 

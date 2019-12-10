@@ -72,18 +72,6 @@ Output
 Tom, 15
 ```
 
-You can also use `_` for ignoring values when it is not needed.
-
-```go
-fn student(name string, age int) (string, int) {
-    return name, age
-}
-
-_, age := student("Tom", 15)
-println(age)
-println(_) // ERROR: Cannot use _ as value
-```
-
 ## High Order Functions
 
 Functions in V can also take in another function as a parameter which is usually
@@ -105,6 +93,36 @@ Output
 
 ```console
 100
+```
+
+## Naming Rules
+
+The following are the rules which should be kept in mind while naming functions.
+
+- Name should not contain Uppercase letters like `AlphaTest`
+- Use underscores as separators like `hello_world`
+- Name should not start with `_`
+- Name should be descriptive as possible
+- Name should not contain `__`
+- Name should not contain any space
+
+These rules are from [`Snake_Case`](https://en.wikipedia.org/wiki/Snake_case). V uses Snake Case and prefers it because it is more easy to read, write and understand.
+
+### Valid Names
+
+```go
+fn i_am_valid()
+fn thisworkstoo()
+fn print_values_through_struct()
+```
+
+### Invalid Names
+
+```go
+fn IamNotValid()
+fn _print()
+fn print__logs()
+fn new Make Lexer()
 ```
 
 ## Exercises
