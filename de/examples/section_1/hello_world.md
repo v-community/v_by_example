@@ -1,7 +1,5 @@
 # Formatted Print
 
-Printing is handled by various I/O stream functions. One should know where to use them accordingly.
-
 Konsolenausgaben werden durch verschiedene I/O-Streams gehandhabt, dazu sollte man wissen, wo und wie sie zu verwenden sind.
 
 - `print`: schreibt Text in den Standard output stream (stdout), ohne einen Zeilenumbruch am Ende.
