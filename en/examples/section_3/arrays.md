@@ -14,7 +14,7 @@ println(ages)
 
 Output
 
-```
+```console
 [18, 25, 37]
 ```
 
@@ -139,7 +139,7 @@ true
 
 ## Slicing an array
 
-It's easy to slice an array in V. You can slice an array with the default 
+It's easy to slice an array in V. You can slice an array with the default
 V slicing feature without having to call the `slice ()` method.
 The syntax is like this `my_array[start..end]`
 

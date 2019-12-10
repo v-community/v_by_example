@@ -1,9 +1,9 @@
 # Functions
 
-A function is a block of organized, reusable code that is used to perform a single, related action. 
+A function is a block of organized, reusable code that is used to perform a single, related action.
 Functions provide better modularity for your application and a high degree of code reusing.
 
-Ideally, you should consider using the [single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) (SOLID) which states that every module or function should have responsibility 
+Ideally, you should consider using the [single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) (SOLID) which states that every module or function should have responsibility
 for a single part of the functionality provided by the software to keep your code maintainable.
 
 Like C and Go, functions cannot be overloaded.
@@ -28,7 +28,7 @@ println(full_name("Vitor", "Oliveira"))
 
 ## Variadic Functions
 
-Functions can also be variadic i.e. accept an infinite number of arguments. 
+Functions can also be variadic i.e. accept an infinite number of arguments.
 They are not arrays and cannot be returned.
 
 ```go
@@ -43,7 +43,7 @@ foo("V", "is", "the", "best", "lang" , "ever")
 
 Output
 
-```
+```console
 V
 is
 the
@@ -61,20 +61,20 @@ fn student(name string, age int) (string, int) {
     return name, age
 }
 
-name1, age1 := student("Tom", 15)
+name, age := student("Tom", 15)
 println(name1)
 println(age1)
 ```
 
 Output
 
-```
+```console
 Tom, 15
 ```
 
 ## High Order Functions
 
-Functions in V can also take in another function as a parameter which is usually 
+Functions in V can also take in another function as a parameter which is usually
 needed for something like sort, map, filter, etc.
 
 ```go
@@ -91,8 +91,38 @@ println(run(10, square))
 
 Output
 
-```
+```console
 100
+```
+
+## Naming Rules
+
+The following are the rules which should be kept in mind while naming functions.
+
+- Name should not contain Uppercase letters like `AlphaTest`
+- Use underscores as separators like `hello_world`
+- Name should not start with `_`
+- Name should be descriptive as possible
+- Name should not contain `__`
+- Name should not contain any space
+
+These rules are from [`Snake_Case`](https://en.wikipedia.org/wiki/Snake_case). V uses Snake Case and prefers it because it is more easy to read, write and understand.
+
+### Valid Names
+
+```go
+fn i_am_valid()
+fn thisworkstoo()
+fn print_values_through_struct()
+```
+
+### Invalid Names
+
+```go
+fn IamNotValid()
+fn _print()
+fn print__logs()
+fn new Make Lexer()
 ```
 
 ## Exercises
