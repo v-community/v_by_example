@@ -44,5 +44,33 @@ fn main() {
 
 here `age := 21` will result in another error while compiling, because the variable `age` is already defined in the scope.
 
-Declare value: `:=`
-Assign value: `=`
+Declare operator: `:=`
+Assign operator: `=`
+
+## Rules
+
+The following are the rules which should be kept in mind while naming variables.
+
+-Name should not contain Uppercase letters like `Alphatest`
+-Use underscores as separators like `hello_world`
+-Name should be descriptive as possible
+-Name should not contain `__`
+-Name should not contain any space
+-If the name is longer than 11 then it must use `_` as separator
+
+These rules are from [`Snake_Case`](https://en.wikipedia.org/wiki/Snake_case). V uses Snake Case because it is often more easy to read, write and understand.
+
+### Valid Names
+
+```go
+boby
+john_dads
+myfamily_number
+```
+
+### Invalid Names
+
+```go
+IamNotValid
+new Make
+```

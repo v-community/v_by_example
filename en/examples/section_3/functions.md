@@ -8,6 +8,14 @@ for a single part of the functionality provided by the software to keep your cod
 
 Like C and Go, functions cannot be overloaded.
 
+## Prototype
+
+```go
+fn name_of_the_function() return_type {
+  body
+}
+```
+
 ```go
 fn sum(x, y int) int {
     return x + y
@@ -43,7 +51,7 @@ foo("V", "is", "the", "best", "lang" , "ever")
 
 Output
 
-```
+```console
 V
 is
 the
@@ -61,15 +69,28 @@ fn student(name string, age int) (string, int) {
     return name, age
 }
 
-name1, age1 := student("Tom", 15)
-println(name1)
-println(age1)
+name, age := student("Tom", 15)
+println(name)
+println(age)
 ```
 
 Output
 
+```console
+Tom
+15
 ```
-Tom, 15
+
+Sometimes we don't want a specific value during multliple returns we can use `_` variable for ignoring that value as we do not need it.
+
+```go
+fn student(name string, age int) (string, int) {
+    return name, age
+}
+
+_, age := student("Tom", 15)
+println(age)
+println(_) // ERROR : Cannot use _ as value
 ```
 
 ## High Order Functions
@@ -91,11 +112,24 @@ println(run(10, square))
 
 Output
 
-```
+```console
 100
 ```
 
-## Exercises
+## Rules
+
+The following are the rules which should be kept in mind while naming functions.
+
+- Name should not contain Uppercase letters like `Alphatest`
+- Use underscores as separators like `hello_world`
+- Name should not start with `_`
+- Name should be descriptive as possible
+- Name should not contain `__`
+- Name should not contain any space
+
+These rules are from [`Snake_Case`](https://en.wikipedia.org/wiki/Snake_case). V uses `Snake_Case` and prefers it because it is more easy to read, write and understand.
+
+### Exercises
 
 1. Write a V program to find the square of any number using the function.
 2. Write a V program to check a given number is even or odd using the function.
