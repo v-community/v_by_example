@@ -1,6 +1,6 @@
 # V by Example
 
-[Brazilian Portuguese](../pt-br/README_pt-br.md) | [Deutsch](README_de.md) | [English](../README.md)
+[Brazilian Portuguese](../../pt-br/README_pt-br.md) | [Deutsch](README_de.md) | [English](../../README.md)
 
 > Learn V by Examples
 
