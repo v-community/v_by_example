@@ -1,5 +1,7 @@
 # V por exemplos
 
+[Brazilian Portuguese](README_pt-br.md) | [Deutsch](../de/README_de.md) | [English](../README.md)
+
 > Aprenda V por exemplos
 
 V by Example é uma introdução direta ao V usando exemplos de programas anotados.
