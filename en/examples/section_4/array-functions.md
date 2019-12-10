@@ -5,7 +5,7 @@
 Syntax
 
 ```go
-array.repeat(number int)
+array.repeat(number type)
 ```
 
 Makes an array with the given element number of times.
@@ -26,7 +26,7 @@ Output
 Syntax
 
 ```go
-array.delete(ix int)
+array.delete(ix type)
 ```
 
 Deletes the element present in the array at index `ix`.
