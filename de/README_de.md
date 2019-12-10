@@ -14,7 +14,7 @@ Discord: https://discord.gg/d3Qk65J
 
 ## Kapitel 1
 
-Einführung in V mit einfachen Beispielen und Aufgaben.
+Eine Einführung in V mit einfachen Beispielen und Aufgaben.
 
 - [Hello World](examples/section_1/hello_world.md)
 - [V Schlüsselwörter](examples/section_1/keywords.md)
@@ -27,8 +27,8 @@ Einführung in V mit einfachen Beispielen und Aufgaben.
 
 Dieses Kapitel behandelt bedingte Anweisungen, Schleifen und andere wichtige Operatoren in V.
 
-- [Operatoren](de/examples/section_2/operator.md)
-- [If-else](de/examples/section_2/if-else.md)
+- [Operatoren](examples/section_2/operator.md)
+- [If-else](examples/section_2/if-else.md)
 - [Match](de/examples/section_2/match.md)
 - [Schleifen](de/examples/section_2/loops.md)
 
