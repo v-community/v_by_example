@@ -42,7 +42,7 @@ fn main() {
 }
 ```
 
-here `age := 21` will result in another error while compiling, because the variable `age` is already defined in the scope.
+here `age := 21` will result in another error while compiling because the variable `age` is already defined in the scope.
 
 Like Go, You can also use `_` for ignoring values when it is not needed. Usually used in multi return functions.
 
