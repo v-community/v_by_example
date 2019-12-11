@@ -12,18 +12,18 @@ println(name)           // Alice
 println(is_adult)       // true
 ```
 
-**Note:** Variables can only be defined in a function. There are no global variables and no global state in V.
+> Note: Variables can only be defined in a function. There are no global variables and no global state in V.
 
-In order to change the value of a variable it needs to be mutable. This can be done using the `mut` keyword when declaring the variable. To assign a new value to a variable use `=`.
+To change the value of a variable, it needs to be mutable. This can be done using the `mut` keyword when declaring the variable. To assign a new value to a variable use `=`.
 
 ```go
-mut age := 20       // we declare the mutable variable age and assign it to the value 20.
+mut age := 20       // declare the mutable variable age and assign it to the value 20.
 println(age)        // 20
-age = 21            // we assign a new value to age
+age = 21            // assign a new value to age
 println(age)        // 21
 ```
 
-Leaving out the `mut` keyword here would result in an error, because the value of an immutable variable cannot be changed.
+Leaving out the `mut` keyword here would result in an error because the value of an immutable variable cannot be changed.
 
 ```go
 fn main() {
@@ -42,7 +42,7 @@ fn main() {
 }
 ```
 
-here `age := 21` will result in another error while compiling, because the variable `age` is already defined in the scope.
+here `age := 21` will result in another error while compiling because the variable `age` is already defined in the scope. It's very simple to remember, just declare value with `:=` and assign value with `=`.
 
 Like Go, You can also use `_` for ignoring values when it is not needed. Usually used in multi return functions.
 
@@ -50,9 +50,6 @@ Like Go, You can also use `_` for ignoring values when it is not needed. Usually
 _ := "I don't need this value"
 println(_) // ERROR: Cannot use `_` as value
 ```
-
-Declare value: `:=`
-Assign value: `=`
 
 ## Naming Rules
 

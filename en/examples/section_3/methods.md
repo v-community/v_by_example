@@ -32,12 +32,21 @@ fn main() {
         email: 'alice@alice-mail.com'
         age: 17
     }
-    println(bob.can_register())                                             // false
-    println("Bob needs to be 16 to register, but he only is ${bob.age}.")   // Bob needs to be 16 to register, but he only is 15.
-    println(alice.can_register())                                           // true
+    println(bob.can_register())
+    println("Bob needs to be 16 to register, but he only is ${bob.age}.")
+    println(alice.can_register())
     bob.has_birthday()
-    println(bob.age)                                                        // 16
+    println(bob.age)
 }
+```
+
+Output
+
+```console
+false
+Bob needs to be 16 to register, but he only is 15.
+true
+16
 ```
 
 This code above realizes two methods for receivers `u` of type `User`.
