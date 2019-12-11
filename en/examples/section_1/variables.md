@@ -42,7 +42,7 @@ fn main() {
 }
 ```
 
-here `age := 21` will result in another error while compiling because the variable `age` is already defined in the scope.
+here `age := 21` will result in another error while compiling because the variable `age` is already defined in the scope. It's very simple to remember, just declare value with `:=` and assign value with `=`.
 
 Like Go, You can also use `_` for ignoring values when it is not needed. Usually used in multi return functions.
 
@@ -50,9 +50,6 @@ Like Go, You can also use `_` for ignoring values when it is not needed. Usually
 _ := "I don't need this value"
 println(_) // ERROR: Cannot use `_` as value
 ```
-
-Declare value: `:=`
-Assign value: `=`
 
 ## Naming Rules
 
