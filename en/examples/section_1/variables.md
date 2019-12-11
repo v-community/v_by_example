@@ -14,7 +14,7 @@ println(is_adult)       // true
 
 > Note: Variables can only be defined in a function. There are no global variables and no global state in V.
 
-In order to change the value of a variable it needs to be mutable. This can be done using the `mut` keyword when declaring the variable. To assign a new value to a variable use `=`.
+To change the value of a variable, it needs to be mutable. This can be done using the `mut` keyword when declaring the variable. To assign a new value to a variable use `=`.
 
 ```go
 mut age := 20       // we declare the mutable variable age and assign it to the value 20.
