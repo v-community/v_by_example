@@ -23,7 +23,7 @@ fn full_name(first_name, last_name string) string {
     return first_name + ' ' + last_name
 }
 
-println(full_name("Vitor", "Oliveira"))
+println(full_name("Vitor", "Oliveira")) // Vitor Oliveira
 ```
 
 ## Variadic Functions
