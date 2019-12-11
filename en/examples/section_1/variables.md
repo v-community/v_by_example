@@ -23,7 +23,7 @@ age = 21            // assign a new value to age
 println(age)        // 21
 ```
 
-Leaving out the `mut` keyword here would result in an error, because the value of an immutable variable cannot be changed.
+Leaving out the `mut` keyword here would result in an error because the value of an immutable variable cannot be changed.
 
 ```go
 fn main() {
