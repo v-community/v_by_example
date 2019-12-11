@@ -13,7 +13,7 @@ fn sum(x, y int) int {
     return x + y
 }
 
-println(sum(77, 33))
+println(sum(77, 33)) // 110
 ```
 
 > Note: The type comes after the argument's name.
@@ -86,13 +86,7 @@ fn run(value int, op fn(int) int) int {
     return op(value)
 }
 
-println(run(10, square))
-```
-
-Output
-
-```console
-100
+println(run(10, square)) // 100
 ```
 
 ## Naming Rules
