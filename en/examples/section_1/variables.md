@@ -17,9 +17,9 @@ println(is_adult)       // true
 To change the value of a variable, it needs to be mutable. This can be done using the `mut` keyword when declaring the variable. To assign a new value to a variable use `=`.
 
 ```go
-mut age := 20       // we declare the mutable variable age and assign it to the value 20.
+mut age := 20       // declare the mutable variable age and assign it to the value 20.
 println(age)        // 20
-age = 21            // we assign a new value to age
+age = 21            // assign a new value to age
 println(age)        // 21
 ```
 
