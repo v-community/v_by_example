@@ -32,7 +32,7 @@ user := User { name: "V developers", email: "developers@vlang.io", country: "Can
 
 ## The `&` prefix
 
-You can allocate a struct on the heap and get a reference to it by using the `&` prefix as follows:
+You can also allocate a struct on the heap and get a reference to it by using the `&` prefix as follows:
 
 ```go
 user := &User{"V developers", "developers@vlang.io", "Canada"}
@@ -110,6 +110,12 @@ pub mut mut:
     zip     string
 }
 ```
+
+## Naming Rules
+
+- The name of the `struct` should always be capital.
+- Use [`Snake_Case`](https://github.com/v-community/v_by_example/blob/master/en/examples/section_1/variables.md#naming-rules) for variable naming.
+
 
 ## Exercises
 
