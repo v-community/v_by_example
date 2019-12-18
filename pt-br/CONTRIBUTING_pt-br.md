@@ -21,7 +21,7 @@ Obrigado por suas contribuições!
 
 #### 2. Faça as alterações e pressione-as
 
-Agora você está pronto para fazer suas alterações! Depois de concluir as alterações, envie essas alterações para o fork e [envie uma ** solicitação de recebimento **](https://help.github.com/articles/using-pull-requests/).
+Agora você está pronto para fazer as suas alterações! Depois de concluir as alterações, envie essas alterações para o fork e [envie uma ** solicitação de recebimento **](https://help.github.com/articles/using-pull-requests/).
 
 ## Licença
 
