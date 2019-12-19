@@ -4,8 +4,8 @@ In general, V references are similar to Go pointers and C++ references. For exam
 
 ```go
 struct Address<Object> {
-	uuid  Object
-	shipping_address  &Address
-	billing_address &Address
+    uuid  Object
+    shipping_address  &Address
+    billing_address &Address
 }
 ```
