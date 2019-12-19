@@ -36,17 +36,17 @@ println('${bob.name}s age is higher or equal to 18: ${bob.age >= 18}')  // 0 <=>
 
 ## Concatenation
 
-Strings can be concatenated with the `+` operator. Since strings are also immutable by default it is only possible to concatenate strings if they are declared with `mut`.
+Strings can be concatenated with the `+` operator.
 
 ```go
-mut text := 'Hello'
+text := 'Hello'
 concatenated_text := text + ' World!'
 println(text)                   // Hello
 println(text + ' World!')       // Hello World!
 println(concatenated_text)      // Hello World!
 ```
 
-Appending to a string works with concatenation as well as with `+=` operator.
+Appending to a string works with concatenation as well as with `+=` operator. Since strings are immutable by default it is only possible to do this if they are declared with `mut`.
 
 ```go
 mut hello := 'Hello '
