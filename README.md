@@ -50,6 +50,12 @@ In this section, we dive deeper and study the features inside the Array object. 
 - [Files](en/examples/section_4/files.md)
 - [JSON](en/examples/section_4/json.md)
 
+## Section 5
+
+This sections introduces pointers.
+
+- [Pointers](en/examples/section_5/pointers.md)
+
 ## Team
 
 Current list of maintainers/authors:
