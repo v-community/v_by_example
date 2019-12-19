@@ -8,11 +8,11 @@ Pointers in V provide an alternative way to access information stored in arrays.
 
 ```go
 pub fn (c &MainHelper) worked_days_condition(times_array, dates_array []integer) {
-	if times_array.len < 10 {
-		panic('times_array < 10')
-	}
-	if dates_array.len < 10 {
-		println('dates_array < 0')
-	}
+    if times_array.len < 10 {
+        panic('times_array < 10')
+    }
+    if dates_array.len < 10 {
+        println('dates_array < 10')
+    }
 }
 ```
