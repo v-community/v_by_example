@@ -47,7 +47,7 @@ Struct fields are `private` and `immutable` by default. Their access modifiers c
 
 ```go
 struct User {
-    email string
+    email string   // private and immutable (default)
 }
 ```
 
@@ -57,8 +57,8 @@ You can define them as `private mutable`.
 struct User {
     email string
 mut:
-    first_name string
-    last_name string
+    first_name string  // private mutable
+    last_name string   // (you can list multiple fields with the same access modifier)
 }
 ```
 
@@ -71,7 +71,7 @@ mut:
     first_name string
     last_name string
 pub:
-    sin_number int
+    sin_number int     // public immutable (readonly)
 }
 ```
 
@@ -86,7 +86,7 @@ mut:
 pub:
    sin_number int
 pub mut:
-   phone int
+   phone int    // public, but mutable only in parent module 
 }
 ```
 
@@ -102,10 +102,10 @@ pub:
     sin_number int
 pub mut:
     phone int
-pub mut mut:
-    address_1 string
-    address_2 string
-    city string
+__global:
+    address_1 string    // public and mutable both inside and outside parent module
+    address_2 string    // (not recommended to use, that's why the 'global' keyword
+    city string         // starts with __)
     country string
     zip     string
 }
