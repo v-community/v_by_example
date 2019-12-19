@@ -52,7 +52,7 @@ In this section, we dive deeper and study the features inside the Array object. 
 
 ## Section 5
 
-This sections introduces pointers.
+This section introduces pointers.
 
 - [Pointers](en/examples/section_5/pointers.md)
 
