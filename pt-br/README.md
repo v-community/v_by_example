@@ -1,6 +1,6 @@
 # V por exemplos
 
-[Brazilian Portuguese](README_pt-br.md) | [Deutsch](../de/README_de.md) | [English](../README.md)
+[Brazilian Portuguese](README_pt-br.md) | [Deutsch](../de/README.md) | [English](../README.md)
 
 > Aprenda V por exemplos
 
@@ -38,7 +38,7 @@ Lista atual de mantenedores/autores:
 
 ## Contribuindo
 
-Veja nosso [CONTRIBUTING.md](CONTRIBUTING_pt-br.md) e comece a contribuir hoje. Normalmente, elegemos novos mantenedores com base em contribuições.
+Veja nosso [CONTRIBUTING.md](CONTRIBUTING.md) e comece a contribuir hoje. Normalmente, elegemos novos mantenedores com base em contribuições.
 
 ## License
 

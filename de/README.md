@@ -1,6 +1,6 @@
 # V by Example
 
-[Brazilian Portuguese](../pt-br/README_pt-br.md) | [Deutsch](README_de.md) | [English](../README.md)
+[Brazilian Portuguese](../pt-br/README.md) | [Deutsch](README.md) | [English](../README.md)
 
 > Learn V by Examples
 
@@ -62,7 +62,7 @@ Derzeitige Liste der Autoren/Maintainer
 
 ## Contributing
 
-Um etwas beizutragen einfach den [Contributing-Guide](CONTRIBUTING_de.md) lesen, die Schritte befolgen und los geht&apos;s! Wir wählen Maintainer aufgrund ihrer Beiträge zum Projekt aus.
+Um etwas beizutragen einfach den [Contributing-Guide](CONTRIBUTING.md) lesen, die Schritte befolgen und los geht&apos;s! Wir wählen Maintainer aufgrund ihrer Beiträge zum Projekt aus.
 
 ## Lizenz
 
