@@ -18,13 +18,13 @@ Introdução ao V, apresentando alguns exemplos e exercícios básicos.
 
 - [Comentários](examples/section_1/comment.md)
 - [Palavras-chave](examples/section_1/keywords.md)
+- [Primitivos](examples/section_1/primitives.md)
 
 ## Seção 2
 
 Esta seção discute os principais operadores e instruções condicionais em V.
 
 - [Operadores](examples/section_2/operators.md)
-- [Primitivos](examples/section_2/primitives.md)
 
 ## Time
 
