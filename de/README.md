@@ -54,7 +54,7 @@ In diesem Kapitel werden Arrays noch einmal vertieft. Es wird hier auch auf das 
 
 Derzeitige Liste der Autoren/Maintainer
 
-- [Don Alfons Nisnoni](https://github.com/donnisnoni95)
+- [Don Alfons Nisnoni](https://github.com/dhonx)
 - [Ivo-Balbaert](https://github.com/ibalbaert)
 - [Sven Patrick Meier](https://github.com/SuicideS3ason)
 - [Swastik Baranwal](https://github.com/Delta456)

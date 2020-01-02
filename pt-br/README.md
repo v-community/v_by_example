@@ -30,7 +30,7 @@ Esta seção discute os principais operadores e instruções condicionais em V.
 
 Lista atual de mantenedores/autores:
 
-* [Don Alfons Nisnoni](https://github.com/donnisnoni95)
+* [Don Alfons Nisnoni](https://github.com/dhonx)
 * [Ivo-Balbaert](https://github.com/ibalbaert)
 * [Sven Patrick Meier](https://github.com/tobyhinloopen)
 * [Swastik Baranwal](https://github.com/Delta456)

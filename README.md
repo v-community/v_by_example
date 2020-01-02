@@ -54,7 +54,7 @@ In this section, we dive deeper and study the features inside the Array object. 
 
 Current list of maintainers/authors:
 
-- [Don Alfons Nisnoni](https://github.com/donnisnoni95)
+- [Don Alfons Nisnoni](https://github.com/dhonx)
 - [Ivo-Balbaert](https://github.com/ibalbaert)
 - [Sven Patrick Meier](https://github.com/SuicideS3ason)
 - [Swastik Baranwal](https://github.com/Delta456)
