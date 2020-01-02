@@ -4,9 +4,9 @@ There's only one type of loop in V language, like Go which can be used in many w
 
 ## `for` loop
 
-`for` loops offer a quick and easy way to do something repeatedly. 
+`for` loops offer a quick and easy way to do something repeatedly.
 They're handy, if you want to run the same code over and over again, each time with a different value.
-You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction then Y steps in another; 
+You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction then Y steps in another;
 for example, the idea "Go five steps to the east" could be expressed this way as a loop:
 
 ```go

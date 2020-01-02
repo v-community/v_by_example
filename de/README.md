@@ -10,7 +10,7 @@ V by Example ist eine Einführung in V anhand von begleitenden, erklärten Codeb
 - [Contributing](#contributing)
 - [License](#license)
 
-Discord: https://discord.gg/d3Qk65J
+Discord: [https://discord.gg/d3Qk65J](https://discord.gg/d3Qk65J)
 
 ## Kapitel 1
 
