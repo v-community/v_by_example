@@ -10,7 +10,7 @@ V by Example adalah pengantar langsung ke V dengan menggunakan contoh program be
 - [Berkontribusi](#contributing)
 - [Lisensi](#license)
 
-Discord: https://discord.gg/d3Qk65J
+Discord: [https://discord.gg/d3Qk65J](https://discord.gg/d3Qk65J)
 
 ## Bagian 1
 
