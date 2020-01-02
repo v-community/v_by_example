@@ -1,6 +1,6 @@
 # JSON
 
-JavaScript Object Notation (JSON) is a lightweight data-interchange format that is easy for humans to read and write. Furthermore, equally simple for machines to generate and/or parse. 
+JavaScript Object Notation (JSON) is a lightweight data-interchange format that is easy for humans to read and write. Furthermore, equally simple for machines to generate and/or parse.
 JSON is completely language agnostic and that's why it's the ideal interchange format.
 
 To read more about JSON visit: [json.org](http://json.org).

@@ -86,7 +86,7 @@ mut:
 pub:
    sin_number int
 pub mut:
-   phone int    // public, but mutable only in parent module 
+   phone int    // public, but mutable only in parent module
 }
 ```
 
@@ -115,7 +115,6 @@ __global:
 
 - The name of the `struct` should always be capital.
 - Use [`Snake_Case`](https://github.com/v-community/v_by_example/blob/master/en/examples/section_1/variables.md#naming-rules) for variable naming.
-
 
 ## Exercises
 

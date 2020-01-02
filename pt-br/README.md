@@ -10,7 +10,7 @@ V by Example é uma introdução direta ao V usando exemplos de programas anotad
 - [Contribuindo](#contributing)
 - [Licença](#license)
 
-Discord: https://discord.gg/d3Qk65J
+Discord: [https://discord.gg/d3Qk65J](https://discord.gg/d3Qk65J)
 
 ## Seção 1
 
@@ -30,11 +30,11 @@ Esta seção discute os principais operadores e instruções condicionais em V.
 
 Lista atual de mantenedores/autores:
 
-* [Don Alfons Nisnoni](https://github.com/dhonx)
-* [Ivo-Balbaert](https://github.com/ibalbaert)
-* [Sven Patrick Meier](https://github.com/tobyhinloopen)
-* [Swastik Baranwal](https://github.com/Delta456)
-* [Vitor Oliveira](https://github.com/vbrazo)
+- [Don Alfons Nisnoni](https://github.com/dhonx)
+- [Ivo-Balbaert](https://github.com/ibalbaert)
+- [Sven Patrick Meier](https://github.com/tobyhinloopen)
+- [Swastik Baranwal](https://github.com/Delta456)
+- [Vitor Oliveira](https://github.com/vbrazo)
 
 ## Contribuindo
 

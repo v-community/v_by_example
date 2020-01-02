@@ -1,4 +1,4 @@
-## Contribuindo
+# Contribuindo
 
 ## Geral
 
@@ -15,13 +15,13 @@ Obrigado por suas contribuições!
 
 ## Introdução ao projeto
 
-#### 1. Fork e clone este repositório
+### 1. Fork e clone este repositório
 
 [Fork este repositório](https://github.com/v-community/v_by_example/fork) e clone seu fork. Se você não sabe o que significa fork ou não sabe como fazê-lo, boas instruções estão disponíveis [aqui](https://help.github.com/articles/fork-a-repo/).
 
-#### 2. Faça as alterações e pressione-as
+### 2. Faça as alterações e pressione-as
 
-Agora você está pronto para fazer as suas alterações! Depois de concluir as alterações, envie essas alterações para o fork e [envie uma ** solicitação de recebimento **](https://help.github.com/articles/using-pull-requests/).
+Agora você está pronto para fazer as suas alterações! Depois de concluir as alterações, envie essas alterações para o fork e [envie uma **solicitação de recebimento**](https://help.github.com/articles/using-pull-requests/).
 
 ## Licença
 
