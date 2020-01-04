@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- [PR #66](https://github.com/v-community/v_by_example/pull/66) Update .typo-ci.yml [@donnisnoni95](https://github.com/donnisnoni95)
+- [PR #66](https://github.com/v-community/v_by_example/pull/66) Update .typo-ci.yml [@dhonx](https://github.com/dhonx)
 
 ## Enhancement
 
@@ -11,10 +11,10 @@
 
 ## Documentation
 
-- [PR #69](https://github.com/v-community/v_by_example/pull/69) using 4 spaces for indentation & format table [@donnisnoni95](https://github.com/donnisnoni95)
-- [PR #68](https://github.com/v-community/v_by_example/pull/68) update variadic function, fix typo & improve grammar [@donnisnoni95](https://github.com/donnisnoni95)
-- [PR #67](https://github.com/v-community/v_by_example/pull/67) update note section [@donnisnoni95](https://github.com/donnisnoni95)
-- [PR #60](https://github.com/v-community/v_by_example/pull/60) fix grammar, formating some code & fix example for loop example [@donnisnoni95](https://github.com/donnisnoni95)
+- [PR #69](https://github.com/v-community/v_by_example/pull/69) using 4 spaces for indentation & format table [@dhonx](https://github.com/dhonx)
+- [PR #68](https://github.com/v-community/v_by_example/pull/68) update variadic function, fix typo & improve grammar [@dhonx](https://github.com/dhonx)
+- [PR #67](https://github.com/v-community/v_by_example/pull/67) update note section [@dhonx](https://github.com/dhonx)
+- [PR #60](https://github.com/v-community/v_by_example/pull/60) fix grammar, formating some code & fix example for loop example [@dhonx](https://github.com/dhonx)
 
 ## v0.7.0 (2019-11-03)
 
@@ -27,9 +27,9 @@
 
 ## Documentation
 
-- [PR #58](https://github.com/v-community/v_by_example/pull/58) add comma and remove some whitespaces [@donnisnoni95](https://github.com/donnisnoni95)
-- [PR #57](https://github.com/v-community/v_by_example/pull/57) array: add how to create an empty array [@donnisnoni95](https://github.com/donnisnoni95)
-- [PR #41](https://github.com/v-community/v_by_example/pull/41) examples: improve grammar, better MD structure & fix some code [@donnisnoni95](https://github.com/donnisnoni95)
+- [PR #58](https://github.com/v-community/v_by_example/pull/58) add comma and remove some whitespaces [@dhonx](https://github.com/dhonx)
+- [PR #57](https://github.com/v-community/v_by_example/pull/57) array: add how to create an empty array [@dhonx](https://github.com/dhonx)
+- [PR #41](https://github.com/v-community/v_by_example/pull/41) examples: improve grammar, better MD structure & fix some code [@dhonx](https://github.com/dhonx)
 - [PR #40](https://github.com/v-community/v_by_example/pull/40) November and December plan [@vbrazo](https://github.com/vbrazo)
 - [PR #38](https://github.com/v-community/v_by_example/pull/38) Improve contributing [@vbrazo](https://github.com/vbrazo)
 - [PR #37](https://github.com/v-community/v_by_example/pull/37) Fix broken README links [@vbrazo](https://github.com/vbrazo)
@@ -63,7 +63,7 @@
 
 ## Chores
 
-- [PR #23](https://github.com/v-community/v_by_example/pull/23) hello.md: formatting [@donnisnoni95](https://github.com/donnisnoni95)
+- [PR #23](https://github.com/v-community/v_by_example/pull/23) hello.md: formatting [@dhonx](https://github.com/dhonx)
 
 ## Feature Request
 
@@ -75,7 +75,7 @@
 
 ## Chores
 
-- [PR #18](https://github.com/v-community/v_by_example/pull/18) update primitives.md [@donnisnoni95](https://github.com/donnisnoni95)
+- [PR #18](https://github.com/v-community/v_by_example/pull/18) update primitives.md [@dhonx](https://github.com/dhonx)
 - [PR #17](https://github.com/v-community/v_by_example/pull/17) Update repo structure [@vbrazo](https://github.com/vbrazo)
 
 ## Documentation
@@ -100,11 +100,11 @@
 
 - [PR #7](https://github.com/v-community/v_by_example/pull/7) Add october.plan [@vbrazo](https://github.com/vbrazo)
 - [PR #6](https://github.com/v-community/v_by_example/pull/6) Add CONTRIBUTING [@vbrazo](https://github.com/vbrazo)
-- [PR #5](https://github.com/v-community/v_by_example/pull/5) add a final newline at the end of file [@donnisnoni95](https://github.com/donnisnoni95)
+- [PR #5](https://github.com/v-community/v_by_example/pull/5) add a final newline at the end of file [@dhonx](https://github.com/dhonx)
 
 ## Chores
 
-- [PR #12](https://github.com/v-community/v_by_example/pull/12) ignore executable chores [@donnisnoni95](https://github.com/donnisnoni95)
+- [PR #12](https://github.com/v-community/v_by_example/pull/12) ignore executable chores [@dhonx](https://github.com/dhonx)
 
 ------------------------------------------------------------------------------
 
