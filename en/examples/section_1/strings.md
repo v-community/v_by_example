@@ -58,9 +58,9 @@ In V, string data is encoded using UTF-8 and the string itself is a read-only ar
 
 ```go
 robert := 'Robert'
-bert := robert[2..robert.len]                                   // bert
-rob := robert[0..3]                                             // Rob
-println('The persons of interest are: $robert, $bert, $rob')    // The persons of interest are: Robert, bert, Rob
+bert := robert[2..robert.len]                                 // bert
+rob := robert[0..3]                                           // Rob
+println('The persons of interest are: $robert, $bert, $rob')  // The persons of interest are: Robert, bert, Rob
 ```
 
 ### Notes
