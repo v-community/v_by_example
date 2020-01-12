@@ -16,7 +16,7 @@ It is possible to do string interpolation with `$` in front of the variable:
 
 ```go
 name:= 'Bob'
-println('Hello $name!')     // Hello Bob
+println('Hello $name!')     // Hello Bob!
 ```
 
 One can have more complex expressions with interpolation syntax by using `${}`:
@@ -58,7 +58,7 @@ In V, string data is encoded using UTF-8 and the string itself is a read-only ar
 
 ```go
 robert := 'Robert'
-bert := robert[2..robert.len-1]                                 // bert
+bert := robert[2..robert.len]                                   // bert
 rob := robert[0..3]                                             // Rob
 println('The persons of interest are: $robert, $bert, $rob')    // The persons of interest are: Robert, bert, Rob
 ```
