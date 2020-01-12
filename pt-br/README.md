@@ -1,12 +1,12 @@
 # V por exemplos
 
-[Brazilian Portuguese](README_pt-br.md) | [Deutsch](../de/README.md) | [English](../README.md)
+[Brazilian Portuguese](README.md) | [Deutsch](/de/README.md) | [English](/README.md) | [Bahasa Indonesia](/id/README.md)
 
 > Aprenda V por exemplos
 
 V by Example é uma introdução direta ao V usando exemplos de programas anotados.
 
-- [Exemplos](#examples)
+- [Exemplos](examples/README.md)
 - [Contribuindo](#contributing)
 - [Licença](#license)
 
@@ -42,4 +42,4 @@ Veja nosso [CONTRIBUTING.md](CONTRIBUTING.md) e comece a contribuir hoje. Normal
 
 ## License
 
-[MIT](LICENSE)
+[MIT](/LICENSE)

@@ -1,14 +1,14 @@
 # V mit einem Beispiel
 
-[Brazilian Portuguese](../pt-br/) \| [Deutsch](./) \| [English](../)
+[Brazilian Portuguese](/pt-br/README.md) | [Deutsch](README.md) | [English](/README.md) | [Bahasa Indonesia](/id/README.md)
 
 > Learn V by Examples
 
 V by Example ist eine Einführung in V anhand von begleitenden, erklärten Codebeispielen.
 
-* [Beispiele](https://github.com/v-community/v_by_example/tree/73c4624c87adba104b8015caaf7e04cd7426732f/de/examples/README.md)
-* [Contributing](./#contributing)
-* [License](./#license)
+* [Beispiele](examples/README.md)
+* [Contributing](#contributing)
+* [License](#license)
 
 Discord: [https://discord.gg/d3Qk65J](https://discord.gg/d3Qk65J)
 
@@ -29,26 +29,26 @@ Dieses Kapitel behandelt bedingte Anweisungen, Schleifen und andere wichtige Ope
 
 * [Operatoren](examples/section_2/operator.md)
 * [If-else](examples/section_2/if-else.md)
-* [Match](https://github.com/v-community/v_by_example/tree/73c4624c87adba104b8015caaf7e04cd7426732f/de/de/examples/section_2/match.md)
-* [Schleifen](https://github.com/v-community/v_by_example/tree/73c4624c87adba104b8015caaf7e04cd7426732f/de/de/examples/section_2/loops.md)
+* [Match](examples/section_2/match.md)
+* [Schleifen](examples/section_2/loops.md)
 
 ## Kaptiel 3
 
 Hier wird die wichtigste Datenstruktur in V behandelt: `Array`s und `Struct`s. Beinhaltet sind weiterhin Beispiele und Erklärungen zu den Themen Funktionen und Methoden.
 
-* [Funktionen](https://github.com/v-community/v_by_example/tree/73c4624c87adba104b8015caaf7e04cd7426732f/de/de/examples/section_3/functions.md)
-* [Arrays](https://github.com/v-community/v_by_example/tree/73c4624c87adba104b8015caaf7e04cd7426732f/de/de/examples/section_3/arrays.md)
-* [Struct](https://github.com/v-community/v_by_example/tree/73c4624c87adba104b8015caaf7e04cd7426732f/de/de/examples/section_3/struct.md)
-* [Methoden](https://github.com/v-community/v_by_example/tree/73c4624c87adba104b8015caaf7e04cd7426732f/de/de/examples/section_3/methods.md)
+* [Funktionen](examples/section_3/functions.md)
+* [Arrays](examples/section_3/arrays.md)
+* [Struct](examples/section_3/struct.md)
+* [Methoden](examples/section_3/methods.md)
 
 ## Kapitel 4
 
 In diesem Kapitel werden Arrays noch einmal vertieft. Es wird hier auch auf das Format `JSON` eingegangen, der Bereich Dateioperationen \(lesen und schreiben\), sowie Testing gezeigt.
 
-* [Array Funktionen](https://github.com/v-community/v_by_example/tree/73c4624c87adba104b8015caaf7e04cd7426732f/de/de/examples/section_4/array-functions.md)
-* [Testing](https://github.com/v-community/v_by_example/tree/73c4624c87adba104b8015caaf7e04cd7426732f/de/de/examples/section_4/testing.md)
-* [File-IO](https://github.com/v-community/v_by_example/tree/73c4624c87adba104b8015caaf7e04cd7426732f/de/de/examples/section_4/files.md)
-* [JSON](https://github.com/v-community/v_by_example/tree/73c4624c87adba104b8015caaf7e04cd7426732f/de/de/examples/section_4/json.md)
+* [Array Funktionen](examples/section_4/array-functions.md)
+* [Testing](examples/section_4/testing.md)
+* [File-IO](examples/section_4/files.md)
+* [JSON](examples/section_4/json.md)
 
 ## Team
 
@@ -62,9 +62,8 @@ Derzeitige Liste der Autoren/Maintainer
 
 ## Contributing
 
-Um etwas beizutragen einfach den [Contributing-Guide](contributing.md) lesen, die Schritte befolgen und los geht's! Wir wählen Maintainer aufgrund ihrer Beiträge zum Projekt aus.
+Um etwas beizutragen einfach den [Contributing-Guide](CONTRIBUTING.md) lesen, die Schritte befolgen und los geht's! Wir wählen Maintainer aufgrund ihrer Beiträge zum Projekt aus.
 
 ## Lizenz
 
-[MIT](https://github.com/v-community/v_by_example/tree/73c4624c87adba104b8015caaf7e04cd7426732f/de/LICENSE/README.md)
-
+[MIT](/LICENSE)

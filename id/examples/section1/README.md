@@ -1,2 +1,3 @@
-# section1
+# Bagian 1
 
+- [Variabel](variables.md)

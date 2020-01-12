@@ -1,2 +1,1 @@
-# section\_2
-
+# Section 2
