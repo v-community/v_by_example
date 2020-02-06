@@ -34,7 +34,7 @@ Bagian ini membahas tentang operator utama dan pernyataan bersyarat dalam V.
 
 ## Bagian 3
 
-Bagian ini membahas tentang fungsi dan metode dan dalam struktur data yang paling penting dalam V: array dan struct.
+Bagian ini membahas tentang fungsi dan metode dan dalam struktur data yang paling penting dalam V: _array_ dan _struct._
 
 * [Functions](examples/section_3/functions.md)
 * [Arrays](examples/section_3/arrays.md)
@@ -43,7 +43,7 @@ Bagian ini membahas tentang fungsi dan metode dan dalam struktur data yang palin
 
 ## Bagian 4
 
-Di bagian ini, kita akan membahas lebih dalam dan mempelajari fitur-fitur di dalam objek Array. Contoh-contoh lain seperti JSON, Menulis / membaca file dan Testing juga akan dibahas.
+Di bagian ini, kita akan membahas lebih dalam dan mempelajari fitur-fitur di dalam objek _Array_. Contoh-contoh lain seperti _JSON_, Menulis/membaca _file_ dan _testing_.
 
 * [Array Functions](examples/section_4/array-functions.md)
 * [Testing](examples/section_4/testing.md)
@@ -62,7 +62,7 @@ Daftar pengelola/penulis saat ini:
 
 ## Berkontribusi
 
-Lihat [CONTRIBUTING.md](CONTRIBUTING.md) kami dan mulai berkontribusi hari ini. Kami biasanya memilih pengelola baru berdasarkan kontribusi
+Lihatlah [CONTRIBUTING.md](CONTRIBUTING.md) kami dan mulai berkontribusi hari ini. Kami biasanya memilih pengelola baru berdasarkan kontribusi
 
 ## Lisensi
 
