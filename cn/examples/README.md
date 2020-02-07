@@ -16,39 +16,39 @@ Discord: [https://discord.gg/d3Qk65J](https://discord.gg/d3Qk65J)
 
 通过一些基本的例子和练习来介绍V语言。
 
-- [Hello World](cn/examples/section_1/hello_world.md)
-- [V Keywords](cn/examples/section_1/keywords.md)
-- [Primitives](cn/examples/section_1/primitives.md)
-- [Variables](cn/examples/section_1/variables.md)
-- [Strings](cn/examples/section_1/strings.md)
-- [Comment](cn/examples/section_1/comment.md)
+- [Hello World](section_1/hello_world.md)
+- [V Keywords](section_1/keywords.md)
+- [Primitives](section_1/primitives.md)
+- [Variables](section_1/variables.md)
+- [Strings](section_1/strings.md)
+- [Comment](section_1/comment.md)
 
 ## Section 2
 
 本节讨论V语言中主要的运算和条件语句。
 
-- [Operator](cn/examples/section_2/operator.md)
-- [If-else](cn/examples/section_2/if-else.md)
-- [Match](cn/examples/section_2/match.md)
-- [Loops](cn/examples/section_2/loops.md)
+- [Operator](section_2/operator.md)
+- [If-else](section_2/if-else.md)
+- [Match](section_2/match.md)
+- [Loops](section_2/loops.md)
 
 ## Section 3
 
 学习V语言函数和方法以及最重要的数据结构：数组和结构体
 
-- [Functions](cn/examples/section_3/functions.md)
-- [Arrays](cn/examples/section_3/arrays.md)
-- [Struct](cn/examples/section_3/struct.md)
-- [Methods](cn/examples/section_3/methods.md)
+- [Functions](section_3/functions.md)
+- [Arrays](section_3/arrays.md)
+- [Struct](section_3/struct.md)
+- [Methods](section_3/methods.md)
 
 ## Section 4
 
 在本节中，我们将深入研究数组对象内部的特征。其他的例子，比如JSON、写/读文件和测试，都会涉及到。
 
-- [Array Functions](cn/examples/section_4/array-functions.md)
-- [Testing](cn/examples/section_4/testing.md)
-- [Files](cn/examples/section_4/files.md)
-- [JSON](cn/examples/section_4/json.md)
+- [Array Functions](section_4/array-functions.md)
+- [Testing](section_4/testing.md)
+- [Files](section_4/files.md)
+- [JSON](section_4/json.md)
 
 ## Team
 
