@@ -1,6 +1,6 @@
 # Variabel
 
-Variabel pada V dapat dinyatakan dan diinisialisasi dengan `:=` operator. Variabel hanya dapat dideklarasikan dengan cara ini dalam V, ini berarti semua variabel memiliki nilai awal. Jenis variabel disimpulkan dari nilai di sisi kanan. Secara _default_ variabel dalam V tidak dapat diubah(_immutable_).
+Variabel pada V dapat dinyatakan dan diinisialisasi dengan operator `:=`. Variabel hanya dapat dideklarasikan dengan cara ini, ini berarti semua variabel memiliki nilai awal. Jenis variabel disimpulkan dari nilai di sisi kanan. Secara _default_ variabel dalam V tidak dapat diubah(_immutable_).
 
 ```go
 umur := 23                  // int
@@ -14,7 +14,7 @@ println(sudah_dewasa)       // true
 
 > Catatan: Variabel hanya dapat didefinisikan di dalam suatu fungsi. Tidak ada variabel global dan tidak ada variabel global di V.
 
-Untuk mengubah nilai variabel, kita harus membuatnya _mutable_. Ini dapat dilakukan dengan menggunakan _keyword_ `mut` ketika mendeklarasikan variabel. Untuk menetapkan nilai baru ke variabel, gunakan `=`
+Untuk mengubah nilai variabel, kita harus membuatnya _mutable_. Ini dapat dilakukan dengan menggunakan _keyword_ `mut` ketika mendeklarasikan variabel. Untuk menetapkan nilai baru ke variabel, gunakanlah operator `=`
 
 ```go
 mut umur := 20       // mendeklarasikan umur variabel yang bisa berubah dan menetapkannya ke nilai 20.
@@ -44,7 +44,7 @@ fn main() {
 
 di sini `age: = 21` akan menghasilkan _error_ lain ketika dikompile karena variabel `umur` sudah didefinisikan dalam ruang lingkup. Sangat mudah diingat, cukup nyatakan nilai dengan `:=` dan tetapkan nilai dengan `=`.
 
-Seperti Go, Kamu juga dapat menggunakan `_` untuk mengabaikan nilai saat tidak diperlukan. Biasanya digunakan dalam fungsi _multi return_.
+Seperti Go, Kamu juga dapat menggunakan `_` untuk mengabaikan nilai saat tidak diperlukan. Biasanya cara ini digunakan dalam fungsi _multi return_.
 
 ```go
 _ := "Saya tidak membutuhkan nilai ini"
