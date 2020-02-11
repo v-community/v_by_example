@@ -1,11 +1,11 @@
-# Methods
+# メソッド
 
-V does not have classes. But one can define methods for types.
-A method is a function that has a special receiver argument,
-only a receiver of the specified type can execute this function.
-The receiver has its own argument list between `fn` and the method name.
+Vにはクラスというものはありません。しかし型に対してメソッドを定義できます。
 
-```go
+メソッド（method）とは、1個のレシーバーを特殊な引数として持つ関数であり、指定された型に該当するレシーバーだけがこの関数を実行できます。
+レシーバーは、`fn`とメソッド名の間に独自の引数リストを記述します。
+
+```v
 struct User {
     name string
     email string
@@ -40,7 +40,7 @@ fn main() {
 }
 ```
 
-Output
+上の出力結果:
 
 ```console
 false
@@ -49,11 +49,11 @@ true
 16
 ```
 
-This code above realizes two methods for receivers `u` of type `User`.
-Note that the method `has_birthday()` has a `mut` receiver, this is needed here since we want to change its data.
-The convention of V is not to use receiver names like `self`, `this` or similar things but a short, preferably one letter long, name.
+上のコードのレシーバー`u`の型は`User`であることがわかります。
+ここで`has_birthday()`関数のレシーバーに`mut`が付いていることにご注目ください。データを変更したい場合は`mut`の指定が必要です。
+Vのコーディング慣習では、`self`や`this`といったレシーバー名は使いません。1文字のレシーバー名が推奨されます。
 
-## Exercises
+## 演習
 
-1. Create a method for the type `Person` that determines whether a person is underage or not.
-2. Create a method that determines whether an `Animal` has fur or not.
+1.`Person`型を対象として、未成年かどうかを調べるメソッドを作成しましょう。
+2. `Animal`型について、毛が生えているかどうかを調べるメソッドを作成しましょう。

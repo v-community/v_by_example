@@ -1,10 +1,10 @@
-# Struct
+# 構造体
 
-A struct is a composite data type (or record) declaration that defines a physically grouped list of variables under one name in a block of memory, allowing different variables to be accessed via a single pointer or by the struct declared name which returns the same address.
+構造体（struct）は、さまざまなデータ型（レコード）を組み合わせて宣言します。構造体は、さまざまな変数のリストをメモリの1つのブロックの中でひとつの名前で物理的にグループ化することで、単一のポインタでさまざまな変数にアクセスしたり、同じアドレスを返す名前で宣言された構造体にアクセスしたりできます。
 
-For people coming from [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) languages, it can be thought as `class` but with more restrictions.
+[オブジェクト指向プログラミング](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%8C%87%E5%90%91%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0)方面から来た方であれば`class`と見なすこともできなくはありませんが、構造体はより制約が多くなっています。
 
-```go
+```v
 struct User {
     name string
     email string
@@ -22,62 +22,62 @@ fn main() {
 }
 ```
 
-> Note: Structs are allocated on the stack.
+> 注意: 構造体は（ヒープではなく）スタックに配置されます。
 
-You can use a comma to separate each field when creating a new instance of the struct. It's useful when you want to create a new instance on a single line.
+構造体のインスタンスを新たに作成するときには、各フィールドをカンマ`,`で区切ることもできます。これはワンライナーでインスタンスを作成するときに便利です。
 
-```go
+```v
 user := User { name: "V developers", email: "developers@vlang.io", country: "Canada" }
 ```
 
-## The `&` prefix
+## `&`プレフィックス
 
-You can also allocate a struct on the heap and get a reference to it by using the `&` prefix as follows:
+構造体はヒープに配置して参照することもできます。これを行うには、以下のように`&`プレフィックスを追加します。
 
-```go
+```v
 user := &User{"V developers", "developers@vlang.io", "Canada"}
 println(user.name)
 ```
 
-The type of `user` is `&User`. It's a reference to `User`.
+変数`user`の型は`&User`になり、`User`への参照となります。
 
-## Access modifiers
+## アクセス指定子
 
-Struct fields are `private` and `immutable` by default. Their access modifiers can be changed with `pub` and `mut`.
+構造体のフィールドはデフォルトで「private」（モジュールの外からアクセスできない）かつ「イミュータブル」です。これは`pub`や`mut`アクセス指定子で変更できます。
 
-```go
+```v
 struct User {
-    email string   // private and immutable (default)
+    email string   // privateかつイミュータブル（デフォルト）
 }
 ```
 
-You can define them as `private mutable`.
+`mut:`を指定すると「privateかつミュータブル」にできます。
 
-```go
+```v
 struct User {
     email string
 mut:
-    first_name string  // private mutable
-    last_name string   // (you can list multiple fields with the same access modifier)
+    first_name string  // privateかつミュータブル
+    last_name string   // （1つのアクセス指定子で複数のフィールドをまとめて指定できる）
 }
 ```
 
-You can also define them as `public immmutable` (readonly).
+`pub:`を指定すると「publicかつイミュータブル」（リードオンリー）にできます。
 
-```go
+```v
 struct User {
     email string
 mut:
     first_name string
     last_name string
 pub:
-    sin_number int     // public immutable (readonly)
+    sin_number int     // publicかつイミュータブル（リードオンリー）
 }
 ```
 
-or as `public`, but `mutable` only in the parent module.
+`pub mut:`を指定すると「public」かつ「**親モジュール**の中でのみミュータブル」になります。
 
-```go
+```v
 struct User {
    email string
 mut:
@@ -86,11 +86,11 @@ mut:
 pub:
    sin_number int
 pub mut:
-   phone int    // public, but mutable only in parent module
+   phone int    // publicだが親モジュールでのみミュータブル
 }
 ```
 
-or `public` and `mutable` both inside and outside parent module.
+`__global:`を指定すると、親モジュールの中か外かを問わず「publicかつミュータブル」になります。
 
 ```go
 struct User {
@@ -103,20 +103,22 @@ pub:
 pub mut:
     phone int
 __global:
-    address_1 string    // public and mutable both inside and outside parent module
-    address_2 string    // (not recommended to use, that's why the 'global' keyword
-    city string         // starts with __)
+    address_1 string    // 親モジュールの中でも外でもpublicかつミュータブル
+    address_2 string    // （利用を勧めたくないので'__'で始めている）
+    city string
     country string
     zip     string
 }
 ```
 
-## Naming Rules
+## 命名のルール
 
-- The name of the `struct` should always be capital.
-- Use [`Snake_Case`](https://github.com/v-community/v_by_example/blob/master/en/examples/section_1/variables.md#naming-rules) for variable naming.
+- `struct`の名前は常に大文字で始めること。
+- 構造体の中の変数（フィールド）については[`Snake_Case`](https://github.com/v-community/v_by_example/blob/master/en/examples/section_1/variables.md#naming-rules)にする。
 
-## Exercises
+> 訳注: フィールドのスネークケース縛りは近々変更される可能性あり。
 
-1. Create a struct that stores and displays `User` information.
-2. Create a `Point` struct that holds `x` and `y` field and guard them with private and public.
+## 演習
+
+1. `User`の情報を保存して表示する構造体を作成しましょう。
+2. `x`フィールドと`y`フィールドを持つ`Point`構造体を作成し、フィールドをそれぞれprivateとpublicにしましょう。

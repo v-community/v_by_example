@@ -1,8 +1,8 @@
-# Variables
+# 変数
 
-In V variables can be declared and initialized with the `:=` operator. Variables can only be declared this way in V, this means all variables have an initial value. The type of a variable is inferred from the value on the right hand side. By default variables in V are immutable.
+Vの変数は`:=`演算子で宣言および初期化できます。Vの変数はこれ以外の方法では宣言できません。つまり、いかなる変数にも初期値が存在するということです。変数の型は、右辺の値から推測されます。Vの変数はデフォルトでイミュータブル（immutable: 値を改変できない）です。
 
-```go
+```v
 age := 23               // int
 name := 'Alice'         // string
 is_adult := age > 21    // bool
@@ -12,69 +12,70 @@ println(name)           // Alice
 println(is_adult)       // true
 ```
 
-> Note: Variables can only be defined in a function. There are no global variables and no global state in V.
+> メモ: 変数の定義は、関数の内側でしか行なえません。Vにはグローバル変数もグローバルステートも存在しません。
 
-To change the value of a variable, it needs to be mutable. This can be done using the `mut` keyword when declaring the variable. To assign a new value to a variable use `=`.
+変数の値を変更するには、変数がミュータブル（mutable: 改変可能）になっている必要があります。変数の宣言時に`mut`キーワードを用いることで、変数をミュータブルにできます。変数に新しい値を代入するには`=`を用います。
 
-```go
-mut age := 20       // declare the mutable variable age and assign it to the value 20.
+```v
+mut age := 20       // ミュータブルな変数ageを宣言して値20を代入する
 println(age)        // 20
-age = 21            // assign a new value to age
+age = 21            // ageに新しい値を代入する
 println(age)        // 21
 ```
 
-Leaving out the `mut` keyword here would result in an error because the value of an immutable variable cannot be changed.
-
-```go
+上のコードは`mut`キーワードがないとエラーになります（イミュータブルな変数の値は変更できない）。
+v
+```v
 fn main() {
     age = 20
     println(age)
 }
 ```
 
-The code above would result in an error during compilation because the variable `age` is not declared,
+上のコードはコンパイルの段階でエラーになります（変数`age`が宣言されていないため）。
 
-```go
+
+```v
 fn main() {
-    mut age := 20       // we declare the mutable variable age and assign it to the value 20.
+    mut age := 20       // ミュータブルなage変数を宣言して値20を代入
     println(age)        // 20
     age := 21           // ERROR
 }
 ```
 
-here `age := 21` will result in another error while compiling because the variable `age` is already defined in the scope. It's very simple to remember, just declare value with `:=` and assign value with `=`.
+上の`age := 21`では、別のエラーがコンパイル時に発生します（変数`age`が同じスコープ内で既に定義されているため）。非常にシンプルで覚えやすいルールです。値の宣言は`:=`で、以後の代入は`=`と覚えておきましょう。
 
-Like Go, You can also use `_` for ignoring values when it is not needed. Usually used in multi return functions.
+Goと同様、不要な値は`_`で受け止めて無視できます。これは値を複数返す関数で使われるのが普通です【TBD】。
 
-```go
-_ := "I don't need this value"
+```v
+_, a := foo()
 println(_) // ERROR: Cannot use `_` as value
 ```
 
-## Naming Rules
+## 命名のルール
 
-The following are the rules which should be kept in mind while naming variables.
+以下は、変数の命名で守るべきルールの一覧です。
 
-- Name should not contain Uppercase letters like `AlphaTest`
-- Use underscores as separators like `hello_world`
-- Name should be descriptive as possible
-- Name should not contain `__`
-- Name should not contain any space
-- If the name is longer than 11 then it must use `_` as separator
+- 大文字を含んではならない（✖`AlphaTest`）
+- 区切り文字にはアンダースコアを用いる（○`hello_world`）
+- できるかぎり、意味の明快な名前を付けること
+- 名前に`__`を含んではならない
+- 名前に（種類を問わず）スペース文字を含んではならない
+- 名前が11文字を超えたら必ず`_`で区切らなければならない
 
-These rules are from [`Snake_Case`](https://en.wikipedia.org/wiki/Snake_case). V uses Snake Case and prefers it because it is more easy to read, write and understand.
+上のルールは[`snake_case`](https://en.wikipedia.org/wiki/Snake_case)が由来です。Vではsnake_caseスタイルが用いられ、また推奨されます（読みやすく、書きやすく、理解しやすいため）。
 
-### Valid Names
+### 正しい名前
 
-```go
+```v
 boby
 john_dads
 myfamily_number
 ```
 
-### Invalid Names
+### 正しくない名前
 
-```go
+```v
 IamNotValid
 new Make
 ```

@@ -1,61 +1,61 @@
-# Arrays
+# 配列
 
-An array is a collection of items stored in contiguous memory locations. It's an aggregate data structure that is designed to store a group of objects of the same type. It's the most efficient data structure for storing and accessing a sequence of objects.
+配列（array）は、メモリ上の連続した位置に保存された項目のコレクションです。配列は、型が同じであるオブジェクトのグループを保存するよう設計された、集約的なデータ構造であり、オブジェクトのシーケンスを保存したりアクセスしたりする場合に最も効率の高いデータ構造です。
 
-## How to declare an array
+## 配列を宣言する方法
 
-**Create an array that holds integer values:**
+**要素の型がintegerの配列を1つ作成する:**
 
-```go
+```v
 mut ages := [18, 25, 37]
 
 println(ages)
 ```
 
-Output
+上の出力結果:
 
 ```console
 [18, 25, 37]
 ```
 
-**Or create an array that holds string values:**
+**要素の型がstringaの配列を1つ作成する:**
 
-```go
+```v
 mut users := ['vbrazo', 'donnisnoni95', 'Delta456']
 
 println(users)
 ```
 
-Output
+上の出力結果:
 
-```
+```console
 ['vbrazo', 'donnisnoni95', 'Delta456']
 ```
 
-> Note: All elements must have the same type. The following code will not compile.
+> 注意: どの要素もすべて同じ型でなければなりません。以下はコンパイルされません。
 
 ```go
 mut users := ['vbrazo', 'donnisnoni95', 'Delta456', 0]
 ```
 
-Output
+上の出力結果:
 
 ```
 ~/main.v:2:43: bad array element type `int` instead of `string`
 ```
 
-## Create an empty array
+## 空の配列を作成する
 
-If you want to create a new empty array, just declare `[]` followed by the data type.
+宣言で`[]`に続けてデータ型を書くことで、空の配列を1つ作成できます。
 
-```go
+```v
 mut names := []string
 mut numbers := []int
 ```
 
-## Accessing element of the array
+## 配列の要素にアクセスする
 
-```go
+```v
 mut users := ['vbrazo', 'donnisnoni95', 'Delta456']
 
 println(users[0])
@@ -63,106 +63,105 @@ println(users[2])
 println(users[1])
 ```
 
-Output
+上の出力結果:
 
-```go
+```console
 vbrazo
 Delta456
 donnisnoni95
 ```
 
-## Append a value to an array
+## 配列の末尾に値を追加する
 
-`<<` is an operator that appends a value to the end of the array.
+`<<`は、配列の末尾に値をひとつ追加する演算子です。
 
-```go
+```v
 mut ages := [18]
 ages << 47
 
 println(ages)
 ```
 
-Output
+上の出力結果:
 
-```go
+```console
 [18, 47]
 ```
 
-It can also append an entire array.
+値の代わりに配列を追加することもできます。
 
-```go
+```v
 mut ages := [18]
 ages << [47, 49]
 
 println(ages)
 ```
 
-Output
+上の出力結果
 
-```
+```console
 [18, 47, 49]
 ```
 
-## Length/size of an array
+## 配列の長さ
 
-`.len` method returns the length of the array.
+`.len`メソッドは配列の長さ（つまり要素の数）を返します。
 
-```go
+```v
 mut names := ['Thiago', 'John']
 
 println(names.len)
 ```
 
-Output
+上の出力結果
 
-```
+```console
 2
 ```
 
-## In operator
+## `in`演算子
 
-`in` check if an element is inside an array.
+`in`は、要素が配列にあるかどうかをチェックします。
 
-```go
+```v
 mut names := ['Thiago', 'Alex', 'Joe']
 
 println('Vitor' in names)
 println('Thiago' in names)
 ```
 
-Output
+上の出力結果
 
-```
+```console
 false
 true
 ```
 
-## Slicing an array
+## 配列をスライスする
 
-It's easy to slice an array in V. You can slice an array with the default
-V slicing feature without having to call the `slice ()` method.
-The syntax is like this `my_array[start..end]`
+Vでは配列を簡単にスライス（切り出し）できます。`slice ()`メソッドを呼ばなくても、Vのデフォルトのスライシング機能だけで配列をスライスできます。
+構文は`配列[開始値..終了値]`のようになります。
 
-```go
+```v
 animals := ['lion', 'goose', 'chicken', 'turkey', 'tiger']
 poultry := animals[1..4]
 println(poultry) // ["goose", "chicken", "turkey"]
 ```
 
-If you want to slice from the start of the index, just ignore it to put `0` and using  instead `my_array[..end]` or `my_array[start..]`.
+スライスをインデックスの冒頭から開始したい場合、開始値に`0`を置かずに`配列[..終了値]`と書くことも、終了値に`-1`を置かずに`配列[開始値..]`と書くこともできます。
 
-```go
+```v
 x := ['h', 'e', 'l', 'l', 'o']
 y := x[..x.len-1]
 z := x[1..]
 println(y) // ['h', 'e', 'l', 'l']
-println(z) // ['e', 'l', 'l', '0']
+println(z) // ['e', 'l', 'l', 'o']
 ```
 
-## Exercises
+## 演習
 
-1. Write a V program to store elements in an array and print it.
-2. Write a V program to read n number of values in an array and display it in reverse order.
-3. Write a V program to find the sum of all elements of the array.
-4. Write a V program to copy the elements of one array into another array.
-5. Write a V program to count a total number of duplicate elements in an array.
+1. 要素をいくつか渡すと配列に保存して出力するVプログラムを書きましょう。
+2. 配列のn番目の値を読み取って逆順で表示するVプログラムを書きましょう。
+3. 配列のすべての要素の合計を求めるVプログラムを書きましょう。
+4. ある配列の要素を別の配列にコピーするVプログラムを書きましょう。
+5. 配列の中で重複している要素の個数を数えるVプログラムを書きましょう。

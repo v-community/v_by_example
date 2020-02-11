@@ -1,6 +1,6 @@
 # V by Example
 
-[Brazilian Portuguese](/pt-br/README.md) | [Deutsch](/de/README.md) | [English](README.md) | [Bahasa Indonesia](/id/README.md) | [Chinese](cn/examples/README.md)
+[Brazilian Portuguese](/pt-br/README.md) | [Deutsch](/de/README.md) | [English](README.md) | [Bahasa Indonesia](/id/README.md) | [Chinese](cn/examples/README.md) | [Japanese](ja/README.md)
 > Learn V by Examples
 
 V by Example is a direct introduction to V by using annotated program examples.

@@ -1,10 +1,10 @@
-# If statement
+# if文
 
-## The `if` statement
+## `if`文
 
-An `if` statement is a programming conditional statement that, if proved true, executes the code given in the block. Below is a general example of an if statement in V:
+`if`文は、プログラミングにおける条件を記述する文であり、trueの場合は指定のブロック内のコードを実行します。以下はVにおける`if`文の一般的なコード例です。
 
-```go
+```v
 john_height := 100
 maria_height := 178
 
@@ -13,14 +13,14 @@ if john_height < maria_height {
 }
 ```
 
-In the above code, `println()` will only execute when the condition is true.
-There are no parentheses needed for surrounding the condition, and the braces are always required.
+上のコードの`println()`は、条件がtrueの場合にのみ実行されます。
+条件部分を丸かっこで囲む必要はありません。逆に波かっこ`{ }`は常に必要です。
 
-## The `else` statement
+## `else`文
 
-An `else` statement is a programming conditional statement in which when `if` evaluates to false then the code in `else` block executes.
+`else`文はプログラミングにおける条件を記述する文であり、`if`がfalseと評価された場合に`else`ブロックのコードを実行します。
 
-```go
+```v
 joey_age := 12
 kevin_age := 15
 
@@ -31,13 +31,13 @@ if joey_age > kevin_age {
 }
 ```
 
-In this example, the code inside the `else` block will execute because the condition in `if` evaluates to `false`.
+上のコード例では、`else`ブロック内のコードが実行されます（`if`は`false`と評価されるため）。
 
-## The `else if` statement
+## `else if`文
 
-The `if...else` statement executes two different codes depending upon whether the test expression is `true` or `false`. Sometimes, a choice has to be made from more than 2 possibilities. The `if...else if...else` ladder allows you to check between multiple test expressions and execute different statements.
+`if...else`文は、評価式が`true`か`false`かに応じて異なるコードを実行します。しかし可能性のある選択肢が3つ以上になることもあります。`if...else if...else`のように重ねることで、複数の評価式をチェックして実行する文を切り替えることができます。
 
-```go
+```v
 tom_age := 20
 ashia_age := 38
 
@@ -50,17 +50,17 @@ if tom_age < ashia_age {
 }
 ```
 
-Output
+上の出力結果:
 
 ```console
 Tom is younger than Asia
 ```
 
-## Nested `if..else` statement
+## `if..else`文のネスト
 
-It is always a good practice to nest `if...else` statements which means you can use one `if`, `else` or `else...if` statement inside another `if` or `else...if` statement.
+`if...else`文をネストすることで、別の`if`文や`else...if`文の中で`if`文や`else`文や`else...if`文を使えます。ネストは1回に留めるのがよい習慣です。
 
-```go
+```v
 tom_age := 20
 ashia_age := 38
 
@@ -77,17 +77,17 @@ if tom_age < ashia_age {
 }
 ```
 
-Output
+上の出力結果:
 
 ```console
 tom_age >= 18 and younger than Ashia.
 ```
 
-## Using `if..else` as expression
+## `if..else`を式として扱う
 
-The `if..else` can also be used as an expression:
+`if..else`は式としても扱えます。
 
-```go
+```v
 tom_age := 20
 ashia_age := 38
 
@@ -100,15 +100,15 @@ s := if tom_age < ashia_age {
 print(s)
 ```
 
-Output
+上の出力結果:
 
 ```console
 Tom is the youngest
 ```
 
-## Exercises
+## 演習
 
-1. Write a V program to accept two integers and check whether they are equal or not.
-2. Write a V program to check whether a given number is even or odd.
-3. Write a V program to check whether a given number is positive or negative.
-4. Write a V program to find whether a given year is a leap year or not.
+1. integerを2つ受け取り、両者が等しいかどうかをチェックするVプログラムを書きましょう。
+2. 渡した数値が奇数か偶数かをチェックするVプログラムを書きましょう。
+3. 渡した数値が正か負かをチェックするVプログラムを書きましょう。
+4. 渡した年がうるう年かどうかをチェックするVプログラムを書きましょう。

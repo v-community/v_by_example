@@ -1,14 +1,13 @@
-# Functions
+# 関数
 
-A function is a block of organized, reusable code that is used to perform a single, related action.
-Functions provide better modularity for your application and a high degree of code reusing.
+関数とは、再利用可能な形に整えられたコードのブロックであり、単一の作業を実行します。
+関数はアプリケーションのモジュラリティを高め、コードをより高度なレベルで再利用できるようにします。
 
-Ideally, you should consider using the [single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) (SOLID) which states that every module or function should have responsibility
-for a single part of the functionality provided by the software to keep your code maintainable.
+理想は、SOLID原則で言うところの[単一責任の原則](https://en.wikipedia.org/wiki/Single_responsibility_principle)に従うことです。この原則は「関数は、そのソフトウェアが提供する機能のひとつの部品についてのみ責任を負うこと」というものであり、コードを今後もメンテナンスできるようにするためのものです。
 
-Like C and Go, functions cannot be overloaded.
+CやGoと同様、Vの関数もオーバーライドは禁止されています。
 
-```go
+```v
 fn sum(x, y int) int {
     return x + y
 }
@@ -16,9 +15,9 @@ fn sum(x, y int) int {
 println(sum(77, 33)) // 110
 ```
 
-> Note: The type comes after the argument's name.
+> 注意: 型名は引数名の後ろに置きます。
 
-```go
+```v
 fn full_name(first_name, last_name string) string {
     return first_name + ' ' + last_name
 }
@@ -26,12 +25,11 @@ fn full_name(first_name, last_name string) string {
 println(full_name("Vitor", "Oliveira")) // Vitor Oliveira
 ```
 
-## Variadic Functions
+## 可変長引数を取る関数
 
-Functions can also be variadic i.e. accept an infinite number of arguments.
-They are not arrays and cannot be returned.
+関数は、個数が不定の引数を受け取ることもできます。受け取った可変長引数は配列ではありません。また、受け取った可変長引数を返すこともできません。
 
-```go
+```v
 fn foo(test ...string) {
     for txt in test {
         println(txt)
@@ -41,7 +39,7 @@ fn foo(test ...string) {
 foo("V", "is", "the", "best", "lang" , "ever")
 ```
 
-Output
+上の出力結果:
 
 ```console
 V
@@ -52,32 +50,31 @@ lang
 ever
 ```
 
-## Multi-Return Functions
+## 値を複数返す関数
 
-Similar to Go, functions in V can also return multiple and with a different type.
+Goと同様、Vの関数も、型の異なる値を複数返せます。
 
-```go
+```v
 fn student(name string, age int) (string, int) {
     return name, age
 }
 
 name, age := student("Tom", 15)
-println(name1)
-println(age1)
+println(name)
+println(age)
 ```
 
-Output
+上の出力結果:
 
 ```console
 Tom, 15
 ```
 
-## High Order Functions
+## 高階関数
 
-Functions in V can also take in another function as a parameter which is usually
-needed for something like sort, map, filter, etc.
+Vの関数は、別の関数をパラメータとして受け取ることもできます。これは`sort`や`map`や`filter`といった処理でよく必要になります、
 
-```go
+```v
 fn square(num int) int {
     return num * num
 }
@@ -89,40 +86,41 @@ fn run(value int, op fn(int) int) int {
 println(run(10, square)) // 100
 ```
 
-## Naming Rules
+## 命名のルール
 
-The following are the rules which should be kept in mind while naming functions.
+以下は、関数の命名で守るべきルールの一覧です。
 
-- Name should not contain Uppercase letters like `AlphaTest`
-- Use underscores as separators like `hello_world`
-- Name should not start with `_`
-- Name should be descriptive as possible
-- Name should not contain `__`
-- Name should not contain any space
+- 大文字を含んではならない（✖`AlphaTest`）
+- 区切り文字にはアンダースコアを用いる（○`hello_world`）
+- 名前の冒頭には`_`を置かないこと
+- できるかぎり、意味の明快な名前を付けること
+- 名前に`__`を含んではならv
+- 名前に（種類を問わず）スペース文字を含んではならない
 
-These rules are from [`Snake_Case`](https://en.wikipedia.org/wiki/Snake_case). V uses Snake Case and prefers it because it is more easy to read, write and understand.
+上のルールは[`snake_case`](https://en.wikipedia.org/wiki/Snake_case)が由来です。Vではsnake_caseスタイルが用いられ、また推奨されます（読みやすく、書きやすく、理解しやすいため）
 
-### Valid Names
+### 正しい名前
 
-```go
+```v
 fn i_am_valid()
 fn thisworkstoo()
 fn print_values_through_struct()
 ```
 
-### Invalid Names
+### 正しくない名前
 
-```go
+```v
 fn IamNotValid()
 fn _print()
 fn print__logs()
 fn new Make Lexer()
 ```
 
-## Exercises
+## 演習
 
-1. Write a V program to find the square of any number using the function.
-2. Write a V program to check a given number is even or odd using the function.
-3. Write a V program to convert decimal number to binary number using the function.
-4. Write a V program to check whether a number is a prime number or not using the function.
-5. Write a V program to get the largest element of an array using the function.
+1. 数値の2乗を求めるVプログラムを関数の形で書きましょう。
+2. 渡された数値が偶数か奇数かをチェックするVプログラムを関数の形で書きましょう。
+3. 10進数を2進数に変換するVプログラムを関数の形で書きましょう。
+4. 渡された数値が素数化どうかをチェックするVプログラムを関数の形で書きましょう。
+5. 渡された配列の要素の最大値を得るVプログラムを関数の形で書きましょう。
+

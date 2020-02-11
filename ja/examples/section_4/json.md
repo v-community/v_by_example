@@ -1,15 +1,14 @@
-# JSON
+# JSON操作
 
-JavaScript Object Notation (JSON) is a lightweight data-interchange format that is easy for humans to read and write. Furthermore, equally simple for machines to generate and/or parse.
-JSON is completely language agnostic and that's why it's the ideal interchange format.
+JSON(JavaScript Object Notation)は、人間にとって読み書きしやすい軽量なデータ交換フォーマットです。コンピュータにとっても生成やパースが容易です。JSONは特定の言語にまったく依存しないので、理想的なデータ交換フォーマットです。
 
-To read more about JSON visit: [json.org](http://json.org).
+JSONについて詳しくは、[json.org](http://json.org)をご覧ください。
 
-## Parsing JSON
+## JSONをパースする
 
-To parse a JSON string received by another application or generated within your existing application:
+他のアプリケーションで受け取ったり既存のアプリケーションで生成したJSON文字列をパースするには以下のようにします。
 
-```go
+```v
 import json
 
 struct Customer {
@@ -32,11 +31,11 @@ fn main() {
 }
 ```
 
-## Generating JSON
+## JSONを生成する
 
-Creating a JSON string for communication or serialization is just as simple. We decode and encode in the example below:
+通信やシリアライズで用いるJSON文字列は簡単に生成できます。以下のようにデコード/エンコードできます。
 
-```go
+```v
 import json
 
 struct Customer {
@@ -59,9 +58,9 @@ fn main() {
 }
 ```
 
-## Exercises
+## 演習
 
-1. Compare how you handle JSON in your favorite language and V.
-2. Build an `Address` struct that contains address information.
-3. Use the `Address` struct to decode and encode a string that contains JSON format.
-4. Create 2 structs: `Address` and `User` where a user has many addresses. Now receive a string with a nested JSON like `'[{ "first_name": "Vitor", "last_name": "Oliveira", "hometown": "Rio de Janeiro", "addresses": [{ street_name: "Rua Princesa Isabel", city: "Rio de Janeiro", country: "Brazil" }] }]'`, decode and encode it.
+1. 普段使っている言語とVでJSONの扱いがどう違うかを比較してみましょう。
+2. 住所情報を持たせるための`Address`構造体を作りましょう。
+3. `Address`構造体を用いて、JSON形式を含む文字列をデコード/エンコードしましょう。
+4. 2つの構造体`Address`と`User`を作りましょう。1人のuserは複数のaddressを持ちます。続いて、`'[{ "first_name": "Vitor", "last_name": "Oliveira", "hometown": "Rio de Janeiro", "addresses": [{ street_name: "Rua Princesa Isabel", city: "Rio de Janeiro", country: "Brazil" }] }]'`のようなネストしたJSON文字列を受け取ってデコード/エンコードしましょう。

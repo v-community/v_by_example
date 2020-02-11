@@ -1,25 +1,25 @@
-# Looping Constructs
+# ループを書く
 
-There's only one type of loop in V language, like Go which can be used in many ways.
+V言語のループ構文は1種類しかありません。Goでもこのループ構文は広く使われています。
 
-## `for` loop
+## `for`ループ
 
-`for` loops offer a quick and easy way to do something repeatedly.
-They're handy, if you want to run the same code over and over again, each time with a different value.
-You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction then Y steps in another;
-for example, the idea "Go five steps to the east" could be expressed this way as a loop:
+`for`ループは、何かを繰り返すための簡単かつ便利な方法を提供します。
+値を変えながら同じコードを繰り返し実行するのも簡単です、
+ループについて考えるために、ゲームをコンピュータ化するときに人物をある方向にX歩進め、次に別の方向にY歩進める状況を考えてみましょう。
+たとえば「東に5歩進め」は以下のようにループで表現できます。
 
-```go
+```v
 for i := 0; i < 5; i++ {
     println('Walking one step')
 }
 ```
 
-V has the `for` looping construct and the loop can be written in different ways:
+Vの`for`ループは、さまざまな方法で構成できます。
 
-- `in` operator for array/map
+- arrayやmapで`in`演算子を使う
 
-```go
+```v
 ages := [18, 25, 32, 43, 50]
 
 for age in ages {
@@ -27,14 +27,14 @@ for age in ages {
 }
 ```
 
-> Note: The value is read-only.
+> 注意: 値はリードオンリーです。
 
-- `for` loop with a condition
+- `for`ループで条件を指定する
 
-This is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition.
-There are no parentheses surrounding the condition, and the braces are always required.
+これは、指定されたbool条件に応じてコードを繰り返し実行する制御フローを記述します。
+条件部分を丸かっこで囲む必要はありませんが、波かっこ`{ }`は常に必要です。
 
-```go
+```v
 mut factorial := 1
 mut counter := 1
 
@@ -50,16 +50,16 @@ for {
 println(counter)
 ```
 
-Output
+上の出力結果
 
 ```console
 120
 6
 ```
 
-A for loop with a break statement can always be made shorter by placing the inverse condition right after for, making it equivalent with the while statement in other languages.
+`break`文を使う`for`ループは、次のように`for`の直後の条件を反転させると、他の言語の`while`文と同等になってもっと短く書けます。
 
-```go
+```v
 mut factorial := 1
 mut counter := 1
 
@@ -78,9 +78,9 @@ Output
 6
 ```
 
-- Traditional C style
+- 伝統的なC言語風スタイル
 
-```go
+```v
 mut factorial := 1
 mut counter := 1
 
@@ -94,9 +94,9 @@ for counter = 1; counter < 6; counter++ {
 }
 ```
 
-- Infinite Loop
+- 無限ループ
 
-`for` loop can also be infinite
+`for`ループは無限回繰り返すこともできます。
 
 ```go
 for {
@@ -104,10 +104,10 @@ for {
 }
 ```
 
-## Exercises
+## 演習
 
-1. Write a V program to display the first 10 natural numbers.
-2. Write a V program to find the sum of first 10 natural numbers.
-3. Write a V program to print the integers inside an array and also print their mean.
-4. Write a V program to read 10 numbers from keyboard and find their sum and average.
-5. Write a V program to display the cube of the number upto given an integer.
+1. 自然数の最初の10個を表示するVプログラムを書きましょう。
+2. 自然数の最初の10個の合計を求めるVプログラムを書きましょう。
+3. arrayの中にあるintegerを表示し、それらの平均も表示するVプログラムを書きましょう。
+4. キーボード入力から10個の数値を読み込み、それらの合計と平均を求めるVプログラムを書きましょう。
+5. 渡されたintegerの立方数（3乗）を表示するVプログラムを書きましょう。

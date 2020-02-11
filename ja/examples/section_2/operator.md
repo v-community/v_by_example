@@ -1,22 +1,22 @@
-# Operators
+# 演算子
 
-V supports the following operators:
+Vでサポートされる演算子は以下のとおりです。
 
-## Basic Operators
+## 基本演算子
 
-- `+` (addition) for int, float and string
+- `+`（加算）int、float、stringが対象
 
-- `-` (subtraction) for int and float
+- `-`（減算）intとfloatが対象
 
-- `*` (multiplication) for int and float
+- `*`（乗算）intとfloatが対象
 
-- `/` (division) for int and float
+- `/`（除算）intとfloatが対象
 
-- `%` (modulos) for int
+- `%`（剰余）intが対象
 
-- `=` (assignment) for changing values
+- `=`（代入）値の変更に用いる
 
-- `:=` for initialising values
+- `:=`（値の初期化）
 
 ```v
 println(3 + 5)
@@ -36,7 +36,7 @@ println(27 % 5)
 println(27 % 3)
 ```
 
-Output
+上の出力結果
 
 ```v
 8
@@ -56,62 +56,62 @@ hello world
 0
 ```
 
-> Note: Unlike other languages, V doesn't allow modulus with float.
+> 注意: Vは他の言語と異なり、floatでは剰余`%`を使えません。
 
-## Comparison Operators
+## 比較演算子
 
-- `>` greater than
+- `>`: より大きい
 
-- `<` lesser than
+- `<`: より小さい
 
-- `==` equal to
+- `==`: 等しい
 
-- `>=` greater than or equal to
+- `>=`: より大きいか等しい
 
-- `<=` lesser than or equal to
+- `<=`: より小さいか等しい
 
-- `!=` not equal to
+- `!=`: 等しくない
 
-## Boolean Operators
+## bool演算
 
-- `&&` and
+- `&&`: 論理AND演算子
 
-- `||` or
+- `||`: 論理OR演算子
 
-- `!` not
+- `!`: 論理NOT演算子
 
-## Bitwise Operators
+## ビット演算子
 
-- `>>` left bitshift
+- `<<`: 左ビットシフト
 
-- `<<` right bitshift
+- `>>`: 右ビットシフト
 
-- `&` bitwise and
+- `&`: ビットAND
 
-- `|` bitwise or
+- `|`: ビットOR
 
-- `^` bitwise xor
+- `^`: ビットXOR
 
-## Assignments Operators
+## 代入演算子
 
-- `+=` same as `foo = foo + var`
+- `+=`: `foo = foo + var`と同じ
 
-- `-=` same as `foo = foo - var`
+- `-=`: `foo = foo - var`と同じ
 
-- `*=` same as `foo = foo * var`
+- `*=`: `foo = foo * var`と同じ
 
-- `/=` same as `foo = foo / var`
+- `/=`: `foo = foo / var`と同じ
 
-- `&=` same as `foo = foo & var`
+- `&=`: `foo = foo & var`と同じ
 
-- `|=` same as `foo = foo | var`
+- `|=`: `foo = foo | var`と同じ
 
-- `>>=` same as `foo = foo >> var`
+- `>>=`: `foo = foo >> var`と同じ
 
-- `<<=` same as `foo = foo << var`
+- `<<=`: `foo = foo << var`と同じ
 
-## Special Operators
+## 特殊演算子
 
-- `in` for membership
+- `in`: メンバーシップで用いる（存在を表す）
 
-- `none` for optional
+- `none`: optionalで用いる

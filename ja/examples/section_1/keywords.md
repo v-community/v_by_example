@@ -1,8 +1,8 @@
-# Keywords
+# キーワード
 
-V is a very small language so it has few keywords. There are around 25 keywords.
+Vはきわめて小規模な言語なのでキーワードもごくわずか（25個程度）しかありません。
 
-| Keywords | in     | V   | Programming | Language  |
+| V        | 言語    | に  | 含まれる     | キーワード  |
 | -------- | ------ | --- | ----------- | --------- |
 | break    | const  | as  | continue    | defer     |
 | else     | enum   | fn  | for         | struct    |
@@ -10,4 +10,4 @@ V is a very small language so it has few keywords. There are around 25 keywords.
 | type     | pub    | mut | in          | interface |
 | match    | module | or  | none        |           |
 
-Like other languages, they cannot be used as a variable.
+他の言語と同様、これらのキーワードは変数名には使えません。

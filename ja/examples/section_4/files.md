@@ -1,12 +1,12 @@
-# Files
+# ファイル操作
 
-A File in V is an abstraction of any file object accessible by the program and is closely associated with `os` library.
+Vでは、ファイルを「プログラムからアクセス可能な任意のファイルオブジェクトの抽象化」としており、`os`ライブラリと深く関連しています。
 
-## Reading Files
+## ファイルの読み込み
 
-Reading a file is an important task to tackle several different problems in computer science. In order to accomplish this task you can use the V native library `os` as described below:
+コンピュータサイエンスでは、ファイルの読み込みもさまざまな問題に取り組むうえで重要なタスクです。Vではネイティブの`os`ライブラリで以下のように操作できます。
 
-```go
+```v
 import os
 
 fn main() {
@@ -42,11 +42,11 @@ fn print_random_element(lines []string, length int) {
 }
 ```
 
-## Writing files
+## ファイルへの書き込み
 
-Writing files in V is similar to read files.
+Vではファイルの書き込みも読み出しと似ています。
 
-```go
+```v
 import os
 
 fn main() {
@@ -72,9 +72,9 @@ fn read_file(path string) {
 }
 ```
 
-## Exercises
+## 演習
 
-1. Write a V program to create a new file with content.
-2. Write a V program to read 2 different files and display their content.
-3. Read how the `os` library works in V and understand how you could use it.
-4. Encode a nested json string and write a new file with the result.
+1. 中身のあるファイルを1つ作成するVプログラムを書きましょう。
+2. 2つのファイルを読み込んでその中身を表示するVプログラムを書きましょう。
+3. Vの`os`ライブラリを読んで、動作や利用方法を理解してみましょう。
+4. ネストしたJSON文字列をエンコードして結果を新しいファイルに書き出してみましょう。

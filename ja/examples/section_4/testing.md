@@ -1,17 +1,17 @@
-# Testing
+# テストの書き方
 
-Testing in software development is a process that aims to evaluate the functionality of an application with an intent to find whether the code met the specified requirements or not as well as identifying the problems to ensure that the product has expected quality.
+ソフトウェア開発におけるテストは、コードが特定の要求を満たしていることを確認してアプリケーションが意図したとおりに動作するかどうかを評価したり、製品の品質が期待に沿っているかどうかを調べるために問題点を特定するプロセスです。
 
-## Automated tests
+## テストの自動化
 
-Automated tests follow the process of testing the software using an automation tool to find the defects. In this process, programmers execute the test scripts and generate the test results automatically by using automation tools.
+自動化されたテストは、問題点を検出する自動化ツールを用いてソフトウェアをテストするプロセスです。プログラマーはテストスクリプトを実行し、自動化ツールを用いてテスト結果を自動生成します。
 
-## Tests in V
+## Vのテスト
 
-In V, all test files have to be named with the following format: `*_test.v` and the functions should start with `test_*`.
+Vのテストファイルはすべて`*_test.v`というファイル形式に揃え、関数名は必ず`test_*`の形式にしなければなりません。
 
-```go
-// sum.v in subfolder sum
+```v
+// sum.v（sum/サブフォルダ内）
 module sum
 
 pub fn sum(a, b int) int {
@@ -19,7 +19,7 @@ pub fn sum(a, b int) int {
 }
 ```
 
-```go
+```v
 // sum_test.v
 import sum
 
@@ -29,11 +29,11 @@ fn test_sum() {
 }
 ```
 
-To execute the test, you should run `v test_sum.v`.
+上のテストを実行するには、 `v test_sum.v`を実行します
 
-### Examples
+### テストコードの例
 
-1. Testing JSON structures:
+1. JSON構造のテスト
 
 ```go
 import json
@@ -47,7 +47,7 @@ fn test_encode_customer(){
 }
 ```
 
-2. Testing files:
+2. ファイルのテスト
 
 ```go
 import os

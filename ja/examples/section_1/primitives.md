@@ -1,47 +1,47 @@
-# Primitives
+# プリミティブ型
 
-V has less primitive types than Go.
+Vのプリミティブ型は、Go言語よりも少なくなっています。
 
-## Basic Types
+## 基本型
 
-- bool either `true` or `false`
+- bool型（`true`または`false`）
 
-- string
+- string型
 
-- integer type `int`
+- integer型（`int`）
 
-- float type `float`
+- float型（`float`）
 
-- rune (Unicode string)
+- rune型（Unicodeコードポイント）-- `0xf09f9880`など
 
-## Compound Types
+## 複合型
 
-- arrays `[]`
+- array型（`[]`）
 
-- map `{}`
+- map型（`{}`）
 
-- struct
+- struct型
 
-## Integer
+## integer型
 
-Integer is sub-classified into `signed` and `unsigned`. `signed` means positive or negative and `unsigned` means positive only.
+integer（整数）型はさらに`signed`（符号あり）と`unsigned`（符号なし）に分けられます。`signed`は正または負の値を表しますが、`unsigned`は正の値だけを表します。
 
-### Signed Integer
+### 符号あり整数
 
-| Type   |   Size   |                                   Range |
-| ------ | :------: | --------------------------------------: |
-| int8   |  8 bits  |                -128 to 2<sup>7</sup> -1 |
-| int16  | 16 bits  |   -2<sup>15</sup> to 2<sup>15</sup> - 1 |
-| int    | 32 bits  |   -2<sup>31</sup> to 2<sup>31</sup> - 1 |
-| int64  | 64 bits  |   -2<sup>63</sup> to 2<sup>63</sup> - 1 |
-| int128 | 128 bits | -2<sup>127</sup> to 2<sup>127</sup> - 1 |
+| 型名      |   サイズ  |                                 値の範囲 |
+| -------- | :------: | --------------------------------------:|
+| `int8`   |  8ビット  |             -128 〜 2<sup>7</sup> -1    |
+| `int16`  | 16ビット  |  -2<sup>15</sup> 〜 2<sup>15</sup> - 1  |
+| `int`    | 32ビット  |  -2<sup>31</sup> 〜 2<sup>31</sup> - 1  |
+| `int64`  | 64ビット  |  -2<sup>63</sup> 〜 2<sup>63</sup> - 1  |
+| `int128` | 128ビット | -2<sup>127</sup> 〜 2<sup>127</sup> - 1 |
 
-### Unsigned Integer
+### 符号なし整数
 
-| Type |   Size   |                    Range |
-| ---- | :------: | -----------------------: |
-| byte |  8 bits  |    0 to 2<sup>7</sup> -1 |
-| u16  | 16 bits  |  0 to 2<sup>15</sup> - 1 |
-| u32  | 32 bits  |  0 to 2<sup>31</sup> - 1 |
-| u64  | 64 bits  |  0 to 2<sup>63</sup> - 1 |
-| u128 | 128 bits | 0 to 2<sup>127</sup> - 1 |
+| 型名   |   サイズ   |                  値の範囲 |
+| ------ | :------: | -----------------------: |
+| `byte` |  8ビット  |  0 〜 2<sup>7</sup> -1   |
+| `u16`  | 16ビット  |  0 〜 2<sup>15</sup> - 1 |
+| `u32`  | 32ビット  |  0 〜 2<sup>31</sup> - 1 |
+| `u64`  | 64ビット  |  0 〜 2<sup>63</sup> - 1 |
+| `u128` | 128ビット |  0 〜 2<sup>127</sup> - 1|

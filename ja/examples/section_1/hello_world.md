@@ -1,38 +1,37 @@
-# Formatted Print
+# 書式付き出力（formatted print）
 
-Printing is handled by various I/O stream functions. One should know where to use them accordingly.
+printによる出力は、さまざまなI/Oストリーム関数で用いられます。以下の違いについて知っておく必要があります。
 
-- `print`: for printing the text to the output stream without a newline.
+- `print`: テキストを出力ストリームに出力します（出力後は改行しません）
 
-- `println`: same as `print` but newline appended automatically.
+- `println`: `print`と同じですが、出力後、自動的に改行される点が異なります。
 
-- `eprint`: same as `print` but the output goes to error stream (stderr).
+- `eprint`: `print`と同じですが、出力先はエラー用ストリーム（stderr）です。
 
-- `eprintln`: same as `println` but the output goes to error stream (stderr).
+- `eprintln`: `println`と同じですが、出力先はエラー用ストリーム（stderr）です。
 
-- `panic`: outputs and exits from the program.
+- `panic`: 出力後、プログラムを終了します。
 
 ```v
 print('Hello World')
 print('Hello V')
 ```
 
-This will print `Hello WorldHello V`
+上は`Hello WorldHello V`を出力します。
 
-If you want to print the next line on a new line you would have to do `\n`.
+1行目の出力後に次の行を改行したい場合は、`\n`を使います。
 
 ```v
 print('Hello World \n')
 print('Hello V ')
 ```
 
-If you don't want to use `\n` then you can use `println` instead.
+`\n`を書きたくないのであれば、`println`を使いましょう。
 
-## Comments
+## コメント
 
-V supports single line comments `//` and multi-line comments `/* */`.
-They should be used for documenting the code for letting the other users know how the code works.
-It can also be used for temporarily commenting the code which has to be used later on.
+Vでは単一行コメント`//`と複数行コメント`/* */`を両方サポートしています。
+コメントは、コードの動作を他のユーザーに知らせるドキュメントを書くために用いるべきです。後で有効にしなければならないコードを一時的にコメントアウトするのにも使えます。
 
 ```v
 // This is a single line comment
@@ -43,6 +42,6 @@ It can also be used for temporarily commenting the code which has to be used lat
 */
 ```
 
-## Exercises
+## 演習
 
-Try uncommenting the code in `hello.v` and see what happens.
+`hello.v`のコードにあるコメントを解除して、何が起きるかを観察しましょう。

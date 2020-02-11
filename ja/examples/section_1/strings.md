@@ -1,27 +1,27 @@
-# Strings
+# 文字列
 
-In V one can define strings using the `:=` operator. Strings (like other variables) are immutable by default. One is free to use `""` or `''` to denote a string. When using `vfmt` all double-quoted strings will be converted to single-quoted ones unless it contains a single quote character.
+Vでは文字列の定義も`:=`演算子で行えます。他の変数と同様、文字列もデフォルトでイミュータブルです。文字列を（リテラルとして）表現するときには`""`や`''`のどちらでも使えます。`vfmt`で書式を整えると、文字列リテラルを囲む`""`は、文字列の中に`'`を含んでいなければすべて`''`に変換されます。
 
-```go
+```v
 name := 'Bob'
 println(name)       // Bob
 println(name.len)   // 3
 ```
 
-Getting the length of a string works with `.len`.
+文字列の長さは`.len`で取得できます。
 
-## Interpolation
+## 式展開（interpolation）
 
-It is possible to do string interpolation with `$` in front of the variable:
+文字列の中で`$`に続けて変数名を書くと、変数の値を文字列に展開できます。
 
-```go
+```v
 name:= 'Bob'
 println('Hello $name!')     // Hello Bob!
 ```
 
-One can have more complex expressions with interpolation syntax by using `${}`:
+変数よりも複雑な式も、`${}`構文で式展開できます。
 
-```go
+```v
 struct User {
     name string
     age int
@@ -30,15 +30,17 @@ bob := User {
     name: 'Bob'
     age: 17
 }
-println('Say Hello to a new User: ${bob.name}, ${bob.age}')             // Say Hello to new User: Bob, 17
-println('${bob.name}s age is higher or equal to 18: ${bob.age >= 18}')  // 0 <=> number representation for false
+println('Say Hello to a new User: ${bob.name}, ${bob.age}')
+// Say Hello to new User: Bob, 17
+println('${bob.name}s age is higher or equal to 18: ${bob.age >= 18}')
+// 0 <=> number representation for false
 ```
 
-## Concatenation
+## 文字列の結合
 
-Strings can be concatenated with the `+` operator.
+文字列は`+`演算子で結合できます。
 
-```go
+```v
 text := 'Hello'
 concatenated_text := text + ' World!'
 println(text)                   // Hello
@@ -46,45 +48,45 @@ println(text + ' World!')       // Hello World!
 println(concatenated_text)      // Hello World!
 ```
 
-Appending to a string works with concatenation as well as with `+=` operator. Since strings are immutable by default it is only possible to do this if they are declared with `mut`.
+文字列の後ろに別の文字列を結合する操作は`+=`演算子でも行えます。文字列はデフォルトでイミュータブルなので、この操作は`mut`と宣言されている場合にのみ可能です。
 
-```go
+```v
 mut hello := 'Hello '
-hello += 'from V!'      // appends 'from V!' to the string stored in hello.
+hello += 'from V!'      // helloに保存されている文字列に'from V!'を追加する
 println(hello)          // Hello from V!
 ```
 
-In V, string data is encoded using UTF-8 and the string itself is a read-only array of bytes. This makes slicing possible, which means we can access single-character literals or slices of a string variable.
+Vの文字データはUTF-8でエンコードされます。また、文字データの実体はリードオンリーのバイト配列です。これによって文字列のスライシングが可能になります。つまり、単一文字のリテラルにアクセスすることも、文字列変数のスライスにアクセスすることもできます。
 
-```go
+```v
 robert := 'Robert'
 bert := robert[2..robert.len]                                 // bert
 rob := robert[0..3]                                           // Rob
 println('The persons of interest are: $robert, $bert, $rob')  // The persons of interest are: Robert, bert, Rob
 ```
 
-### Notes
+### 注意
 
-When using `some_string[start..end]` syntax the `end` is **not** inclusive.
+`some_string[開始位置..終了位置]`という構文の`終了位置`は、**終了位置そのものは含みません**（not inclusive）。
 
-All operators in V must have values of the same type on both sides. The code below will not compile because `age` is an `int`:
+Vのどの演算子についても、両辺に同じ型の値が必ず存在しなければなりません。以下のコードは、`age`が`int`型なのでコンパイルされません。
 
-```go
+```v
 age := 25
-println('age = ' + age)
+println('age = ' + age) // cannot convert `int` to `string`
 ```
 
-We therefore need to convert it to string by using `.str()` or use string interpolation (preferred):
+つまり、`.str()`で文字列に変換するか、式展開を使う必要があります。Vでは式展開が推奨されています。
 
-```go
+```v
 age := 25
 println('age = ' + age.str())   // age = 25
-println('age = $age')           // age = 25
+println('age = $age')           // age = 25 -- 推奨
 ```
 
-To define character literals use: ` `` `. Raw strings can be defined as prepending `r`. They are not escaped.
+文字リテラルを定義するには` `` `を用います。raw stringの冒頭に`r`を付けるとエスケープされなくなります。
 
-```go
+```v
 hello := 'Hello\nWorld'
 println(hello)                  // Hello
                                 // World

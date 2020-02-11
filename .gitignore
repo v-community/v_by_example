@@ -16,3 +16,12 @@ src/hello_world/hello_world
 src/hello_world/hello_world.exe
 main
 main.v
+
+hello
+hello.exe
+match-statement
+match-statement.exe
+methods
+methods.exe
+variables
+variables.exe

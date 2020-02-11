@@ -1,10 +1,10 @@
-# Match
+# マッチ
 
-## The `match` statement
+## `match`文
 
-A match statement is a short-hand way for `if - else`.
-If the input is matched the statement block of the first matching branch will be executed and its last expression will be returned.
-The `else` branch will be executed when there is no other matching branch.
+`match`文は`if - else`文のショートハンドです。
+入力がマッチすると、選択肢の中で最初にマッチした文ブロックを実行し、最後の式を返します。
+`else`のブロックは、他の選択肢とマッチしなかった場合に実行されます。
 
 ```v
 num := 1
@@ -14,7 +14,7 @@ match num % 2 == 0  {
 }
 ```
 
-One can also initialize variables using `match` to have different values according to a condition.
+`match`を使うと、条件に応じたさまざまな値で変数を初期化することもできます。
 
 ```v
 num := 3
@@ -27,7 +27,7 @@ s := match num {
 }
 ```
 
-Examples:
+コード例:
 
 ```v
 fn even(num int) bool {
@@ -56,9 +56,9 @@ fn main() {
 }
 ```
 
-### Enums
+### enum
 
-One can also match on `enum` values (variants) as branches by using the `.variant_here` syntax:
+`.項目名`構文を用いることで、選択肢でenum`の値（`enum`の項目名）とマッチさせることもできます。
 
 ```v
 enum Animal {
@@ -70,25 +70,26 @@ enum Animal {
 
 fn makes_miau(a Animal) bool {
     return match a {
-        .cat { true }
+        .cat { true }  // enumの`cat`
         else { false }
     }
 }
 
 fn is_land_creature(a Animal) bool {
     return match a {
-        .cat { true }
-        .dog { true }
-        .pig { true }
+        .cat { true } // enumの`cat`
+        .dog { true } // enumの`dog`
+        .pig { true } // enumの`pig`
         else {
             false
         }
     }
 }
-// OR LIKE THAT
+
+// 以下の書き方も可能
 fn is_land_creature_alt(a Animal) bool {
     return match a {
-        .goldfish { false }
+        .goldfish { false } // enumの`goldfish`
         else {
             true
         }
@@ -107,6 +108,6 @@ fn main() {
 
 ### Exercises
 
-1. Write a V program that creates an array of all even numbers from 1 to 50.
-2. Write a V program that, given an array of numbers, returns the maximum value.
-3. Write a V program that determines whether color (enum) is red or blue
+1. 1から50までのすべての偶数の配列を作成するVプログラムを書きましょう。
+2. 数値を持つ配列を渡すと、その中の最大値を返すVプログラムを書きましょう。
+3. color（enum）がredかblueかを調べるVプログラムを書きましょう。
