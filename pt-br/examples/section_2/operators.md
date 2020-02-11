@@ -82,9 +82,9 @@ Olá Mundo
 
 ## Operadores bit a bit
 
-- `>>` left bitshift
+- `<<` left bitshift
 
-- `<<` right bitshift
+- `>>` right bitshift
 
 - `&` bitwise and
 

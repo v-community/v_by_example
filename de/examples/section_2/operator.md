@@ -85,9 +85,9 @@ hello world
 
 ## Bitwise Operators
 
-- `>>` bitshift links
+- `<<` bitshift links
 
-- `<<` bitshift rechts
+- `>>` bitshift rechts
 
 - `&` bitweises Und
 

@@ -26,7 +26,7 @@ array.delete(ix type)
 Deletes the element present in the array at index `ix`.
 
 ```go
-mut even_numbers = [2, 4, 6, 8, 10]
+mut even_numbers := [2, 4, 6, 8, 10]
 even_numbers.delete(3)
 println(even_numbers) // [2, 4, 6, 10]
 ```
