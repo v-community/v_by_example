@@ -82,9 +82,9 @@ hello world
 
 ## Bitwise Operators
 
-- `>>` left bitshift
+- `<<` left bitshift
 
-- `<<` right bitshift
+- `>>` right bitshift
 
 - `&` bitwise and
 
