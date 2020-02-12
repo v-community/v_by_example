@@ -26,7 +26,7 @@ array.delete(ix type)
 删除索引`ix`处数组中的元素。
 
 ```go
-mut even_numbers = [2, 4, 6, 8, 10]
+mut even_numbers := [2, 4, 6, 8, 10]
 even_numbers.delete(3)
 println(even_numbers) // [2, 4, 6, 10]
 ```
