@@ -1,6 +1,6 @@
 # V dengan Contoh
 
-[Brazilian Portuguese](/pt-br/README.md) \| [Deutsch](/de/README.md) \| [English](/README.md) \| [Bahasa Indonesia](README.md)
+[Brazilian Portuguese](/pt-br/README.md) | [Deutsch](/de/README.md) | [English](/en/README.md) | [Bahasa Indonesia](README.md) | [Chinese](/cn/README.md)
 
 > Belajar V dengan Contoh
 

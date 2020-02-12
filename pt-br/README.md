@@ -1,6 +1,6 @@
 # V por exemplos
 
-[Brazilian Portuguese](README.md) | [Deutsch](/de/README.md) | [English](/README.md) | [Bahasa Indonesia](/id/README.md)
+[Brazilian Portuguese](README.md) | [Deutsch](/de/README.md) | [English](/en/README.md) | [Bahasa Indonesia](/id/README.md) | [Chinese](/cn/README.md)
 
 > Aprenda V por exemplos
 
