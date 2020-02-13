@@ -12,9 +12,9 @@ V por ejemplos es una introducción directa al lenguaje V usando ejemplos con co
 
 Discord: [https://discord.gg/d3Qk65J](https://discord.gg/d3Qk65J)
 
-## Section 1
+## Sección 1
 
-Introduction to V by presenting a few basic examples and exercises.
+Introducción al lenguaje V usando algunos ejemplos básicos y ejercicios.
 
 - [Hola Mundo](es/examples/section_1/hello_world.md)
 - [Palabras clave de V](en/examples/section_1/keywords.md)
@@ -23,36 +23,37 @@ Introduction to V by presenting a few basic examples and exercises.
 - [Cadenas](en/examples/section_1/strings.md)
 - [Comentarios](en/examples/section_1/comment.md)
 
-## Section 2
+## Sección 2
 
-This section discusses the main operators and conditional statements in V.
+Esta sección discute los principales operadores y las sentencias condicionales en  V.
 
-- [Operator](en/examples/section_2/operator.md)
+- [Operadores](en/examples/section_2/operator.md)
 - [If-else](en/examples/section_2/if-else.md)
 - [Match](en/examples/section_2/match.md)
-- [Loops](en/examples/section_2/loops.md)
+- [Ciclos](en/examples/section_2/loops.md)
 
-## Section 3
+## Sección 3
 
-A study on functions and methods and in the most important data structures in V: arrays and struct.
+Un estudio de funciones y métodos y de las estructuras de datos más importantes en V:
+arreglos y estructuras
 
-- [Functions](en/examples/section_3/functions.md)
-- [Arrays](en/examples/section_3/arrays.md)
-- [Struct](en/examples/section_3/struct.md)
-- [Methods](en/examples/section_3/methods.md)
+- [Funciones](en/examples/section_3/functions.md)
+- [Arreglos](en/examples/section_3/arrays.md)
+- [Estructuras](en/examples/section_3/struct.md)
+- [Métodos](en/examples/section_3/methods.md)
 
-## Section 4
+## Sección 4
 
-In this section, we dive deeper and study the features inside the Array object. Other examples like JSON, Writing/reading files and Testing are covered.
+En esta sección, discutimos a profundidad las características de los Objetos typo Arreglo. Otros ejemplos como JSON, Escritura/Lectura de archivos y Pruebas.
 
-- [Array Functions](en/examples/section_4/array-functions.md)
-- [Testing](en/examples/section_4/testing.md)
-- [Files](en/examples/section_4/files.md)
+- [Funciones de Arreglos](en/examples/section_4/array-functions.md)
+- [Pruebas](en/examples/section_4/testing.md)
+- [Archivos](en/examples/section_4/files.md)
 - [JSON](en/examples/section_4/json.md)
 
-## Team
+## Equipo
 
-Current list of maintainers/authors:
+Lista de autores y colaboradores:
 
 - [Don Alfons Nisnoni](https://github.com/dhonx)
 - [Ivo-Balbaert](https://github.com/ibalbaert)
@@ -60,10 +61,10 @@ Current list of maintainers/authors:
 - [Swastik Baranwal](https://github.com/Delta456)
 - [Vitor Oliveira](https://github.com/vbrazo)
 
-## Contributing
+## Colaborando
 
-See our [CONTRIBUTING.md](CONTRIBUTING.md) and start contributing today. We usually elect new maintainers based on contributions.
+Revisa [CONTRIBUTING.md](CONTRIBUTING.md) y empieza a ayudar desde hoy. Generalmente se seleccionan los nuevos colaboradores con base in las contribuciones.
 
-## License
+## Licencia
 
 [MIT](LICENSE)
