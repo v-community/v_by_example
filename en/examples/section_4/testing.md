@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Testing
+---
+
 # Testing
 
 Testing in software development is a process that aims to evaluate the functionality of an application with an intent to find whether the code met the specified requirements or not as well as identifying the problems to ensure that the product has expected quality.
