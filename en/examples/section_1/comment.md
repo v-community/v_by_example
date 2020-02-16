@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Comments
+---
+
 # Comments
 
 V supports single line comments `//` and multi-line comments `/* */`.
