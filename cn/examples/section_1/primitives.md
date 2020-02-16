@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Primitives
+---
+
 # Primitives
 
 V的基本类型比Go少。
