@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: 数组函数
+---
+
 # 数组函数
 
 ## `repeat`
