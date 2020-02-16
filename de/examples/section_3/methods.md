@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Methods
+---
+
 # Methods
 
 V does not have classes. But one can define methods for types.
