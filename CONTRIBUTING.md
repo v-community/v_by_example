@@ -23,7 +23,7 @@ Change the `version` attribute according to the following rules:
 * MINOR — Added or removed some content, few sentences, etc.
 * PATCH — Spelling, typos. Probably not translated stuff.
 
-We follow SemVer.org pattern. This is important because we use that to determine and inform translators of new content that requires translation.
+We follow [SemVer.org](https://semver.org) pattern. This is important because we use that to determine and inform translators of new content that requires translation.
 
 ## Adding a New Example
 
