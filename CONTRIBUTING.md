@@ -7,6 +7,24 @@ Please ensure your pull request adheres to the following guidelines:
 * New example or improvements to existing examples are welcome.
 * Please check your spelling and grammar.
 
+## A Note on Example Versions
+All examples should include the following header:
+
+```markdown
+---
+version: 3.5.1
+example_title: JSON
+---
+```
+
+Change the `version` attribute according to the following rules:
+
+* MAJOR — You (re)wrote the whole thing. Your new content will need some translation.
+* MINOR — Added or removed some content, few sentences, etc.
+* PATCH — Spelling, typos. Probably not translated stuff.
+
+We follow SemVer.org pattern. This is important because we use that to determine and inform translators of new content that requires translation.
+
 ## Adding a New Example
 
 To add a new example, create a new folder and a file or a file (depending upon the example) under the appropriate directory in `./examples`. Please check the `.plan` file to see what examples we plan to create. Feel free to work on any pending examples. We're happy to read/review your changes and collaborate/code with you to merge them.
