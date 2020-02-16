@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Methods
+---
+
 # Methods
 
 V没有Class。但是可以为类型定义方法。

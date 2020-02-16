@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Primitives
+---
+
 # Primitives
 
 V has less primitive types than Go.

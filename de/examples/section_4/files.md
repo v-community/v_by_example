@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Files
+---
+
 # Files
 
 A File in V is an abstraction of any file object accessible by the program and is closely associated with `os` library.

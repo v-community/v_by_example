@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Formatted Print
+---
+
 # Formatted Print
 
 Konsolenausgaben werden durch verschiedene I/O-Streams gehandhabt, dazu sollte man wissen, wo und wie sie zu verwenden sind.

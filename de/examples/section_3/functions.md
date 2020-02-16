@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Functions
+---
+
 # Functions
 
 A function is a block of organized, reusable code that is used to perform a single, related action.

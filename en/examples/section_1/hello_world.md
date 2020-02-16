@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Hello World
+---
+
 # Formatted Print
 
 Printing is handled by various I/O stream functions. One should know where to use them accordingly.

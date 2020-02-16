@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Functions
+---
+
 # Functions
 
 函数是一个有组织、可重用的代码块，用于执行单个相关操作。

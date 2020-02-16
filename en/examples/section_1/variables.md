@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Variables
+---
+
 # Variables
 
 In V variables can be declared and initialized with the `:=` operator. Variables can only be declared this way in V, this means all variables have an initial value. The type of a variable is inferred from the value on the right hand side. By default variables in V are immutable.

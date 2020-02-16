@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Operators
+---
+
 # Operators
 
 V supports the following operators:
