@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Kommentare
+---
+
 # Kommentare
 
 V bietet die Möglichkeit Zeilenkommentare mit `//` und mehrzeilige Kommentare mit `/* */` zu erzeugen.

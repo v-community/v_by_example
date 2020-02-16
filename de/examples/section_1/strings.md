@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Strings
+---
+
 # Strings
 
 In V können Strings mit dem Deklarationsoperator (`:=`) deklariert und initialisiert werden und sind, wie andere Variablen in V auch, standardmäßig `immutable`, d.h. unveränderlich.

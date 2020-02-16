@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Datentypen
+---
+
 # Primitive Datentypen
 
 V hat weniger primitive Datentypen als Go.
