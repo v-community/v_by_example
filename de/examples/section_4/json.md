@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: JSON
+---
+
 # JSON
 
 JavaScript Object Notation (JSON) is a lightweight data-interchange format that is easy for humans to read and write. Furthermore, equally simple for machines to generate and/or parse.

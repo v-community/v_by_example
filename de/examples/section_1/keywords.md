@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Schlüsselwörter
+---
+
 # Schlüsselwörter
 
 V ist eine kleine Programmiersprache mit wenigen Schlüsselwörtern (circa 23 Stück).

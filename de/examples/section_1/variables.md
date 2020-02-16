@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Variables
+---
+
 # Variables
 
 Variablen können in V mit dem `:=` Operator deklariert und initialisiert werden.
