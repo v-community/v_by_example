@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Palavras-chave
+---
+
 # Palavras-chave
 
 V é uma linguagem muito pequena, por isso possui poucas palavras-chave. Existem cerca de 25 palavras-chave.

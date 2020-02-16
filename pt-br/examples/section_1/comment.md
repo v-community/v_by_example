@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Comentários
+---
+
 # Comentários
 
 V suporta comentários de linha única `//` e comentários de várias linhas `/* [comentários] */`.
