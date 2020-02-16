@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Variabel
+---
+
 # Variabel
 
 Variabel pada V dapat dinyatakan dan diinisialisasi dengan `:=` operator. Variabel hanya dapat dideklarasikan dengan cara ini dalam V, ini berarti semua variabel memiliki nilai awal. Jenis variabel disimpulkan dari nilai di sisi kanan. Secara _default_ variabel dalam V tidak dapat diubah(_immutable_).
