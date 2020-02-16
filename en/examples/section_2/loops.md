@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: Loops
+---
+
 # Looping Constructs
 
 There's only one type of loop in V language, like Go which can be used in many ways.
