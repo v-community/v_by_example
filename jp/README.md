@@ -1,6 +1,6 @@
 # コード例で学ぶV言語
 
-[Brazilian Portuguese](/pt-br/README.md) | [Deutsch](/de/README.md) | [English](README.md) | [Bahasa Indonesia](/id/README.md) | [Chinese](cn/examples/README.md) | [Japanese](/README.md)
+[Brazilian Portuguese](pt-br/README.md) | [Deutsch](de/README.md) | [English](en/README.md) | [Bahasa Indonesia](id/README.md) | [Chinese](cn/README.md)  | [Japanese](jp/README.md)
 > コード例で学ぶV言語
 
 「コード例で学ぶV言語」は、各種プログラム例を用いてV言語（以下大文字のV）をストレートに紹介します。
