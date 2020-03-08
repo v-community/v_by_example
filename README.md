@@ -1,6 +1,6 @@
 # V by Example
 
-[Brazilian Portuguese](pt-br/README.md) | [Deutsch](de/README.md) | [English](en/README.md) | [Bahasa Indonesia](id/README.md) | [Chinese](cn/README.md) | [Japanese](jp/README.md)
+[Brazilian Portuguese](pt-br/README.md) | [Deutsch](de/README.md) | [English](en/README.md) | [Bahasa Indonesia](id/README.md) | [Chinese](cn/README.md)
 > Learn V by Examples
 
 V by Example is a direct introduction to V by using annotated program examples.
@@ -9,7 +9,7 @@ V by Example is a direct introduction to V by using annotated program examples.
 - [Contributing](#contributing)
 - [License](#license)
 
-Discord: [https://discord.gg/d3Qk65J](https://discord.gg/d3Qk65J)
+Discord: [https://discord.gg/vlang](https://discord.gg/vlang)
 
 ## Section 1
 
