@@ -1,14 +1,14 @@
-# Comments
+# コメント
 
-V supports single line comments `//` and multi-line comments `/* */`.
-They should be used for documenting the code for letting the other users know how the code works.
-It can also be used for temporarily commenting the code which has to be used later on.
+Vでは単一行コメント`//`と複数行コメント`/* */`をサポートしています。
+これらのコメントは、コードのしくみを他のユーザーに理解してもらうためのドキュメントに利用すべきです。
+後で利用するコードを一時的にコメントアウトするのにも利用できます。
 
 ```v
-// This is a single line comment
+// 単一行コメント
 
-/* This is a
-*  multi-line comment
-* /* This could be nested as well*/
+/* ここは
+*  複数行コメント
+* /* このようにネストしてもよい*/
 */
 ```
