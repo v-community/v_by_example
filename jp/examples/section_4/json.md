@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: JSON操作
+---
+
 # JSON操作
 
 JSON(JavaScript Object Notation)は、人間にとって読み書きしやすい軽量なデータ交換フォーマットです。コンピュータにとっても生成やパースが容易です。JSONは特定の言語にまったく依存しないので、理想的なデータ交換フォーマットです。

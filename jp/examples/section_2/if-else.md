@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: if文
+---
+
 # if文
 
 ## `if`文

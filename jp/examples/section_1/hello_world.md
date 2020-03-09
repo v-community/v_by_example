@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: hello world
+---
+
 # 書式付き出力（formatted print）
 
 printによる出力は、さまざまなI/Oストリーム関数で用いられます。以下の違いについて知っておく必要があります。

@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: マッチ
+---
+
 # マッチ
 
 ## `match`文

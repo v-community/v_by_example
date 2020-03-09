@@ -1,3 +1,8 @@
+---
+version: 1.0.0
+example_title: 配列の関数
+---
+
 # 配列の関数
 
 ## `repeat`
