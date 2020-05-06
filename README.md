@@ -1,5 +1,7 @@
 # V by Example
 
+> NOTE: This is very outdated and it will be updated and worked on when v 0.2 comes out.
+
 [Brazilian Portuguese](pt-br/README.md) | [Deutsch](de/README.md) | [English](en/README.md) | [Bahasa Indonesia](id/README.md) | [Chinese](cn/README.md) | [Japanese](jp/README.md)
 > Learn V by Examples
 
