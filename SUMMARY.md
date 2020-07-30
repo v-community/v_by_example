@@ -71,7 +71,7 @@
       * [数组](cn/examples/section_3/arrays.md)
       * [结构体](cn/examples/section_3/struct.md)
     * [section\_1](cn/examples/section_1/README.md)
-      * [Primitives](cn/examples/section_1/primitives.md)
+      * [基本类型](cn/examples/section_1/primitives.md)
       * [关键字](cn/examples/section_1/keywords.md)
       * [变量](cn/examples/section_1/variables.md)
       * [print系列函数](cn/examples/section_1/hello_world.md)

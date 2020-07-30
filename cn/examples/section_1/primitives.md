@@ -3,7 +3,7 @@ version: 1.0.0
 example_title: Primitives
 ---
 
-# Primitives
+# 基本类型
 
 V的基本类型比Go少。
 
