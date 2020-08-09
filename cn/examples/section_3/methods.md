@@ -1,6 +1,6 @@
 ---
 version: 1.0.0
-example_title: Methods
+example_title: 方法
 ---
 
 # Methods
