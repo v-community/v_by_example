@@ -1,6 +1,6 @@
 ---
 version: 1.0.0
-example_title: Struct
+example_title: 结构体
 ---
 
 # Struct
