@@ -25,7 +25,7 @@ fn num_str(num int) string {
 }
 
 fn create_even_numbers_to_fifty() []int {
-    mut numbers := []int
+    mut numbers := []int{}
     for i := 0; i <= 50; i++ {
         match i % 2 {
             0  { numbers << i }
