@@ -7,6 +7,7 @@ fn main() {
     mut num_phone := 2       //int
 
     // addr = 'abcd'       // error as assignment must be done with :=
+    // fn := 1          // error as keyword cannot be identifier (see keywords.md)
 
     println(age)		// 23
     println(name)		// Alice
@@ -22,4 +23,6 @@ fn main() {
     println(num_phone)      // 4
 
     // age = 24    // error as it is imutable
+    // email = 2   // error as RHS (2) is of different type then LHS (email)
+
 }
