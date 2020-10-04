@@ -5,7 +5,7 @@ example_title: Strings
 
 # Strings
 
-In V one can define strings using the `:=` operator. Strings (like other variables) are immutable by default i.e you cannot change its value. String are also null terminated with `\0` for easy C interpolation. One is free to use `""` or `''` to denote a string. When using `vfmt` all double-quoted strings will be converted to single-quoted ones unless it contains a single quote character.
+In V one can define strings using the `:=` operator. Strings (like other variables) are immutable by default i.e you cannot change its value. String are also null (`\0`) terminated for easy C interpolation. One is free to use `""` or `''` to denote a string. When using `vfmt` all double-quoted strings will be converted to single-quoted ones unless it contains a single quote character.
 
 ```go
 name := 'Bob'
@@ -113,16 +113,16 @@ raw_hello := r'Hello\nWorld'
 println(raw_hello)              // Hello\nWorld
 ```
 
-You can also define C-strings with `c` as prefix for C interpolation. Remember that they have to be null-terminated.
+You can also define C-strings with `c` as prefix for C interpolation. They are null terminated by default.
 
 ```go
-c_str := c'hello\0'
+c_str := c'hello'
 println(c_str)
 ```
 
 **NOTE**: raw and c strings are not usuable with character literals.
 
-If you want to change the content of the string then you can do so in `unsafe` expression:
+If you want to change the contents of the string then you can do so in `unsafe` expression:
 
 ```go
 mut name := 'Bob' // mut is required to change
