@@ -22,7 +22,7 @@ fn main() {
     println(email)          // alice@other.com
     println(num_phone)      // 4
 
-    // age = 24    // error as it is imutable
+    // age = 24    // error as it is immutable
     // email = 2   // error as RHS (2) is of different type then LHS (email)
 
 }
