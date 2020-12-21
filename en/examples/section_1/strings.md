@@ -20,7 +20,7 @@ Getting the length of a string works with `.len`.
 It is possible to do string interpolation with `$` in front of the variable:
 
 ```go
-name:= 'Bob'
+name := 'Bob'
 println('Hello $name!')     // Hello Bob!
 ```
 
