@@ -34,7 +34,7 @@ Questa sezione riguarda i principali operatori e le dichiarazioni condizionali i
 
 ## Capitolo 3
 
-Uno studio sulle funzioni, metodi e sulle più importanti strutture dati in V: array e struct. 
+Uno studio sulle funzioni, metodi e sulle più importanti strutture dati in V: array e struct.
 
 * [Funzioni](examples/section_3/functions.md)
 * [Arrays](examples/section_3/arrays.md)
