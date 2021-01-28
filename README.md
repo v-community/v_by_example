@@ -2,7 +2,7 @@
 
 **NOTE: This is very outdated and it will be updated and worked upon when V 0.2 is released.**
 
-[Brazilian Portuguese](pt-br/README.md) | [Deutsch](de/README.md) | [English](en/README.md) | [Bahasa Indonesia](id/README.md) | [Chinese](cn/README.md) | [Japanese](jp/README.md)
+[Brazilian Portuguese](pt-br/README.md) | [Deutsch](de/README.md) | [English](en/README.md) | [Bahasa Indonesia](id/README.md) | [Chinese](cn/README.md) | [Japanese](jp/README.md) | [Italian](it/README.md)
 > Learn V by Examples
 
 V by Example is a direct introduction to V by using annotated program examples.
