@@ -83,3 +83,102 @@ myfamily_number
 IamNotValid
 new Make
 ```
+
+# Const 
+
+In V variables can be declared a constant and that means non changing by adding the `const` keyword before the variable name.
+
+```go
+const my_name = "AxiomApollo"  // note we use `=` instead of `:=`
+println(my_name)
+const language = english
+println(language)
+```
+>Note: const can only be defined at the module level (outside of functions)
+
+You can declare multiple constants in one const expression
+
+```go
+const (
+    pi = 3.14159
+    is_reading = true
+)
+```
+
+## Naming Rules
+
+The following are the rules which should be kept in mind while naming consts.
+
+- Name should not contain Uppercase letters like `AlphaTest`
+- Use underscores as separators like `hello_world`
+- Name should be descriptive as possible
+- Name should not contain `__`
+- Name should not contain any space
+- If the name is longer than 11 then it must use `_` as separator
+
+### Valid Names
+
+```go
+const (
+    animals = ["cow","dog","lion"]
+    red = 255
+    long_const_name = "Use this."
+)
+```
+
+### Invalid Names
+
+```go
+const (
+    WRONG = false
+    longconstname = "avoid this."
+)
+```
+# Const 
+
+In V variables can be declared a constant and that means non changing by adding the `const` keyword before the variable name.
+
+```go
+const my_name = "AxiomApollo"  // note we use `=` instead of `:=`
+println(my_name)
+const language = english
+println(language)
+```
+>Note: const can only be defined at the module level (outside of functions)
+
+You can declare multiple constants in one const expression
+
+```go
+const (
+    pi = 3.14159
+    is_reading = true
+)
+```
+
+## Naming Rules
+
+The following are the rules which should be kept in mind while naming consts.
+
+- Name should not contain Uppercase letters like `AlphaTest`
+- Use underscores as separators like `hello_world`
+- Name should not contain `__`
+- Name should not contain any space
+
+### Valid Names
+
+```go
+const (
+    animals = ["cow","dog","lion"]
+    red = 255
+    long_const_name = "Use this."
+)
+```
+
+### Invalid Names
+
+```go
+const (
+    WRONG = false
+    longconstname = "avoid this."
+)
+```
