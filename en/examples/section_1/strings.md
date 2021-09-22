@@ -5,7 +5,7 @@ example_title: Strings
 
 # Strings
 
-In V one can define strings using the `:=` operator. Strings (like other variables) are immutable by default. One is free to use `""` or `''` to denote a string. When using `vfmt` all double-quoted strings will be converted to single-quoted ones unless it contains a single quote character.
+In V one can define strings using the `:=` operator. Strings (like other variables) are immutable by default i.e you cannot change its value. String are also null (`\0`) terminated for easy C interpolation. One is free to use `""` or `''` to denote a string. When using `vfmt` all double-quoted strings will be converted to single-quoted ones unless it contains a single quote character.
 
 ```go
 name := 'Bob'
@@ -13,6 +13,15 @@ println(name)       // Bob
 println(name.len)   // 3
 ```
 
+String can also be multi-lined:
+
+```go
+name := '
+this is a multi line
+string
+'
+println(name)
+```
 Getting the length of a string works with `.len`.
 
 ## Interpolation
@@ -87,7 +96,14 @@ println('age = ' + age.str())   // age = 25
 println('age = $age')           // age = 25
 ```
 
-To define character literals use: ` `` `. Raw strings can be defined as prepending `r`. They are not escaped.
+To define character literals use: ` `` `.
+```go
+b := `A` // default type is rune
+a := `byte(`A`) // type is now byte
+```
+
+
+Raw strings can be defined as prepending `r`. They are not escaped. 
 
 ```go
 hello := 'Hello\nWorld'
@@ -95,4 +111,25 @@ println(hello)                  // Hello
                                 // World
 raw_hello := r'Hello\nWorld'
 println(raw_hello)              // Hello\nWorld
+```
+
+You can also define C-strings with `c` as prefix for C interpolation. They are null terminated by default.
+
+```go
+c_str := c'hello'
+println(c_str)
+```
+
+**NOTE**: raw and c strings are not usuable with character literals.
+
+If you want to change the contents of the string then you can do so in `unsafe` expression:
+
+```go
+mut name := 'Bob' // mut is required to change
+println(name) // Bob
+unsafe {
+    name[0] = `D`
+    name[2] = `g`
+}
+println(name) // Dog
 ```
