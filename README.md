@@ -1,6 +1,6 @@
 # V by Example
 
-**NOTE: This is very outdated and it will be updated and worked upon when V 0.2 is released.**
+**NOTE: This is very outdated and it will be updated and worked upon when V 1.0 is released.**
 
 [Brazilian Portuguese](pt-br/README.md) | [Deutsch](de/README.md) | [English](en/README.md) | [Bahasa Indonesia](id/README.md) | [Chinese](cn/README.md) | [Japanese](jp/README.md) | [Italian](it/README.md) | [French](fr/README.md)
 > Learn V by Examples
