@@ -50,4 +50,4 @@ It can also be used for temporarily commenting the code which has to be used lat
 
 ## Exercises
 
-Try uncommenting the code in `hello.v` and see what happens.
+Try uncommenting the code in `code/hello.v` and see what happens.
